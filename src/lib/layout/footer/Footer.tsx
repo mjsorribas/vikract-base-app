@@ -8,12 +8,12 @@ import {
   GridItem,
 } from "@chakra-ui/react";
 
-import Logo from "../../../components/logo/Logo";
+import Logo from "lib/components/logo/Logo";
 
-import Copyright from "./copyright/Copyright";
-import Sitemap from "./sitemap/Sitemap";
-import SocialLinks from "./sociallinks/SocialLinks";
-import TermsAndConditions from "./termsandconditions/TermsAndConditions";
+import Copyright from "./components/copyright/Copyright";
+import Sitemap from "./components/sitemap/Sitemap";
+import SocialLinks from "./components/sociallinks/SocialLinks";
+import TermsAndConditions from "./components/termsandconditions/TermsAndConditions";
 
 export default function Footer() {
   return (
