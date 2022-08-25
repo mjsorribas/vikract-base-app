@@ -54,6 +54,7 @@ export default function MenuMobile() {
                 mb={2}
                 textAlign="center"
                 _hover={{ textDecoration: "none" }}
+                href="/"
               >
                 Home
               </Link>
@@ -65,6 +66,7 @@ export default function MenuMobile() {
                 mb={2}
                 textAlign="center"
                 _hover={{ textDecoration: "none" }}
+                href="/contactus"
               >
                 Contact Us
               </Link>
