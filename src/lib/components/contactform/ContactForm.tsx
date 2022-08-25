@@ -17,14 +17,18 @@ import {
   InputLeftElement,
   Textarea,
 } from "@chakra-ui/react";
-import { BsGithub, BsDiscord, BsPerson } from "react-icons/bs";
+import { BsGithub, BsDiscord } from "react-icons/bs";
 import {
   MdPhone,
   MdEmail,
   MdLocationOn,
   MdFacebook,
-  MdOutlineEmail,
+  // MdOutlineEmail,
 } from "react-icons/md";
+
+const btnhover = {
+  border: "2px solid #ffffff",
+};
 
 export default function ContactForm() {
   return (
@@ -53,9 +57,7 @@ export default function ContactForm() {
                         width="200px"
                         variant="ghost"
                         color="#DCE2FF"
-                        _hover={{
-                          border: "2px solid #ffffff",
-                        }}
+                        _hover={btnhover}
                         leftIcon={<MdPhone color="white" size="20px" />}
                       >
                         +598-91519904
@@ -66,7 +68,7 @@ export default function ContactForm() {
                         width="200px"
                         variant="ghost"
                         color="#DCE2FF"
-                        _hover={{ border: "2px solid #ffffff" }}
+                        _hover={btnhover}
                         leftIcon={<MdEmail color="white" size="20px" />}
                       >
                         hello@vikract.com
@@ -77,7 +79,7 @@ export default function ContactForm() {
                         width="200px"
                         variant="ghost"
                         color="#DCE2FF"
-                        _hover={{ border: "2px solid #ffffff" }}
+                        _hover={btnhover}
                         leftIcon={<MdLocationOn color="white" size="20px" />}
                       >
                         Montevideo, Uruguay
@@ -126,7 +128,7 @@ export default function ContactForm() {
                         <InputGroup borderColor="#E0E1E7">
                           <InputLeftElement
                             pointerEvents="none"
-                            children={<BsPerson color="gray.800" />}
+                            // children={<BsPerson color="gray.800" />}
                           />
                           <Input type="text" size="md" />
                         </InputGroup>
@@ -136,7 +138,7 @@ export default function ContactForm() {
                         <InputGroup borderColor="#E0E1E7">
                           <InputLeftElement
                             pointerEvents="none"
-                            children={<MdOutlineEmail color="gray.800" />}
+                            // children={<MdOutlineEmail color="gray.800" />}
                           />
                           <Input type="text" size="md" />
                         </InputGroup>
