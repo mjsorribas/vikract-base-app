@@ -57,7 +57,7 @@ export function Table({
       <NoContent
         {...emptyData}
         icon={emptyData?.icon ?? MdBrokenImage}
-        text={emptyData?.text ?? "Any transaction registered here."}
+        text={emptyData?.text ?? "Any information here."}
       >
         {emptyData?.children ?? null}
       </NoContent>
