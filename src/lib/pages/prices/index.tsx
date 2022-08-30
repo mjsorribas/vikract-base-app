@@ -24,12 +24,12 @@ const Prices = () => {
           <PriceCard
             data={{
               price: "$29",
-              name: "Application UI",
+              name: "Basic UI",
               features: [
-                "All application UI components",
-                "Lifetime access",
-                "Use on unlimited projects",
-                "Free Updates",
+                "Basic application UI components",
+                "Lifetime access for 6 months",
+                "Use on your project",
+                "Free Updates for 6 months",
               ],
             }}
             icon={SiMicrosoft}
@@ -49,13 +49,12 @@ const Prices = () => {
             transform={{ lg: "scale(1.05)" }}
             data={{
               price: "$49",
-              name: "Bundle",
+              name: "Professional UI",
               features: [
-                "All application UI components",
-                "Lifetime access",
-                "Use on unlimited projects",
-                "Use on unlimited projects",
-                "Free Updates",
+                "Professional application UI",
+                "Lifetime access for 1 year",
+                "Use on 1 project",
+                "Free Updates for 1 year",
               ],
             }}
             icon={SiHive}
@@ -71,13 +70,13 @@ const Prices = () => {
           />
           <PriceCard
             data={{
-              price: "$29",
-              name: "Marketing UI",
+              price: "$99",
+              name: "Enterprise UI",
               features: [
-                "All application UI components",
-                "Lifetime access",
-                "Use on unlimited projects",
-                "Free Updates",
+                "Enterprise application UI",
+                "Lifetime access for 2 year",
+                "Use on 1 project",
+                "Free Updates for 2 year",
               ],
             }}
             icon={SiMarketo}
