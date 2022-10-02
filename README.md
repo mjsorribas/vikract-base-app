@@ -42,6 +42,16 @@ We add Linter to validate the code quickly.
 Also we can fix the code running the same command with a --fix parameter.
 - Linter fix command: `yarn lint --fix`
 
+## How run tests with vitest
+We add Vitest to run test in the app. 
+- Test command: `yarn test`
+Also we can run test with the vitest ui
+- Test command: `yarn test:ui`
+
+## How generate coverage with vitest
+We add vitest/coverage-c8 to run generate reports. 
+- Test command: `yarn coverage`
+
 ## References
 
 - [vite](https://vitejs.dev)
