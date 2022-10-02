@@ -1,0 +1,17 @@
+// Vitest Snapshot v1
+
+exports[`Copyright 1`] = `
+<div
+  className="chakra-stack css-1utmndy"
+>
+  <div
+    className="css-g5hezf"
+  >
+    <p
+      className="chakra-text css-5cm1aq"
+    >
+      © 2022 Vikract. All rights reserved
+    </p>
+  </div>
+</div>
+`;
