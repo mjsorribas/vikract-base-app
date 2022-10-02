@@ -3,5 +3,7 @@ node_modules
 dist
 dist-ssr
 *.local
-
+*.snap
+.vs
+.editorconfig
 yarn-error.log*

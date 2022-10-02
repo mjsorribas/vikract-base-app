@@ -15,7 +15,10 @@
     "up-latest": "yarn up --latest",
     "release": "standard-version",
     "push-release": "git push --follow-tags origin main",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.2.4",
@@ -28,7 +31,9 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
-    "victory": "^36.6.8"
+    "react-test-renderer": "^18.2.0",
+    "victory": "^36.6.8",
+    "vitest": "^0.23.4"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.3",
@@ -40,6 +45,7 @@
     "commitlint": "^17.0.3",
     "eslint": "^8.20.0",
     "eslint-config-sznm": "^1.0.0",
+    "happy-dom": "^6.0.4",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
