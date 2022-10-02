@@ -28,7 +28,8 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
-    "victory": "^36.6.8"
+    "victory": "^36.6.8",
+    "vitest": "^0.23.4"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.3",
