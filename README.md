@@ -50,12 +50,14 @@ Also we can run test with the vitest ui
 
 ## How generate coverage with vitest
 We add vitest/coverage-c8 to run generate reports. 
-- Test command: `yarn coverage`
+- Coverage command: `yarn coverage`
 
 ## References
 
 - [vite](https://vitejs.dev)
   - [avoid manual import](https://vitejs.dev/guide/features.html#jsx)
+- [vitest](https://vitest.dev/)
 - [Chakra UI](https://chakra-ui.com/)
 - [TypeScript](https://www.typescriptlang.org)
+- [Victory](https://formidable.com/open-source/victory/)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
