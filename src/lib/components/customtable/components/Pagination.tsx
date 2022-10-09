@@ -1,6 +1,8 @@
 import { Stack, Text } from "@chakra-ui/react";
 
 import { PaginationItem } from "./PaginationItem";
+import { PaginationNextArrow } from "./PaginationNextArrow";
+import { PaginationPrevArrow } from "./PaginationPrevArrow";
 
 type PaginationProps = {
   onPageChange: (page: number) => void;
@@ -24,6 +26,11 @@ export function Pagination({
   return (
     <Stack direction="row" mt="8" justify="flex-end" align="center" spacing="6">
       <Stack direction="row" spacing="4">
+        <PaginationPrevArrow
+          colorScheme={colorScheme}
+          onPageChange={onPageChange}
+          page={currentPage}
+        />
         {currentPage > 1 + siblingsCount ? (
           <>
             <PaginationItem
@@ -83,6 +90,12 @@ export function Pagination({
             />
           </>
         ) : null}
+        <PaginationNextArrow
+          colorScheme={colorScheme}
+          onPageChange={onPageChange}
+          page={currentPage}
+          lastPage={lastPage}
+        />
       </Stack>
     </Stack>
   );
