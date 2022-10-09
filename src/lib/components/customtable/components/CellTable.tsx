@@ -1,7 +1,7 @@
 import { Link } from "@chakra-ui/react";
-import type LinkTable from "lib/types/linkTable";
 
 import { theme } from "lib/styles/customTheme";
+import type LinkTable from "lib/types/linkTable";
 
 interface Props {
   cell: LinkTable | string;
