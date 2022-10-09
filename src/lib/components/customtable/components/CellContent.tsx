@@ -1,13 +1,13 @@
 import { Link } from "@chakra-ui/react";
 
+import type LinkContent from "lib/components/customtable/types/linkContent";
 import { theme } from "lib/styles/customTheme";
-import type LinkTable from "lib/types/linkTable";
 
 interface Props {
-  cell: LinkTable | string;
+  cell: LinkContent | string;
 }
 
-const CellTable = ({ cell }: Props) => {
+const CellContent = ({ cell }: Props) => {
   if (typeof cell !== "string")
     return (
       <Link color={theme.colors.green} href={cell.link}>
@@ -17,4 +17,4 @@ const CellTable = ({ cell }: Props) => {
   return <span>{cell}</span>;
 };
 
-export default CellTable;
+export default CellContent;

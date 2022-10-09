@@ -13,16 +13,16 @@ import { useTable } from "react-table";
 import type { Column } from "react-table";
 
 import { usePagination } from "../hooks/usePagination";
+import type LinkContent from "lib/components/customtable/types/linkContent";
 import { theme } from "lib/styles/customTheme";
-import type LinkTable from "lib/types/linkTable";
 
-import CellTable from "./CellTable";
+import CellContent from "./CellContent";
 import { NoContent } from "./NoContent";
 import type { NoContentProps } from "./NoContent";
 import { Pagination } from "./Pagination";
 
 type DataType = {
-  [key: string]: JSX.Element | string | LinkTable;
+  [key: string]: JSX.Element | string | LinkContent;
 };
 
 type EmptyMessage = Partial<NoContentProps>;
@@ -97,7 +97,7 @@ export function Table({
                     // eslint-disable-next-line react/no-array-index-key
                     <React.Fragment key={cell.column.id + index}>
                       <Td {...cell.getCellProps()}>
-                        <CellTable cell={cell.value} />
+                        <CellContent cell={cell.value} />
                       </Td>
                     </React.Fragment>
                   ))}
