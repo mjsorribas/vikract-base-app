@@ -7,7 +7,6 @@ import {
   Td,
   Box,
 } from "@chakra-ui/react";
-import type LinkTable from "lib/types/linkTable";
 import React from "react";
 import { MdBrokenImage } from "react-icons/md";
 import { useTable } from "react-table";
@@ -15,6 +14,7 @@ import type { Column } from "react-table";
 
 import { usePagination } from "../hooks/usePagination";
 import { theme } from "lib/styles/customTheme";
+import type LinkTable from "lib/types/linkTable";
 
 import CellTable from "./CellTable";
 import { NoContent } from "./NoContent";
