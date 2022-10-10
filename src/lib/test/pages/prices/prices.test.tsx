@@ -2,7 +2,7 @@ import { MemoryRouter } from "react-router-dom";
 import renderer from "react-test-renderer";
 import { expect, test } from "vitest";
 
-import Home from "lib/pages/home/index";
+import Prices from "lib/pages/prices/index";
 
 const toJson = (component: renderer.ReactTestRenderer) => {
   const result = component.toJSON();
@@ -10,10 +10,10 @@ const toJson = (component: renderer.ReactTestRenderer) => {
   return result as renderer.ReactTestRendererJSON;
 };
 
-test("Header", () => {
+test("Prices Page", () => {
   const component = renderer.create(
     <MemoryRouter initialEntries={[{ pathname: "/" }]}>
-      <Home />
+      <Prices />
     </MemoryRouter>
   );
   const tree = toJson(component);
