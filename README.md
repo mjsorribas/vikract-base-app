@@ -52,6 +52,14 @@ Also we can run test with the vitest ui
 We add vitest/coverage-c8 to run generate reports. 
 - Coverage command: `yarn coverage`
 
+
+## Integrating a little bit of CI/CD with Github Actions
+The nexts actions are included to validate our code in any PR (branch) before merge it.
+- We add Lint action to validate the code quickly.
+- We add Test action to run all tests wroted in the code quickly.
+- We add DependaBot to create PR's automatically with the latest libraries to keep updated the project.
+
+
 ## References
 
 - [vite](https://vitejs.dev)
