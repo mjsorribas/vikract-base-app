@@ -150,7 +150,6 @@ exports[`MenuMobile 1`] = `
         <hr
           aria-orientation="horizontal"
           className="chakra-menu__divider css-0"
-          role="separator"
         />
         <div
           className="css-0"
