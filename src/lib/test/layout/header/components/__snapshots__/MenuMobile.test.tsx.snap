@@ -124,6 +124,24 @@ exports[`MenuMobile 1`] = `
         >
           <a
             className="chakra-link css-1oxylfh"
+            href="/aboutus"
+          >
+            About Us
+          </a>
+        </button>
+        <button
+          className="chakra-menu__menuitem css-1k756t9"
+          id="menu-list-:r2:-menuitem-:r5:"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role="menuitem"
+          tabIndex={0}
+          type="button"
+        >
+          <a
+            className="chakra-link css-1oxylfh"
             href="/prices"
           >
             Prices
@@ -131,7 +149,7 @@ exports[`MenuMobile 1`] = `
         </button>
         <button
           className="chakra-menu__menuitem css-1k756t9"
-          id="menu-list-:r2:-menuitem-:r5:"
+          id="menu-list-:r2:-menuitem-:r6:"
           onClick={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}

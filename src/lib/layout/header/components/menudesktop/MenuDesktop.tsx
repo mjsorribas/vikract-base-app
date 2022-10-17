@@ -24,6 +24,14 @@ export default function MenuDesktop() {
             ml={5}
             fontSize={{ sm: "0.875rem", md: "1.168rem" }}
             _hover={{ textDecoration: "none" }}
+            href="/aboutus"
+          >
+            About Us
+          </Link>
+          <Link
+            ml={5}
+            fontSize={{ sm: "0.875rem", md: "1.168rem" }}
+            _hover={{ textDecoration: "none" }}
             href="/prices"
           >
             Prices
