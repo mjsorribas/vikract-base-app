@@ -1,5 +1,6 @@
 import type { PathRouteProps } from "react-router-dom";
 
+import Aboutus from "lib/pages/aboutus";
 import ContactUs from "lib/pages/contactus";
 import Home from "lib/pages/home";
 import Prices from "lib/pages/prices";
@@ -16,6 +17,10 @@ export const routes: Array<PathRouteProps> = [
   {
     path: "/prices",
     element: <Prices />,
+  },
+  {
+    path: "/prices",
+    element: <Aboutus />,
   },
 ];
 
