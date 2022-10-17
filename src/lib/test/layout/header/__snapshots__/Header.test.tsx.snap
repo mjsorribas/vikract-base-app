@@ -45,6 +45,12 @@ exports[`Header 1`] = `
           </a>
           <a
             className="chakra-link css-1jpe0vt"
+            href="/aboutus"
+          >
+            About Us
+          </a>
+          <a
+            className="chakra-link css-1jpe0vt"
             href="/prices"
           >
             Prices
