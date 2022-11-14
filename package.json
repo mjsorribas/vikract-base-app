@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.3.6",
-    "@emotion/react": "^11.10.4",
+    "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.4",
     "@fontsource/plus-jakarta-sans": "^4.5.8",
     "framer-motion": "^7.6.4",
