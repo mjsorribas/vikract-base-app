@@ -41,7 +41,7 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.6",
     "@types/react-helmet": "^6.1.5",
-    "@vitejs/plugin-react": "^2.1.0",
+    "@vitejs/plugin-react": "^2.2.0",
     "@vitest/coverage-c8": "^0.24.4",
     "@vitest/ui": "^0.24.3",
     "commitlint": "^17.1.2",
