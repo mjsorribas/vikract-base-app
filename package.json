@@ -46,7 +46,7 @@
     "@vitest/ui": "^0.24.3",
     "commitlint": "^17.1.2",
     "eslint": "^8.25.0",
-    "eslint-config-sznm": "^1.0.0",
+    "eslint-config-sznm": "^1.0.1",
     "happy-dom": "^7.6.6",
     "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
