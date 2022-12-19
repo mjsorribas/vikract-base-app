@@ -1968,10 +1968,10 @@
     c8 "^7.12.0"
     vitest "0.25.7"
 
-"@vitest/ui@^0.24.3":
-  version "0.24.3"
-  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.24.3.tgz#8058e4c9b8a276fbfef1ef0907291f19694a722b"
-  integrity sha512-f5agYA/sdkiipq42TZayJoeUGjWx+opDjIVeNnb1SG2BNxqObFqh6GuJlzpGHerg4a2+ZSoVo4f4p2+dEyXPmg==
+"@vitest/ui@^0.25.8":
+  version "0.25.8"
+  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.25.8.tgz#c97f25cd5ca8e9c0294326657420c9a047540297"
+  integrity sha512-wfuhghldD5QHLYpS46GK8Ru8P3XcMrWvFjRQD21KNzc9Y/qtJsqoC8KmT6xWVkMNw4oHYixpo3a4ZySRJdserw==
   dependencies:
     sirv "^2.0.2"
 
