@@ -1974,11 +1974,13 @@
     c8 "^7.12.0"
     vitest "0.25.7"
 
-"@vitest/ui@^0.24.3":
-  version "0.24.3"
-  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.24.3.tgz#8058e4c9b8a276fbfef1ef0907291f19694a722b"
-  integrity sha512-f5agYA/sdkiipq42TZayJoeUGjWx+opDjIVeNnb1SG2BNxqObFqh6GuJlzpGHerg4a2+ZSoVo4f4p2+dEyXPmg==
+"@vitest/ui@^0.26.1":
+  version "0.26.1"
+  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.26.1.tgz#c06463f2e8458aee9b51b04a595abc617ff6b557"
+  integrity sha512-lb9BMQFlsGJ7xK/PPo95dK8fTLMttb0ymxKsfkTMI+41yxWKWPjUZAE6OioVmYBWY3zNOo4Lo1/eihB9hbefLQ==
   dependencies:
+    fast-glob "^3.2.12"
+    flatted "^3.2.7"
     sirv "^2.0.2"
 
 "@zag-js/element-size@0.1.0":
@@ -3516,10 +3518,10 @@ fast-diff@^1.1.2:
   resolved "https://registry.npmjs.org/fast-diff/-/fast-diff-1.2.0.tgz"
   integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
-fast-glob@^3.2.9:
-  version "3.2.11"
-  resolved "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.11.tgz"
-  integrity sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==
+fast-glob@^3.2.12, fast-glob@^3.2.9:
+  version "3.2.12"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.12.tgz#7f39ec99c2e6ab030337142da9e0c18f37afae80"
+  integrity sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
@@ -3608,10 +3610,10 @@ flat-cache@^3.0.4:
     flatted "^3.1.0"
     rimraf "^3.0.2"
 
-flatted@^3.1.0:
-  version "3.2.5"
-  resolved "https://registry.npmjs.org/flatted/-/flatted-3.2.5.tgz"
-  integrity sha512-WIWGi2L3DyTUvUrwRKgGi9TwxQMUEqPOPQBVi71R96jZXJdFskXEmf54BoZaS1kknGODoIGASGEzBUYdyMCBJg==
+flatted@^3.1.0, flatted@^3.2.7:
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
+  integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
 focus-lock@^0.11.2:
   version "0.11.2"

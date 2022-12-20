@@ -43,7 +43,7 @@
     "@types/react-helmet": "^6.1.5",
     "@vitejs/plugin-react": "^3.0.0",
     "@vitest/coverage-c8": "^0.25.7",
-    "@vitest/ui": "^0.24.3",
+    "@vitest/ui": "^0.26.1",
     "commitlint": "^17.3.0",
     "eslint": "^8.29.0",
     "eslint-config-sznm": "^1.0.1",
