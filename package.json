@@ -40,7 +40,7 @@
     "@types/node": "^18.11.17",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
-    "@types/react-helmet": "^6.1.5",
+    "@types/react-helmet": "^6.1.6",
     "@vitejs/plugin-react": "^3.0.0",
     "@vitest/coverage-c8": "^0.25.7",
     "@vitest/ui": "^0.26.1",
