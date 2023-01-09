@@ -33,7 +33,7 @@
     "react-router-dom": "^6.6.1",
     "react-test-renderer": "^18.2.0",
     "victory": "^36.6.8",
-    "vitest": "^0.24.5"
+    "vitest": "^0.27.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.3.0",
