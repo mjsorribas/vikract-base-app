@@ -1959,10 +1959,10 @@
     c8 "^7.12.0"
     vitest "0.25.7"
 
-"@vitest/ui@^0.26.1":
-  version "0.26.1"
-  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.26.1.tgz#c06463f2e8458aee9b51b04a595abc617ff6b557"
-  integrity sha512-lb9BMQFlsGJ7xK/PPo95dK8fTLMttb0ymxKsfkTMI+41yxWKWPjUZAE6OioVmYBWY3zNOo4Lo1/eihB9hbefLQ==
+"@vitest/ui@^0.27.1":
+  version "0.27.1"
+  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.27.1.tgz#fd4ed29ff9374c98fe0e2481ba0a6a0d49da4263"
+  integrity sha512-o9LmWY/XyWt5Pqb+bLLK+N3Vk+PP2jqrdDDMEAY43dB6vtZ+gYuOt5IutUfB7gXeJ6xeIlzUZ/OabrR3leldCA==
   dependencies:
     fast-glob "^3.2.12"
     flatted "^3.2.7"
