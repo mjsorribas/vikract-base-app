@@ -266,7 +266,7 @@ exports[`Contact Us Page 1`] = `
                           Your Name
                         </label>
                         <div
-                          className="chakra-input__group css-1b1bw5w"
+                          className="chakra-input__group css-vooio2"
                         >
                           <div
                             className="chakra-input__left-element css-1u2k0bl"
@@ -295,7 +295,7 @@ exports[`Contact Us Page 1`] = `
                           Mail
                         </label>
                         <div
-                          className="chakra-input__group css-1b1bw5w"
+                          className="chakra-input__group css-vooio2"
                         >
                           <div
                             className="chakra-input__left-element css-1u2k0bl"
