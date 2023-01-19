@@ -23,7 +23,7 @@ exports[`SocialLinks 1`] = `
           href="#"
         >
           <span
-            className="css-f8n5zr"
+            className="css-idkz9h"
           >
             Twitter
           </span>
@@ -51,7 +51,7 @@ exports[`SocialLinks 1`] = `
           href="#"
         >
           <span
-            className="css-f8n5zr"
+            className="css-idkz9h"
           >
             YouTube
           </span>
@@ -79,7 +79,7 @@ exports[`SocialLinks 1`] = `
           href="#"
         >
           <span
-            className="css-f8n5zr"
+            className="css-idkz9h"
           >
             Instagram
           </span>
