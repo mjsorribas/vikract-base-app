@@ -1498,10 +1498,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fontsource/plus-jakarta-sans@^4.5.10":
-  version "4.5.10"
-  resolved "https://registry.yarnpkg.com/@fontsource/plus-jakarta-sans/-/plus-jakarta-sans-4.5.10.tgz#2acd0d5f76357a4160386b09251e5fcc2f58303b"
-  integrity sha512-WWyrjO6qyL7j3itLJUEE/rHRyDfypsoIvpvI6Ld0vyEae49P613cm5UBRe5zMnPjNC7dXBQ8/fjbszbifkL6BA==
+"@fontsource/plus-jakarta-sans@^4.5.11":
+  version "4.5.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/plus-jakarta-sans/-/plus-jakarta-sans-4.5.11.tgz#89caa4a112ca7451a85942bb58d327618d731d8e"
+  integrity sha512-O22Cvv5pusG/I+2+cB+eRRRsv0m8iZoAHQbenTnjhNGXDVjh4OPWPfPNix8pNw1o24LlBYWT7HU7wUtpJ9gikQ==
 
 "@humanwhocodes/config-array@^0.11.6":
   version "0.11.7"
