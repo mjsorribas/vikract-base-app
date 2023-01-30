@@ -36,7 +36,7 @@
     "vitest": "^0.27.3"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.3.0",
+    "@commitlint/config-conventional": "^17.4.2",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
