@@ -30,7 +30,7 @@ interface CarouselProps {
 export const Carousel = (props: CarouselProps) => {
   // As we have used custom buttons, we need a reference variable to
   // change the state
-  // eslint-disable-next-line
+  // eslint-disable-next-line @typescript-eslint/no-shadow
   const [slider, setSlider] = React.useState<Slider | null>(null);
 
   // These are the breakpoints which changes the position of the
@@ -73,7 +73,11 @@ export const Carousel = (props: CarouselProps) => {
         <BiRightArrowAlt />
       </IconButton>
       {/* Slider */}
-      <Slider {...settings} ref={(slider) => setSlider(slider)}>
+      <Slider
+        {...settings}
+        // eslint-disable-next-line @typescript-eslint/no-shadow
+        ref={(slider) => setSlider(slider)}
+      >
         {cards.map(
           (url: { image: unknown }, index: React.Key | null | undefined) => (
             <Box
