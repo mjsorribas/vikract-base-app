@@ -27,11 +27,15 @@ export interface CarouselData {
 
 interface CarouselProps {
   data: CarouselData[];
+  heigth: string;
+  width: string;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const defaultProps: CarouselProps = {
   data: [],
+  heigth: "350px",
+  width: "100%",
 };
 
 export const Carousel = (props: CarouselProps & typeof defaultProps) => {
@@ -50,7 +54,14 @@ export const Carousel = (props: CarouselProps & typeof defaultProps) => {
   const cards: CarouselData = !props ? null : props.data;
 
   return (
-    <Box position="relative" height="350px" width="100%" overflow="hidden">
+    <Box
+      position="relative"
+      // eslint-disable-next-line react/destructuring-assignment
+      height={props.heigth}
+      // eslint-disable-next-line react/destructuring-assignment
+      width={props.width}
+      overflow="hidden"
+    >
       {/* Left Icon */}
       <IconButton
         aria-label="left-arrow"

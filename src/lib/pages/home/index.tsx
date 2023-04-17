@@ -7,6 +7,8 @@ const Home = () => {
     <Grid gap={4}>
       <ChakraProvider>
         <Carousel
+          heigth="450px"
+          width="100%"
           data={[
             {
               image: "assets/carousel/code-g06a39c171_1920.jpg",
