@@ -30,6 +30,7 @@ interface CarouselProps {
 export const Carousel = (props: CarouselProps) => {
   // As we have used custom buttons, we need a reference variable to
   // change the state
+  // eslint-disable-next-line
   const [slider, setSlider] = React.useState<Slider | null>(null);
 
   // These are the breakpoints which changes the position of the
@@ -38,23 +39,11 @@ export const Carousel = (props: CarouselProps) => {
   const side = useBreakpointValue({ base: "30%", md: "10px" });
 
   // These are the images used in the slide
+  // eslint-disable-next-line react/destructuring-assignment
   const cards: CarouselData = props.data;
 
   return (
-    <Box position="relative" height="600px" width="full" overflow="hidden">
-      {/* CSS files for react-slick */}
-      <link
-        rel="stylesheet"
-        type="text/css"
-        // eslint-disable-next-line react/no-unknown-property
-        charSet="UTF-8"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-      />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-      />
+    <Box position="relative" height="350px" width="100%" overflow="hidden">
       {/* Left Icon */}
       <IconButton
         aria-label="left-arrow"
@@ -85,17 +74,20 @@ export const Carousel = (props: CarouselProps) => {
       </IconButton>
       {/* Slider */}
       <Slider {...settings} ref={(slider) => setSlider(slider)}>
-        {cards.map((url, index) => (
-          <Box
-            key={index}
-            height="6xl"
-            position="relative"
-            backgroundPosition="center"
-            backgroundRepeat="no-repeat"
-            backgroundSize="cover"
-            backgroundImage={`url(${url.image})`}
-          />
-        ))}
+        {cards.map(
+          (url: { image: unknown }, index: React.Key | null | undefined) => (
+            <Box
+              // eslint-disable-next-line react/no-array-index-key
+              key={index}
+              height="6xl"
+              position="relative"
+              backgroundPosition="center"
+              backgroundRepeat="no-repeat"
+              backgroundSize="cover"
+              backgroundImage={`url(${url.image})`}
+            />
+          )
+        )}
       </Slider>
     </Box>
   );
