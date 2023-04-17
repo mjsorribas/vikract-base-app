@@ -24,10 +24,17 @@ const settings = {
 export interface CarouselData {
   image: string;
 }
+
 interface CarouselProps {
   data: CarouselData[];
 }
-export const Carousel = (props: CarouselProps) => {
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const defaultProps: CarouselProps = {
+  data: [],
+};
+
+export const Carousel = (props: CarouselProps & typeof defaultProps) => {
   // As we have used custom buttons, we need a reference variable to
   // change the state
   // eslint-disable-next-line @typescript-eslint/no-shadow
@@ -40,7 +47,7 @@ export const Carousel = (props: CarouselProps) => {
 
   // These are the images used in the slide
   // eslint-disable-next-line react/destructuring-assignment
-  const cards: CarouselData = props.data;
+  const cards: CarouselData = !props ? null : props.data;
 
   return (
     <Box position="relative" height="350px" width="100%" overflow="hidden">
