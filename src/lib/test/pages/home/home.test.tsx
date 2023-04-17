@@ -10,7 +10,21 @@ const toJson = (component: renderer.ReactTestRenderer) => {
   return result as renderer.ReactTestRendererJSON;
 };
 
-test("Header", () => {
+test("Home", () => {
+  renderer.create(
+    <MemoryRouter initialEntries={[{ pathname: "/" }]}>
+      <Home />
+    </MemoryRouter>,
+    {
+      rendererConfig: {
+        devicePixelRatio: 2,
+        width: 1920,
+        height: 1080,
+      },
+    }
+  );
+
+  // Verifica el snapshot del componente
   const component = renderer.create(
     <MemoryRouter initialEntries={[{ pathname: "/" }]}>
       <Home />
