@@ -12,7 +12,7 @@ const toJson = (component: renderer.ReactTestRenderer) => {
 
 test("Contact Us Page", () => {
   const component = renderer.create(
-    <MemoryRouter initialEntries={[{ pathname: "/" }]}>
+    <MemoryRouter initialEntries={[{ pathname: "/contactus" }]}>
       <Contactus />
     </MemoryRouter>
   );
