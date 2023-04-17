@@ -1,32 +1,24 @@
-import { Container, Grid } from "@chakra-ui/react";
+import { Grid } from "@chakra-ui/react";
 
 import { Carousel } from "lib/components/carousel/Carousel";
 
 const Home = () => {
   return (
-    <Container>
-      <Grid gap={4} />
+    <Grid gap={4}>
       <Carousel
-        p={4}
-        color="white"
-        borderWidth="1px"
-        borderRadius="lg"
         data={[
           {
-            image:
-              "https://images.unsplash.com/photo-1612852098516-55d01c75769a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+            image: "assets/carousel/code-g06a39c171_1920.jpg",
           },
           {
-            image:
-              "https://images.unsplash.com/photo-1627875764093-315831ac12f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+            image: "assets/carousel/coding-gcb58870e4_1920.jpg",
           },
           {
-            image:
-              "https://images.unsplash.com/photo-1571432248690-7fd6980a1ae2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+            image: "assets/carousel/software-developer-ga830c698a_1920.jpg",
           },
         ]}
       />
-    </Container>
+    </Grid>
   );
 };
 
