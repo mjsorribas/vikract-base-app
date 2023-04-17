@@ -1,4 +1,4 @@
-// Vitest Snapshot v1
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`Prices Page 1`] = `
 <div
@@ -67,6 +67,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -95,6 +96,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -123,6 +125,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -151,6 +154,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -254,6 +258,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -282,6 +287,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -310,6 +316,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -338,6 +345,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -432,6 +440,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -460,6 +469,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -488,6 +498,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
@@ -516,6 +527,7 @@ exports[`Prices Page 1`] = `
             className="css-1xnzs7r"
           >
             <svg
+              aria-hidden="true"
               className="chakra-icon css-1v19hek"
               fill="currentColor"
               focusable={false}
