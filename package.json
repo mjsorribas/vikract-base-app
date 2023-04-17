@@ -44,7 +44,7 @@
     "@vitejs/plugin-react": "^3.1.0",
     "@vitest/coverage-c8": "^0.28.4",
     "@vitest/ui": "^0.28.4",
-    "commitlint": "^17.4.2",
+    "commitlint": "^17.6.1",
     "eslint": "^8.33.0",
     "eslint-config-sznm": "^1.1.1",
     "happy-dom": "^9.1.0",
