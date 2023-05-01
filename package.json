@@ -51,7 +51,7 @@
     "commitlint": "^17.6.1",
     "eslint": "^8.33.0",
     "eslint-config-sznm": "^1.1.1",
-    "happy-dom": "^9.9.2",
+    "happy-dom": "^9.10.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.7",
