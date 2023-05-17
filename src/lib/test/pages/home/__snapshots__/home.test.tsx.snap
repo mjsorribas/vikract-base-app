@@ -223,6 +223,92 @@ exports[`Home 1`] = `
       </ul>
     </div>
   </div>
+  <br />
+  <div
+    align="start"
+    className="chakra-tabs css-ci5oqm"
+  >
+    <div
+      aria-orientation="horizontal"
+      className="chakra-tabs__tablist css-fgp5ep"
+      onKeyDown={[Function]}
+      role="tablist"
+    >
+      <button
+        aria-controls="tabs-:r1:--tabpanel--1"
+        aria-selected={false}
+        className="chakra-tabs__tab css-1mbanyi"
+        id="tabs-:r1:--tab--1"
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="tab"
+        tabIndex={-1}
+        type="button"
+      >
+        Features
+      </button>
+      <button
+        aria-controls="tabs-:r1:--tabpanel--1"
+        aria-selected={false}
+        className="chakra-tabs__tab css-1mbanyi"
+        id="tabs-:r1:--tab--1"
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="tab"
+        tabIndex={-1}
+        type="button"
+      >
+        Components
+      </button>
+      <button
+        aria-controls="tabs-:r1:--tabpanel--1"
+        aria-selected={false}
+        className="chakra-tabs__tab css-1mbanyi"
+        id="tabs-:r1:--tab--1"
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="tab"
+        tabIndex={-1}
+        type="button"
+      >
+        Documentation
+      </button>
+    </div>
+    <div
+      className="chakra-tabs__tab-panels css-8atqhb"
+    >
+      <div
+        aria-labelledby="tabs-:r1:--tab-0"
+        className="chakra-tabs__tab-panel css-a5mhaz"
+        hidden={false}
+        id="tabs-:r1:--tabpanel-0"
+        role="tabpanel"
+        tabIndex={0}
+      >
+        Content 1
+      </div>
+      <div
+        aria-labelledby="tabs-:r1:--tab-1"
+        className="chakra-tabs__tab-panel css-a5mhaz"
+        hidden={true}
+        id="tabs-:r1:--tabpanel-1"
+        role="tabpanel"
+        tabIndex={0}
+      >
+        Content 2
+      </div>
+      <div
+        aria-labelledby="tabs-:r1:--tab-2"
+        className="chakra-tabs__tab-panel css-a5mhaz"
+        hidden={true}
+        id="tabs-:r1:--tabpanel-2"
+        role="tabpanel"
+        tabIndex={0}
+      >
+        Content 3
+      </div>
+    </div>
+  </div>
   <span />
   <span
     hidden={true}
