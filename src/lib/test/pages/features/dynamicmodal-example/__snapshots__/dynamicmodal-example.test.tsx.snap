@@ -1,0 +1,90 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DynamicModal Example Page 1`] = `
+<div
+  className="css-qi60vh"
+>
+  <h2
+    className="chakra-heading css-0"
+  >
+    Simple but Awesome Features
+  </h2>
+  <p
+    className="chakra-text css-0"
+  >
+    The dynamic modal is a custom component designed to be reused without thinking in a lot of things.
+    <br />
+    Example of how works the Dynamic Modal.
+    <br />
+    <br />
+    <button
+      className="chakra-button css-4xx2wk"
+      onClick={[Function]}
+      type="button"
+    >
+      Dynamic Modal
+    </button>
+  </p>
+  <br />
+  <p
+    className="chakra-text css-0"
+  >
+    Example of configuration code:
+  </p>
+  <code
+    className="chakra-code css-yrl8qr"
+  >
+    const modalData = {
+        buttonsConfiguration: {
+          accept: {
+            title: "Accept",
+            // eslint-disable-next-line
+            onClick: handleAcceptModal,
+            bg: "blue",
+            color: "white",
+            size: "md",
+            colorScheme: "blue",
+            order: 2,
+            showButton: true,
+          },
+          cancel: {
+            title: "Cancel",
+            // eslint-disable-next-line
+            onClick: handleCloseModal,
+            bg: "gray",
+            color: "white",
+            size: "md",
+            colorScheme: "gray",
+            order: 1,
+            showButton: true,
+          },
+          custom: {
+            title: "Custom",
+            // eslint-disable-next-line
+            onClick: handleCustomModal,
+            bg: "green",
+            color: "white",
+            size: "md",
+            colorScheme: "green",
+            order: 3,
+            showButton: false,
+          },
+        },
+        configuration: {
+          onClose: "handleClose",
+          finalFocusRef: "finalFocusRef",
+          isOpen: "isOpen",
+          scrollBehavior: "inside",
+          size: "md",
+          isCentered: false,
+          bg: "white",
+          color: "black",
+        },
+        data: {
+          title: "Example Modal",
+          content: "This is the content of the modal.",
+        },
+      };
+  </code>
+</div>
+`;
