@@ -18,7 +18,7 @@ interface DynamicModalProps {
   buttonsConfiguration?: {
     [key: string]: {
       title: string;
-      onClick: string;
+      onClick: () => void;
       bg: string;
       color: string;
       size: string;
@@ -60,8 +60,8 @@ const DynamicModal: React.FC<DynamicModalProps> = ({
         bg={button.bg}
         color={button.color}
         size={button.size}
-        // eslint-disable-next-line no-eval
-        onClick={() => eval(button.onClick)}
+        // eslint-disable-next-line
+        onClick={button.onClick}
       >
         {button.title}
       </Button>
