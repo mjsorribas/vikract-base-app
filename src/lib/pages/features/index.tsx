@@ -1,23 +1,9 @@
-import { Button, Grid, Heading, List, ListItem, Text } from "@chakra-ui/react";
-import { useState } from "react";
-
-import DynamicModal from "lib/components/dynamicmodal/DynamicModal";
-import { modalData } from "lib/demodata/modaldata";
+import { Grid, Heading, Link, List, ListItem, Text } from "@chakra-ui/react";
 
 const Features = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleOpenModal = () => {
-    setIsOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setIsOpen(false);
-  };
-
   return (
     <Grid gap={4}>
-      <Heading>Simple but Awesome Features</Heading>
+      <Heading>Dynamic Modal</Heading>
       <Text>
         Vikract core includes custom components to simplified the developer
         life.
@@ -28,19 +14,14 @@ const Features = () => {
           <ListItem>Price Card</ListItem>
           <ListItem>Dynamic Tabs</ListItem>
           <ListItem>
-            <Button onClick={handleOpenModal}>Dynamic Modal</Button>
+            <Link color="teal.500" href="/features/dynamicmodal">
+              Dynamic Modal
+            </Link>
           </ListItem>
           <ListItem>ActionButton</ListItem>
           <ListItem>Card</ListItem>
         </List>
       </Text>
-      <DynamicModal
-        data={modalData.data}
-        buttonsConfiguration={modalData.buttonsConfiguration}
-        configuration={modalData.configuration}
-        isOpen={isOpen}
-        onClose={handleCloseModal}
-      />
     </Grid>
   );
 };
