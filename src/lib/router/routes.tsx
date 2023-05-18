@@ -5,6 +5,7 @@ import ContactUs from "lib/pages/contactus";
 import Features from "lib/pages/features";
 import Home from "lib/pages/home";
 import Prices from "lib/pages/prices";
+import DynamicModalPage from "lib/pages/features/dynamicmodal-example";
 
 export const routes: Array<PathRouteProps> = [
   {
@@ -26,6 +27,10 @@ export const routes: Array<PathRouteProps> = [
   {
     path: "/features",
     element: <Features />,
+  },
+  {
+    path: "/features/dynamicmodal",
+    element: <DynamicModalPage />,
   },
 ];
 
