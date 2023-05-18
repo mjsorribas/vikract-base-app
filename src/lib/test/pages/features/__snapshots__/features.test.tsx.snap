@@ -1,0 +1,64 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Features Page 1`] = `
+<div
+  className="css-qi60vh"
+>
+  <h2
+    className="chakra-heading css-0"
+  >
+    Dynamic Modal
+  </h2>
+  <p
+    className="chakra-text css-0"
+  >
+    Vikract core includes custom components to simplified the developer life.
+    <br />
+    <ul
+      className="css-me00nr"
+      role="list"
+    >
+      <li
+        className="css-0"
+      >
+        Carousel
+      </li>
+      <li
+        className="css-0"
+      >
+        Contact Form
+      </li>
+      <li
+        className="css-0"
+      >
+        Price Card
+      </li>
+      <li
+        className="css-0"
+      >
+        Dynamic Tabs
+      </li>
+      <li
+        className="css-0"
+      >
+        <a
+          className="chakra-link css-1856l8r"
+          href="/features/dynamicmodal"
+        >
+          Dynamic Modal
+        </a>
+      </li>
+      <li
+        className="css-0"
+      >
+        ActionButton
+      </li>
+      <li
+        className="css-0"
+      >
+        Card
+      </li>
+    </ul>
+  </p>
+</div>
+`;
