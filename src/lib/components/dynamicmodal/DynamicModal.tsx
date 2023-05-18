@@ -69,16 +69,8 @@ const DynamicModal: React.FC<DynamicModalProps> = ({
   };
 
   const { title, content } = data;
-  const {
-    onClose: onCloseKey,
-    finalFocusRef,
-    isOpen: isOpenKey,
-    scrollBehavior,
-    size,
-    isCentered,
-    bg,
-    color,
-  } = configuration;
+  const { finalFocusRef, scrollBehavior, size, isCentered, bg, color } =
+    configuration;
 
   return (
     <Modal
