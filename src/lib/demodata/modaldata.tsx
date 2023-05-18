@@ -1,22 +1,9 @@
-const handleOpenModal = () => {
-  setIsOpen(true);
-};
-const handleCloseModal = () => {
-  setIsOpen(false);
-};
-const handleAcceptModal = () => {
-  // Logic for accept button
-};
-
-const handleCustomModal = () => {
-  // Logic for custom button
-};
 const modalData = {
   buttonsConfiguration: {
     accept: {
       title: "Accept",
       // eslint-disable-next-line
-      onClick: handleAcceptModal,
+      onClick: null,
       bg: "blue",
       color: "white",
       size: "md",
@@ -27,7 +14,7 @@ const modalData = {
     cancel: {
       title: "Cancel",
       // eslint-disable-next-line
-      onClick: handleCloseModal,
+      onClick: null,
       bg: "gray",
       color: "white",
       size: "md",
@@ -38,7 +25,7 @@ const modalData = {
     custom: {
       title: "Custom",
       // eslint-disable-next-line
-      onClick: handleCustomModal,
+      onClick: null,
       bg: "green",
       color: "white",
       size: "md",
