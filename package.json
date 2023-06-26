@@ -36,7 +36,7 @@
     "react-slick": "^0.29.0",
     "react-test-renderer": "^18.2.0",
     "slick-carousel": "^1.8.1",
-    "victory": "^36.6.10",
+    "victory": "^36.6.11",
     "vitest": "^0.31.4"
   },
   "devDependencies": {
