@@ -26,3 +26,53 @@ exports[`Menu Access 1`] = `
   </div>
 </div>
 `;
+
+exports[`Menu Access isMobile false 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="css-0"
+  >
+    <div
+      className="chakra-stack css-111rh5x"
+    >
+      <button
+        className="chakra-button css-4xx2wk"
+        type="button"
+      >
+        Sign Up
+      </button>
+      <button
+        className="chakra-button css-4xx2wk"
+        type="button"
+      >
+        Sign In
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Menu Access isMobile true 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="css-6ps7pe"
+  >
+    <button
+      className="chakra-button css-10tmkll"
+      type="button"
+    >
+      Sign Up
+    </button>
+    <button
+      className="chakra-button css-1lxikdv"
+      type="button"
+    >
+      Sign In
+    </button>
+  </div>
+</div>
+`;

@@ -90,3 +90,200 @@ exports[`Navbar 1`] = `
   </div>
 </div>
 `;
+
+exports[`Navbar Mobile true 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="css-k008qs"
+  >
+    <div
+      className="css-70qvj9"
+    >
+      <div
+        className="css-0"
+      >
+        <img
+          className="chakra-image css-1chmwhm"
+          src="/assets/vikract.svg"
+          title="The Vikract Webapp template"
+        />
+        <p
+          className="chakra-text css-104caxi"
+        >
+          THE VIKRACT TEMPLATE
+        </p>
+      </div>
+    </div>
+    <div
+      className="css-17xejub"
+    />
+    <div
+      className="css-70qvj9"
+    >
+      <button
+        aria-controls="menu-list-:r9:"
+        aria-expanded={false}
+        aria-haspopup="menu"
+        aria-label="Options"
+        className="chakra-button chakra-menu__menu-button css-ymfqft"
+        id="menu-button-:r9:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden={true}
+          fill="currentColor"
+          focusable={false}
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3 4H21V6H3V4ZM3 19H21V21H3V19ZM3 14H21V16H3V14ZM3 9H21V11H3V9Z"
+          />
+        </svg>
+      </button>
+      <div
+        className="css-0"
+        style={
+          {
+            "inset": "0 auto auto 0",
+            "minWidth": "max-content",
+            "position": "absolute",
+            "visibility": "hidden",
+          }
+        }
+      >
+        <div
+          aria-orientation="vertical"
+          className="chakra-menu__menu-list css-luqtzj"
+          id="menu-list-:r9:"
+          onKeyDown={[Function]}
+          role="menu"
+          style={
+            {
+              "opacity": 0,
+              "transform": "scale(0.8) translateZ(0)",
+              "transformOrigin": "var(--popper-transform-origin)",
+              "visibility": "hidden",
+            }
+          }
+          tabIndex={-1}
+        >
+          <button
+            className="chakra-menu__menuitem css-12st3z8"
+            id="menu-list-:r9:-menuitem-:ra:"
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            role="menuitem"
+            tabIndex={0}
+            type="button"
+          >
+            <a
+              className="chakra-link css-f9i6ey"
+              href="/"
+            >
+              Home
+            </a>
+          </button>
+          <button
+            className="chakra-menu__menuitem css-1k756t9"
+            id="menu-list-:r9:-menuitem-:rb:"
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            role="menuitem"
+            tabIndex={0}
+            type="button"
+          >
+            <a
+              className="chakra-link css-1oxylfh"
+              href="/aboutus"
+            >
+              About Us
+            </a>
+          </button>
+          <button
+            className="chakra-menu__menuitem css-1k756t9"
+            id="menu-list-:r9:-menuitem-:rc:"
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            role="menuitem"
+            tabIndex={0}
+            type="button"
+          >
+            <a
+              className="chakra-link css-1oxylfh"
+              href="/prices"
+            >
+              Prices
+            </a>
+          </button>
+          <button
+            className="chakra-menu__menuitem css-1k756t9"
+            id="menu-list-:r9:-menuitem-:rd:"
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            role="menuitem"
+            tabIndex={0}
+            type="button"
+          >
+            <a
+              className="chakra-link css-1oxylfh"
+              href="/contactus"
+            >
+              Contact Us
+            </a>
+          </button>
+          <hr
+            aria-orientation="horizontal"
+            className="chakra-menu__divider css-0"
+          />
+          <div
+            className="css-0"
+          >
+            <div
+              className="css-6ps7pe"
+            >
+              <button
+                className="chakra-button css-10tmkll"
+                type="button"
+              >
+                Sign Up
+              </button>
+              <button
+                className="chakra-button css-1lxikdv"
+                type="button"
+              >
+                Sign In
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
