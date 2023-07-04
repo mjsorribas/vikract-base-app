@@ -66,7 +66,13 @@ const DynamicModalPage = () => {
     },
     data: {
       title: "Example Modal",
-      content: "This is the content of the modal.",
+      content: `
+      <p>This is example content</p>
+      <p>
+        <b>
+        This is the content of the modal.
+        </b>
+      </p>`,
     },
   };
 

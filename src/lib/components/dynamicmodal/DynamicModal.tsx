@@ -8,6 +8,7 @@ import {
   ModalBody,
   ModalFooter,
 } from "@chakra-ui/react";
+import parse from "html-react-parser";
 import type React from "react";
 
 interface DynamicModalProps {
@@ -86,7 +87,7 @@ const DynamicModal: React.FC<DynamicModalProps> = ({
       <ModalContent color={color}>
         <ModalHeader>{title}</ModalHeader>
         <ModalCloseButton />
-        <ModalBody pb={6}>{content}</ModalBody>
+        <ModalBody pb={6}>{parse(content)}</ModalBody>
         <ModalFooter>{renderButtons()}</ModalFooter>
       </ModalContent>
     </Modal>

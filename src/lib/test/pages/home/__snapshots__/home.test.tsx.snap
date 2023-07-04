@@ -273,6 +273,19 @@ exports[`Home 1`] = `
       >
         Documentation
       </button>
+      <button
+        aria-controls="tabs-:r1:--tabpanel--1"
+        aria-selected={false}
+        className="chakra-tabs__tab css-1mbanyi"
+        id="tabs-:r1:--tab--1"
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="tab"
+        tabIndex={-1}
+        type="button"
+      >
+        Tech Stack
+      </button>
     </div>
     <div
       className="chakra-tabs__tab-panels css-8atqhb"
@@ -285,7 +298,34 @@ exports[`Home 1`] = `
         role="tabpanel"
         tabIndex={0}
       >
-        Content 1
+        
+  
+        <ul>
+          
+    
+          <li>
+            Full Front-end Web app demo
+          </li>
+          
+    
+          <li>
+            Custom components
+          </li>
+          
+    
+          <li>
+            Easy implementation
+          </li>
+          
+    
+          <li>
+            Simplified deploy to Vercel and Netlify
+          </li>
+          
+  
+        </ul>
+        
+  
       </div>
       <div
         aria-labelledby="tabs-:r1:--tab-1"
@@ -295,7 +335,54 @@ exports[`Home 1`] = `
         role="tabpanel"
         tabIndex={0}
       >
-        Content 2
+        
+  
+        <ul>
+          
+    
+          <li>
+            Action Button
+          </li>
+          
+    
+          <li>
+            Dynamic Tabs
+          </li>
+          
+    
+          <li>
+            Dynamic Modal
+          </li>
+          
+    
+          <li>
+            Custom Table
+          </li>
+          
+    
+          <li>
+            Carousel
+          </li>
+          
+    
+          <li>
+            Custom Cards
+          </li>
+          
+    
+          <li>
+            Price Table
+          </li>
+          
+    
+          <li>
+            Logo
+          </li>
+          
+  
+        </ul>
+        
+  
       </div>
       <div
         aria-labelledby="tabs-:r1:--tab-2"
@@ -305,7 +392,66 @@ exports[`Home 1`] = `
         role="tabpanel"
         tabIndex={0}
       >
-        Content 3
+        
+  
+        <ul>
+          
+    
+          <li>
+            How define and use Carousel Images
+          </li>
+          
+    
+          <li>
+            How define and use Price Table
+          </li>
+          
+    
+          <li>
+            How define a new Logo image
+          </li>
+          
+  
+        </ul>
+        
+  
+      </div>
+      <div
+        aria-labelledby="tabs-:r1:--tab-3"
+        className="chakra-tabs__tab-panel css-a5mhaz"
+        hidden={true}
+        id="tabs-:r1:--tabpanel-3"
+        role="tabpanel"
+        tabIndex={0}
+      >
+        
+    
+        <ul>
+          
+      
+          <li>
+            React: +18.2.0
+          </li>
+          
+      
+          <li>
+            Chakra-ui: 2.6.1
+          </li>
+          
+      
+          <li>
+            Vite: 4.3.9
+          </li>
+          
+      
+          <li>
+            Vitest: +0.32.2
+          </li>
+          
+    
+        </ul>
+        
+    
       </div>
     </div>
   </div>
