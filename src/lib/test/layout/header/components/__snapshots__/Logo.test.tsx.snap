@@ -20,3 +20,27 @@ exports[`Logo 1`] = `
   </div>
 </div>
 `;
+
+exports[`Logo onlyImg 1`] = `
+<div
+  className="css-70qvj9"
+>
+  <img
+    className="chakra-image css-v1ux0r"
+    src="/assets/vikract.svg"
+    title="The Vikract Webapp template"
+  />
+</div>
+`;
+
+exports[`Logo onlyText 1`] = `
+<div
+  className="css-70qvj9"
+>
+  <p
+    className="chakra-text css-j2414u"
+  >
+    THE VIKRACT TEMPLATE
+  </p>
+</div>
+`;
