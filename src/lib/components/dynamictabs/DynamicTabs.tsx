@@ -1,7 +1,7 @@
 /* eslint-disable react/no-array-index-key */
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
-import type { FC } from "react";
 import parse from "html-react-parser";
+import type { FC } from "react";
 
 interface TabData {
   title: string;

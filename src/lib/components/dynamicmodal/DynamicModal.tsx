@@ -8,8 +8,8 @@ import {
   ModalBody,
   ModalFooter,
 } from "@chakra-ui/react";
-import type React from "react";
 import parse from "html-react-parser";
+import type React from "react";
 
 interface DynamicModalProps {
   data: {
