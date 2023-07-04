@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Logo 1`] = `
+<div
+  className="css-70qvj9"
+>
+  <div
+    className="css-0"
+  >
+    <img
+      className="chakra-image css-v1ux0r"
+      src="/assets/vikract.svg"
+      title="The Vikract Webapp template"
+    />
+    <p
+      className="chakra-text css-j2414u"
+    >
+      THE VIKRACT TEMPLATE
+    </p>
+  </div>
+</div>
+`;

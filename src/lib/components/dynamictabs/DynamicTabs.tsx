@@ -1,5 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import parse from "html-react-parser";
 import type { FC } from "react";
 
 interface TabData {
@@ -48,7 +49,7 @@ const DynamicTabs: FC<DynamicTabsProps> = ({
       </TabList>
       <TabPanels>
         {data.map((item, index) => (
-          <TabPanel key={index}>{item.content}</TabPanel>
+          <TabPanel key={index}>{parse(item.content)}</TabPanel>
         ))}
       </TabPanels>
     </Tabs>

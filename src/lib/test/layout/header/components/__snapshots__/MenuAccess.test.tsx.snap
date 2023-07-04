@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Menu Access 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="css-0"
+  >
+    <div
+      className="chakra-stack css-111rh5x"
+    >
+      <button
+        className="chakra-button css-4xx2wk"
+        type="button"
+      >
+        Sign Up
+      </button>
+      <button
+        className="chakra-button css-4xx2wk"
+        type="button"
+      >
+        Sign In
+      </button>
+    </div>
+  </div>
+</div>
+`;
