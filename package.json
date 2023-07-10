@@ -38,7 +38,7 @@
     "react-test-renderer": "^18.2.0",
     "slick-carousel": "^1.8.1",
     "victory": "^36.6.11",
-    "vitest": "^0.32.2"
+    "vitest": "^0.33.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.6.5",
