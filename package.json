@@ -24,7 +24,7 @@
     "@chakra-ui/react": "^2.6.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@fontsource/plus-jakarta-sans": "^4.5.11",
+    "@fontsource/plus-jakarta-sans": "^5.0.4",
     "@types/react-slick": "^0.23.10",
     "@types/react-test-renderer": "^18.0.0",
     "framer-motion": "^10.12.17",
