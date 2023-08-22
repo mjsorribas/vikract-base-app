@@ -17,10 +17,10 @@ exports[`Contact Us Page 1`] = `
           className="css-2rlxtj"
         >
           <div
-            className="chakra-wrap css-i6bazn"
+            className="chakra-wrap css-0"
           >
             <ul
-              className="chakra-wrap__list css-dut3zx"
+              className="chakra-wrap__list css-ub5tsn"
             >
               <li
                 className="chakra-wrap__listitem css-1yp4ln"
@@ -42,7 +42,7 @@ exports[`Contact Us Page 1`] = `
                     className="css-1r21lpy"
                   >
                     <div
-                      className="chakra-stack css-1cb9e5n"
+                      className="chakra-stack css-16lvel5"
                     >
                       <button
                         className="chakra-button css-1x7i6yc"
@@ -152,7 +152,7 @@ exports[`Contact Us Page 1`] = `
                     </div>
                   </div>
                   <div
-                    className="chakra-stack css-w4nib5"
+                    className="chakra-stack css-12y6jmo"
                   >
                     <button
                       aria-label="facebook"
@@ -249,7 +249,7 @@ exports[`Contact Us Page 1`] = `
                     className="css-1oimu32"
                   >
                     <div
-                      className="chakra-stack css-1c6kzeh"
+                      className="chakra-stack css-22bnw2"
                     >
                       <div
                         className="chakra-form-control css-0"

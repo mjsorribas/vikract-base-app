@@ -2,7 +2,7 @@
 
 exports[`SocialLinks 1`] = `
 <div
-  className="chakra-stack css-111p793"
+  className="chakra-stack css-a2ss5w"
 >
   <p
     className="chakra-text css-18j51w2"
@@ -13,10 +13,10 @@ exports[`SocialLinks 1`] = `
     className="css-1gioabt"
   >
     <div
-      className="chakra-stack chakra-container css-1eijd1m"
+      className="chakra-stack chakra-container css-j20fov"
     >
       <div
-        className="chakra-stack css-111rh5x"
+        className="chakra-stack css-1u5xrkq"
       >
         <a
           className="css-db33v2"
