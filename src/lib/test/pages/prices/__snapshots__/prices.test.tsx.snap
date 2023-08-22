@@ -14,7 +14,7 @@ exports[`Prices Page 1`] = `
         className="css-1s8shn8"
       >
         <div
-          className="chakra-stack css-pfcv3f"
+          className="chakra-stack css-ylms7g"
         >
           <svg
             aria-hidden={true}
@@ -205,7 +205,7 @@ exports[`Prices Page 1`] = `
           </p>
         </div>
         <div
-          className="chakra-stack css-pfcv3f"
+          className="chakra-stack css-ylms7g"
         >
           <svg
             aria-hidden={true}
@@ -387,7 +387,7 @@ exports[`Prices Page 1`] = `
         className="css-1s8shn8"
       >
         <div
-          className="chakra-stack css-pfcv3f"
+          className="chakra-stack css-ylms7g"
         >
           <svg
             aria-hidden={true}

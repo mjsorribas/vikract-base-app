@@ -236,8 +236,10 @@ exports[`Home 1`] = `
     >
       <button
         aria-controls="tabs-:r1:--tabpanel--1"
+        aria-disabled={false}
         aria-selected={false}
         className="chakra-tabs__tab css-1mbanyi"
+        disabled={false}
         id="tabs-:r1:--tab--1"
         onClick={[Function]}
         onFocus={[Function]}
@@ -249,8 +251,10 @@ exports[`Home 1`] = `
       </button>
       <button
         aria-controls="tabs-:r1:--tabpanel--1"
+        aria-disabled={false}
         aria-selected={false}
         className="chakra-tabs__tab css-1mbanyi"
+        disabled={false}
         id="tabs-:r1:--tab--1"
         onClick={[Function]}
         onFocus={[Function]}
@@ -262,8 +266,10 @@ exports[`Home 1`] = `
       </button>
       <button
         aria-controls="tabs-:r1:--tabpanel--1"
+        aria-disabled={false}
         aria-selected={false}
         className="chakra-tabs__tab css-1mbanyi"
+        disabled={false}
         id="tabs-:r1:--tab--1"
         onClick={[Function]}
         onFocus={[Function]}
@@ -275,8 +281,10 @@ exports[`Home 1`] = `
       </button>
       <button
         aria-controls="tabs-:r1:--tabpanel--1"
+        aria-disabled={false}
         aria-selected={false}
         className="chakra-tabs__tab css-1mbanyi"
+        disabled={false}
         id="tabs-:r1:--tab--1"
         onClick={[Function]}
         onFocus={[Function]}

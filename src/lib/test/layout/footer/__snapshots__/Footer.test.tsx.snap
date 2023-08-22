@@ -5,7 +5,7 @@ exports[`Footer 1`] = `
   className="css-34405f"
 >
   <div
-    className="chakra-stack chakra-container css-6bphnu"
+    className="chakra-stack chakra-container css-1uu0jzp"
   >
     <div
       className="css-ax0vwy"
@@ -36,7 +36,7 @@ exports[`Footer 1`] = `
         className="css-1iv9klp"
       >
         <div
-          className="chakra-stack css-111p793"
+          className="chakra-stack css-a2ss5w"
         >
           <a
             className="chakra-link css-0"
@@ -68,7 +68,7 @@ exports[`Footer 1`] = `
         className="css-1iv9klp"
       >
         <div
-          className="chakra-stack css-111p793"
+          className="chakra-stack css-a2ss5w"
         >
           <p
             className="chakra-text css-18j51w2"
@@ -79,10 +79,10 @@ exports[`Footer 1`] = `
             className="css-1gioabt"
           >
             <div
-              className="chakra-stack chakra-container css-1eijd1m"
+              className="chakra-stack chakra-container css-j20fov"
             >
               <div
-                className="chakra-stack css-111rh5x"
+                className="chakra-stack css-1u5xrkq"
               >
                 <a
                   className="css-db33v2"
@@ -185,7 +185,7 @@ exports[`Footer 1`] = `
         className="css-1iv9klp"
       >
         <div
-          className="chakra-stack css-1utmndy"
+          className="chakra-stack css-1xrkuxn"
         >
           <div
             className="css-g5hezf"
@@ -202,7 +202,7 @@ exports[`Footer 1`] = `
         className="css-1iv9klp"
       >
         <div
-          className="chakra-stack css-1lbu33j"
+          className="chakra-stack css-14dnb91"
         >
           <div
             className="css-g5hezf"
