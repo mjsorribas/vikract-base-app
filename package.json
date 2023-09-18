@@ -54,7 +54,7 @@
     "@vitest/coverage-v8": "^0.34.4",
     "@vitest/ui": "^0.34.4",
     "commitlint": "^17.7.1",
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-config-sznm": "^2.0.2",
     "happy-dom": "10.11.2",
     "husky": "^8.0.3",
