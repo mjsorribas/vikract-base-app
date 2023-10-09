@@ -1481,10 +1481,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.50.0.tgz#9e93b850f0f3fa35f5fa59adfd03adae8488e484"
   integrity sha512-NCC3zz2+nvYd+Ckfh87rA47zfu2QsQpvc6k1yzTk+b9KzRj0wkGa8LSoGOXN6Zv4lRf/EIoZ80biDh9HOI+RNQ==
 
-"@fontsource/plus-jakarta-sans@^5.0.12":
-  version "5.0.12"
-  resolved "https://registry.yarnpkg.com/@fontsource/plus-jakarta-sans/-/plus-jakarta-sans-5.0.12.tgz#d7d1116890735199c62e9484a0c8f8d1af24b739"
-  integrity sha512-Xdx7f909JdzVM0f6WQcjr4HuvBjvbgMVWW8r/eOh6iNW1hlsIBdW+dAV3mBb5zrqk/XoZBoYl0wZXXCTyz5p2Q==
+"@fontsource/plus-jakarta-sans@^5.0.15":
+  version "5.0.15"
+  resolved "https://registry.yarnpkg.com/@fontsource/plus-jakarta-sans/-/plus-jakarta-sans-5.0.15.tgz#83e551fd63dadbab6b802211e40508de38f80afc"
+  integrity sha512-o37CGvg0TTui9qxhWcSks6PMjLolt85HUUE+qJey+Jze0YhfSUQQe2gkYHHzidLDBrsHhlaxgM+pZej6AD9dog==
 
 "@humanwhocodes/config-array@^0.11.11":
   version "0.11.11"
