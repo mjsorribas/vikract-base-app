@@ -4,10 +4,10 @@ export default function TermsAndConditions() {
   return (
     <Stack align={{ md: "flex-end", sm: "center" }} spacing={6}>
       <Box fontSize="sm">
-        <Link href="https://vikract.com/terms" ml={3}>
+        <Link href="https://vikract.com/termsandconditions" ml={3}>
           Terms
         </Link>
-        <Link href="https://vikract.com/conditions" ml={3}>
+        <Link href="https://vikract.com/termsandconditions" ml={3}>
           Conditions
         </Link>
         <Link href="https://vikract.com/cookies" ml={3}>
