@@ -1,0 +1,286 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Products Page 1`] = `
+<div
+  className="css-qi60vh"
+>
+  <section
+    className="css-137ocyi"
+  >
+    <div
+      className="css-1o5einl"
+    >
+      <div
+        className="chakra-card css-15bhv6a"
+      >
+        <img
+          alt="Picture of Producto 1"
+          className="chakra-image css-2gr5e1"
+          src="https://images.unsplash.com/flagged/photo-1564826836200-87e3faad54bb?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <div
+          className="css-old1by"
+        >
+          <div
+            className="css-x1sij0"
+          >
+            <span
+              className="chakra-badge css-7mgg44"
+            >
+              New
+            </span>
+          </div>
+          <div
+            className="css-0"
+          >
+            <div
+              className="chakra-stack css-ylms7g"
+            >
+              <h2
+                className="chakra-heading css-appnyl"
+              >
+                Producto 1
+              </h2>
+              <p
+                className="chakra-text css-0"
+              >
+                Descripción del producto 1
+              </p>
+            </div>
+          </div>
+          <div
+            className="css-a8anto"
+          >
+            <div
+              className="css-1mqr33v"
+            >
+              <span
+                className="css-yzake9"
+              >
+                USD
+              </span>
+              19.99
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="chakra-card css-15bhv6a"
+      >
+        <img
+          alt="Picture of Producto 2"
+          className="chakra-image css-2gr5e1"
+          src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <div
+          className="css-old1by"
+        >
+          <div
+            className="css-x1sij0"
+          >
+            <span
+              className="chakra-badge css-7mgg44"
+            >
+              New
+            </span>
+          </div>
+          <div
+            className="css-0"
+          >
+            <div
+              className="chakra-stack css-ylms7g"
+            >
+              <h2
+                className="chakra-heading css-appnyl"
+              >
+                Producto 2
+              </h2>
+              <p
+                className="chakra-text css-0"
+              >
+                Descripción del producto 2
+              </p>
+            </div>
+          </div>
+          <div
+            className="css-a8anto"
+          >
+            <div
+              className="css-1mqr33v"
+            >
+              <span
+                className="css-yzake9"
+              >
+                USD
+              </span>
+              29.99
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="chakra-card css-15bhv6a"
+      >
+        <img
+          alt="Picture of Producto 3"
+          className="chakra-image css-2gr5e1"
+          src="https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <div
+          className="css-old1by"
+        >
+          <div
+            className="css-x1sij0"
+          >
+            <span
+              className="chakra-badge css-7mgg44"
+            >
+              New
+            </span>
+          </div>
+          <div
+            className="css-0"
+          >
+            <div
+              className="chakra-stack css-ylms7g"
+            >
+              <h2
+                className="chakra-heading css-appnyl"
+              >
+                Producto 3
+              </h2>
+              <p
+                className="chakra-text css-0"
+              >
+                Descripción del producto 3
+              </p>
+            </div>
+          </div>
+          <div
+            className="css-a8anto"
+          >
+            <div
+              className="css-1mqr33v"
+            >
+              <span
+                className="css-yzake9"
+              >
+                USD
+              </span>
+              39.99
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="chakra-card css-15bhv6a"
+      >
+        <img
+          alt="Picture of Producto 4"
+          className="chakra-image css-2gr5e1"
+          src="https://images.unsplash.com/photo-1563014959-7aaa83350992?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=4600&q=80"
+        />
+        <div
+          className="css-old1by"
+        >
+          <div
+            className="css-x1sij0"
+          >
+            <span
+              className="chakra-badge css-7mgg44"
+            >
+              New
+            </span>
+          </div>
+          <div
+            className="css-0"
+          >
+            <div
+              className="chakra-stack css-ylms7g"
+            >
+              <h2
+                className="chakra-heading css-appnyl"
+              >
+                Producto 4
+              </h2>
+              <p
+                className="chakra-text css-0"
+              >
+                Descripción del producto 4
+              </p>
+            </div>
+          </div>
+          <div
+            className="css-a8anto"
+          >
+            <div
+              className="css-1mqr33v"
+            >
+              <span
+                className="css-yzake9"
+              >
+                USD
+              </span>
+              49.99
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="chakra-card css-15bhv6a"
+      >
+        <img
+          alt="Picture of Producto 5"
+          className="chakra-image css-2gr5e1"
+          src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=1999&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        <div
+          className="css-old1by"
+        >
+          <div
+            className="css-x1sij0"
+          >
+            <span
+              className="chakra-badge css-7mgg44"
+            >
+              New
+            </span>
+          </div>
+          <div
+            className="css-0"
+          >
+            <div
+              className="chakra-stack css-ylms7g"
+            >
+              <h2
+                className="chakra-heading css-appnyl"
+              >
+                Producto 5
+              </h2>
+              <p
+                className="chakra-text css-0"
+              >
+                Descripción del producto 5
+              </p>
+            </div>
+          </div>
+          <div
+            className="css-a8anto"
+          >
+            <div
+              className="css-1mqr33v"
+            >
+              <span
+                className="css-yzake9"
+              >
+                USD
+              </span>
+              59.99
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
