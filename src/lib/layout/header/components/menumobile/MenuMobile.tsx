@@ -78,18 +78,6 @@ export default function MenuMobile() {
                 mb={2}
                 textAlign="center"
                 _hover={{ textDecoration: "none" }}
-                href="/prices"
-              >
-                Prices
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link
-                w="100%"
-                mt={2}
-                mb={2}
-                textAlign="center"
-                _hover={{ textDecoration: "none" }}
                 href="/contactus"
               >
                 Contact Us

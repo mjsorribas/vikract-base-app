@@ -48,12 +48,6 @@ exports[`Navbar 1`] = `
         </a>
         <a
           className="chakra-link css-1jpe0vt"
-          href="/prices"
-        >
-          Prices
-        </a>
-        <a
-          className="chakra-link css-1jpe0vt"
           href="/contactus"
         >
           Contact Us
@@ -123,12 +117,12 @@ exports[`Navbar Mobile true 1`] = `
       className="css-70qvj9"
     >
       <button
-        aria-controls="menu-list-:r9:"
+        aria-controls="menu-list-:r8:"
         aria-expanded={false}
         aria-haspopup="menu"
         aria-label="Options"
         className="chakra-button chakra-menu__menu-button css-ymfqft"
-        id="menu-button-:r9:"
+        id="menu-button-:r8:"
         onClick={[Function]}
         onKeyDown={[Function]}
         type="button"
@@ -168,7 +162,7 @@ exports[`Navbar Mobile true 1`] = `
         <div
           aria-orientation="vertical"
           className="chakra-menu__menu-list css-luqtzj"
-          id="menu-list-:r9:"
+          id="menu-list-:r8:"
           onKeyDown={[Function]}
           role="menu"
           style={
@@ -183,7 +177,7 @@ exports[`Navbar Mobile true 1`] = `
         >
           <button
             className="chakra-menu__menuitem css-12st3z8"
-            id="menu-list-:r9:-menuitem-:ra:"
+            id="menu-list-:r8:-menuitem-:r9:"
             onClick={[Function]}
             onFocus={[Function]}
             onMouseEnter={[Function]}
@@ -202,7 +196,7 @@ exports[`Navbar Mobile true 1`] = `
           </button>
           <button
             className="chakra-menu__menuitem css-1k756t9"
-            id="menu-list-:r9:-menuitem-:rb:"
+            id="menu-list-:r8:-menuitem-:ra:"
             onClick={[Function]}
             onFocus={[Function]}
             onMouseEnter={[Function]}
@@ -221,26 +215,7 @@ exports[`Navbar Mobile true 1`] = `
           </button>
           <button
             className="chakra-menu__menuitem css-1k756t9"
-            id="menu-list-:r9:-menuitem-:rc:"
-            onClick={[Function]}
-            onFocus={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            onMouseMove={[Function]}
-            role="menuitem"
-            tabIndex={0}
-            type="button"
-          >
-            <a
-              className="chakra-link css-1oxylfh"
-              href="/prices"
-            >
-              Prices
-            </a>
-          </button>
-          <button
-            className="chakra-menu__menuitem css-1k756t9"
-            id="menu-list-:r9:-menuitem-:rd:"
+            id="menu-list-:r8:-menuitem-:rb:"
             onClick={[Function]}
             onFocus={[Function]}
             onMouseEnter={[Function]}
