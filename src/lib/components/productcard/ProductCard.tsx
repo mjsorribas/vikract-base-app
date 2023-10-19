@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable react/no-unused-prop-types */
 import {
   Badge,
   Box,
@@ -12,44 +14,38 @@ import {
 import { Card } from "lib/components/card/Card";
 import type { CardProps } from "lib/components/card/Card";
 
-export interface ProductCardData {
-  title: string;
-  description: string;
-  price: number;
-  currency: string;
-  isAddtoCartActive: boolean;
-  isNew: boolean;
-  productImage: string;
-  productUrl: string;
-  stars: number;
-  starsReviewsCounted: number;
-  stock: number;
-}
-
 interface ProductCardProps extends CardProps {
   title: string;
-  description: string;
+  description?: string;
   price: number;
   currency: string;
-  isAddtoCartActive: boolean;
-  isNew: boolean;
-  productImage: string;
-  productUrl: string;
-  stars: number;
-  starsReviewsCounted: number;
-  stock: number;
+  isAddtoCartActive?: boolean;
+  isNew?: boolean;
+  productImage?: string;
+  productUrl?: string;
+  stars?: number;
+  starsReviewsCounted?: number;
+  stock?: number;
 }
 
-export const ProductCard = (props: ProductCardProps) => {
+export const ProductCard = ({
+  title,
+  description,
+  price,
+  currency,
+  isAddtoCartActive,
+  isNew,
+  productImage,
+  productUrl,
+  stars,
+  starsReviewsCounted,
+  stock,
+}: ProductCardProps) => {
   return (
     <Card borderWidth="1px" shadow="lg" rounded={{ sm: "lg" }}>
-      <Image
-        src={props.productUrl}
-        alt={`Picture of ${props.title}`}
-        roundedTop="lg"
-      />
+      <Image src={productUrl} alt={`Picture of ${title}`} roundedTop="lg" />
       <Box p="6">
-        {props.isNew && (
+        {isNew && (
           <Box display="flex" alignItems="baseline">
             <Badge rounded="full" px="2" fontSize="0.8em" colorScheme="red">
               New
@@ -59,17 +55,17 @@ export const ProductCard = (props: ProductCardProps) => {
         <Box>
           <VStack spacing={6}>
             <Heading size="md" fontWeight="extrabold">
-              {props.title}
+              {title}
             </Heading>
-            <Text size="xs">{props.description}</Text>
+            <Text size="xs">{description}</Text>
           </VStack>
         </Box>
         <Flex justifyContent="space-between" alignContent="center">
           <Box fontSize="2xl" color={useColorModeValue("gray.800", "white")}>
             <Box as="span" color="gray.600" fontSize="lg">
-              {props.currency}
+              {currency}
             </Box>
-            {props.price}
+            {price}
           </Box>
         </Flex>
       </Box>
