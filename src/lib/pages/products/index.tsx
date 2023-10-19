@@ -1,6 +1,7 @@
 import { Grid, Box, SimpleGrid, useColorModeValue } from "@chakra-ui/react";
 
 import { ProductCard } from "lib/components/productcard/ProductCard";
+import type { ProductCardData } from "lib/components/productcard/ProductCardData";
 import { productsdata } from "lib/demodata/productsdata";
 
 const Products = () => {
@@ -20,22 +21,16 @@ const Products = () => {
           justifyItems="center"
           alignItems="center"
         >
-          {productsdata.map((product, index) => (
+          {productsdata.map((product: ProductCardData, index) => (
             <ProductCard
               // eslint-disable-next-line react/no-array-index-key
               key={index}
-              title={product.title}
-              description={product.description}
-              price={product.price}
-              currency={product.currency}
-              isAddtoCartActive={product.isAddtoCartActive}
-              isNew={product.isNew}
-              productImage={product.productImage}
-              productUrl={product.productUrl}
-              stars={product.stars}
-              starsReviewsCounted={product.starsReviewsCounted}
-              stock={product.stock}
+              data={product}
               maxWidth="300px"
+              showBuyButton={false}
+              showAddToCartIcon={false}
+              showAddToCartButton={false}
+              showStarsRating={false}
             />
           ))}
         </SimpleGrid>
