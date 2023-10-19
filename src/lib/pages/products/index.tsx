@@ -35,6 +35,7 @@ const Products = () => {
               stars={product.stars}
               starsReviewsCounted={product.starsReviewsCounted}
               stock={product.stock}
+              maxWidth="300px"
             />
           ))}
         </SimpleGrid>
