@@ -9,47 +9,38 @@ import {
   useColorModeValue,
   VStack,
   Image,
+  Card,
 } from "@chakra-ui/react";
 
+import type { ProductCardData } from "./ProductCardData";
+
 interface ProductCardProps {
-  title: string;
-  description?: string;
-  price: number;
-  currency: string;
-  isAddtoCartActive?: boolean;
-  isNew?: boolean;
-  productImage?: string;
-  productUrl?: string;
-  stars?: number;
-  starsReviewsCounted?: number;
-  stock?: number;
+  data: ProductCardData;
+  showAddToCartButton?: boolean;
+  showAddToCartIcon?: boolean;
+  showBuyButton?: boolean;
+  showStarsRating?: boolean;
   maxWidth?: string;
 }
 
 export const ProductCard = ({
-  title,
-  description,
-  price,
-  currency,
-  isAddtoCartActive,
-  isNew,
-  productImage,
-  productUrl,
-  stars,
-  starsReviewsCounted,
-  stock,
+  data,
+  showAddToCartButton,
+  showAddToCartIcon,
+  showBuyButton,
+  showStarsRating,
   maxWidth,
 }: ProductCardProps) => {
   return (
-    <Box borderWidth="1px" shadow="lg" rounded={{ sm: "lg" }}>
+    <Card borderWidth="1px" shadow="lg" rounded={{ sm: "lg" }}>
       <Image
         maxWidth={maxWidth}
-        src={productImage}
-        alt={`Picture of ${title}`}
+        src={data.productImage}
+        alt={`Picture of ${data.title}`}
         roundedTop="lg"
       />
       <Box p="0">
-        {isNew && (
+        {data.isNew && (
           <Box display="flex" alignItems="baseline">
             <Badge rounded="full" px="2" fontSize="0.8em" colorScheme="red">
               New
@@ -59,20 +50,20 @@ export const ProductCard = ({
         <Box>
           <VStack spacing={6}>
             <Heading size="md" fontWeight="extrabold">
-              {title}
+              {data.title}
             </Heading>
-            <Text size="xs">{description}</Text>
+            <Text size="xs">{data.shortDescription}</Text>
           </VStack>
         </Box>
-        <Flex justifyContent="space-between" alignContent="center">
+        <Flex justifyContent="space-around" alignContent="center">
           <Box fontSize="2xl" color={useColorModeValue("gray.800", "white")}>
             <Box as="span" color="gray.600" fontSize="lg">
-              {currency}
+              {data.currency}
             </Box>
-            {price}
+            {data.price}
           </Box>
         </Flex>
       </Box>
-    </Box>
+    </Card>
   );
 };
