@@ -21,7 +21,8 @@ export const tabsdata = [
     <li>Custom Table</li>
     <li>Carousel</li>
     <li>Custom Cards</li>
-    <li>Price Table</li>
+    <li><a href="/prices">Price Table</a></li>
+    <li><a href="/products">Product Cards</a></li>
     <li>Logo</li>
   </ul>
   `,
@@ -32,6 +33,7 @@ export const tabsdata = [
   <ul>
     <li>How define and use Carousel Images</li>
     <li>How define and use Price Table</li>
+    <li>How define and use Product Card</li>
     <li>How define a new Logo image</li>
   </ul>
   `,
@@ -41,9 +43,9 @@ export const tabsdata = [
     content: `
     <ul>
       <li>React: +18.2.0</li>
-      <li>Chakra-ui: 2.6.1</li>
-      <li>Vite: 4.3.9</li>
-      <li>Vitest: +0.32.2</li>
+      <li>Chakra-ui: +2.8.1</li>
+      <li>Vite: +4.4.11</li>
+      <li>Vitest: +0.34.6</li>
     </ul>
     `,
   },
