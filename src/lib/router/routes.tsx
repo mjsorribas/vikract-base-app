@@ -7,6 +7,7 @@ import DynamicModalPage from "lib/pages/features/dynamicmodal-example";
 import Home from "lib/pages/home";
 import Prices from "lib/pages/prices";
 import TermsAndConditions from "lib/pages/termsandconditions";
+import Cookies from "lib/pages/cookies";
 
 export const routes: Array<PathRouteProps> = [
   {
@@ -28,6 +29,10 @@ export const routes: Array<PathRouteProps> = [
   {
     path: "/termsandconditions",
     element: <TermsAndConditions />,
+  },
+  {
+    path: "/cookies",
+    element: <Cookies />,
   },
   {
     path: "/features",
