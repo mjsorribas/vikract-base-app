@@ -1,9 +1,8 @@
 export interface ProductCardData {
   title: string;
-  description: string;
+  shortDescription: string;
   price: number;
   currency: string;
-  isAddtoCartActive: boolean;
   isNew: boolean;
   productImage: string;
   productUrl: string;
