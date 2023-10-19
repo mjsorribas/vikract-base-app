@@ -209,19 +209,19 @@ exports[`Footer 1`] = `
           >
             <a
               className="chakra-link css-9n3bbc"
-              href="https://vikract.com/termsandconditions"
+              href="/termsandconditions"
             >
               Terms
             </a>
             <a
               className="chakra-link css-9n3bbc"
-              href="https://vikract.com/termsandconditions"
+              href="/termsandconditions"
             >
               Conditions
             </a>
             <a
               className="chakra-link css-9n3bbc"
-              href="https://vikract.com/cookies"
+              href="/cookies"
             >
               Cookies
             </a>
