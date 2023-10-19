@@ -2,6 +2,7 @@ import type { PathRouteProps } from "react-router-dom";
 
 import AboutUs from "lib/pages/aboutus";
 import ContactUs from "lib/pages/contactus";
+import Cookies from "lib/pages/cookies";
 import Features from "lib/pages/features";
 import DynamicModalPage from "lib/pages/features/dynamicmodal-example";
 import Home from "lib/pages/home";
@@ -28,6 +29,10 @@ export const routes: Array<PathRouteProps> = [
   {
     path: "/termsandconditions",
     element: <TermsAndConditions />,
+  },
+  {
+    path: "/cookies",
+    element: <Cookies />,
   },
   {
     path: "/features",
