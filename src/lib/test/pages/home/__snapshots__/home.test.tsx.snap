@@ -379,7 +379,20 @@ exports[`Home 1`] = `
           
     
           <li>
-            Price Table
+            <a
+              href="/prices"
+            >
+              Price Table
+            </a>
+          </li>
+          
+    
+          <li>
+            <a
+              href="/products"
+            >
+              Product Cards
+            </a>
           </li>
           
     
@@ -416,6 +429,11 @@ exports[`Home 1`] = `
           
     
           <li>
+            How define and use Product Card
+          </li>
+          
+    
+          <li>
             How define a new Logo image
           </li>
           
@@ -443,17 +461,17 @@ exports[`Home 1`] = `
           
       
           <li>
-            Chakra-ui: 2.6.1
+            Chakra-ui: +2.8.1
           </li>
           
       
           <li>
-            Vite: 4.3.9
+            Vite: +4.4.11
           </li>
           
       
           <li>
-            Vitest: +0.32.2
+            Vitest: +0.34.6
           </li>
           
     
