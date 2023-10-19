@@ -11,10 +11,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 
-import { Card } from "lib/components/card/Card";
-import type { CardProps } from "lib/components/card/Card";
-
-interface ProductCardProps extends CardProps {
+interface ProductCardProps {
   title: string;
   description?: string;
   price: number;
@@ -26,6 +23,7 @@ interface ProductCardProps extends CardProps {
   stars?: number;
   starsReviewsCounted?: number;
   stock?: number;
+  maxWidth?: string;
 }
 
 export const ProductCard = ({
@@ -40,11 +38,17 @@ export const ProductCard = ({
   stars,
   starsReviewsCounted,
   stock,
+  maxWidth,
 }: ProductCardProps) => {
   return (
-    <Card borderWidth="1px" shadow="lg" rounded={{ sm: "lg" }}>
-      <Image src={productUrl} alt={`Picture of ${title}`} roundedTop="lg" />
-      <Box p="6">
+    <Box borderWidth="1px" shadow="lg" rounded={{ sm: "lg" }}>
+      <Image
+        maxWidth={maxWidth}
+        src={productImage}
+        alt={`Picture of ${title}`}
+        roundedTop="lg"
+      />
+      <Box p="0">
         {isNew && (
           <Box display="flex" alignItems="baseline">
             <Badge rounded="full" px="2" fontSize="0.8em" colorScheme="red">
@@ -69,6 +73,6 @@ export const ProductCard = ({
           </Box>
         </Flex>
       </Box>
-    </Card>
+    </Box>
   );
 };
