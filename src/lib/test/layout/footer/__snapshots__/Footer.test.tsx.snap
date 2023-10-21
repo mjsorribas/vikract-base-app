@@ -40,25 +40,25 @@ exports[`Footer 1`] = `
         >
           <a
             className="chakra-link css-0"
-            href="https://vikract.com/aboutus"
+            href="/aboutus"
           >
             About Vikract
           </a>
           <a
             className="chakra-link css-0"
-            href="https://vikract.com/roadmap"
+            href="/roadmap"
           >
             About our Roadmap
           </a>
           <a
             className="chakra-link css-0"
-            href="https://vikract.com/documentationfordevs"
+            href="/documentationfordevs"
           >
             Documentation for developers
           </a>
           <a
             className="chakra-link css-0"
-            href="https://vikract.com/contactus"
+            href="/contactus"
           >
             Contact us
           </a>

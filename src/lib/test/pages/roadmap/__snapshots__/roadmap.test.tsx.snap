@@ -7,14 +7,66 @@ exports[`Roadmap Page 1`] = `
   <h2
     className="chakra-heading css-0"
   >
-    What is an About Us page?
+    Our Roadmap
   </h2>
   <p
     className="chakra-text css-0"
   >
-    An About Us page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business.
-    <br />
-    What an About Us page should be is a goal-oriented sales page, one that focuses on highlighting the biggest selling points of your story and brand at the top of the page, making a strong first impression on curious customers.
+    <strong>
+      2023:
+    </strong>
+    <ul
+      className="css-155za0w"
+      role="list"
+    >
+      <li
+        className="css-0"
+      >
+        Create base app template
+      </li>
+      <li
+        className="css-0"
+      >
+        Design flow to deploy to differents providers
+      </li>
+      <li
+        className="css-0"
+      >
+        Design example pages
+      </li>
+      <li
+        className="css-0"
+      >
+        Develop custom components
+      </li>
+    </ul>
+  </p>
+  <p
+    className="chakra-text css-0"
+  >
+    <strong>
+      2024:
+    </strong>
+    <ul
+      className="css-155za0w"
+      role="list"
+    >
+      <li
+        className="css-0"
+      >
+        Create library with custom components
+      </li>
+      <li
+        className="css-0"
+      >
+        Refactor custom components and move to library
+      </li>
+      <li
+        className="css-0"
+      >
+        Start a new way to generate templates based on color tokens
+      </li>
+    </ul>
   </p>
 </div>
 `;
