@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Roadmap Page 1`] = `
+<div
+  className="css-qi60vh"
+>
+  <h2
+    className="chakra-heading css-0"
+  >
+    What is an About Us page?
+  </h2>
+  <p
+    className="chakra-text css-0"
+  >
+    An About Us page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business.
+    <br />
+    What an About Us page should be is a goal-oriented sales page, one that focuses on highlighting the biggest selling points of your story and brand at the top of the page, making a strong first impression on curious customers.
+  </p>
+</div>
+`;
