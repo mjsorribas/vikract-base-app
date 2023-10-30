@@ -27,9 +27,9 @@ const Products = () => {
               key={index}
               data={product}
               maxWidth="300px"
-              showBuyButton={false}
-              showAddToCartIcon={false}
-              showAddToCartButton={false}
+              showBuyNowButton
+              showAddToCartButton
+              showAddToCartIcon
               showStarsRating={false}
             />
           ))}
