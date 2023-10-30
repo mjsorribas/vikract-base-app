@@ -1,4 +1,4 @@
-import { Button, Text, VStack, Link, Icon } from "@chakra-ui/react";
+import { Button, VStack, Link, Icon } from "@chakra-ui/react";
 import { FaCartPlus } from "react-icons/fa";
 
 interface AddToCartIconProps {
