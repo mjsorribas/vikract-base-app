@@ -62,6 +62,31 @@ exports[`Products Page 1`] = `
               19.99
             </div>
           </div>
+          <div
+            className="css-a8anto"
+          >
+            <div
+              className="chakra-stack css-ylms7g"
+            >
+              <a
+                className="chakra-link css-1o3848f"
+                href="#"
+                title="Agregar al carrito"
+              >
+                <button
+                  className="chakra-button css-17h30zq"
+                  title="Agregar al carrito"
+                  type="button"
+                >
+                  <p
+                    className="chakra-text css-0"
+                  >
+                    Agregar al carrito
+                  </p>
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div
@@ -114,6 +139,31 @@ exports[`Products Page 1`] = `
                 USD
               </span>
               29.99
+            </div>
+          </div>
+          <div
+            className="css-a8anto"
+          >
+            <div
+              className="chakra-stack css-ylms7g"
+            >
+              <a
+                className="chakra-link css-1o3848f"
+                href="#"
+                title="Agregar al carrito"
+              >
+                <button
+                  className="chakra-button css-17h30zq"
+                  title="Agregar al carrito"
+                  type="button"
+                >
+                  <p
+                    className="chakra-text css-0"
+                  >
+                    Agregar al carrito
+                  </p>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -170,6 +220,31 @@ exports[`Products Page 1`] = `
               39.99
             </div>
           </div>
+          <div
+            className="css-a8anto"
+          >
+            <div
+              className="chakra-stack css-ylms7g"
+            >
+              <a
+                className="chakra-link css-1o3848f"
+                href="#"
+                title="Agregar al carrito"
+              >
+                <button
+                  className="chakra-button css-17h30zq"
+                  title="Agregar al carrito"
+                  type="button"
+                >
+                  <p
+                    className="chakra-text css-0"
+                  >
+                    Agregar al carrito
+                  </p>
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div
@@ -224,6 +299,31 @@ exports[`Products Page 1`] = `
               49.99
             </div>
           </div>
+          <div
+            className="css-a8anto"
+          >
+            <div
+              className="chakra-stack css-ylms7g"
+            >
+              <a
+                className="chakra-link css-1o3848f"
+                href="#"
+                title="Agregar al carrito"
+              >
+                <button
+                  className="chakra-button css-17h30zq"
+                  title="Agregar al carrito"
+                  type="button"
+                >
+                  <p
+                    className="chakra-text css-0"
+                  >
+                    Agregar al carrito
+                  </p>
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div
@@ -276,6 +376,31 @@ exports[`Products Page 1`] = `
                 USD
               </span>
               59.99
+            </div>
+          </div>
+          <div
+            className="css-a8anto"
+          >
+            <div
+              className="chakra-stack css-ylms7g"
+            >
+              <a
+                className="chakra-link css-1o3848f"
+                href="#"
+                title="Agregar al carrito"
+              >
+                <button
+                  className="chakra-button css-17h30zq"
+                  title="Agregar al carrito"
+                  type="button"
+                >
+                  <p
+                    className="chakra-text css-0"
+                  >
+                    Agregar al carrito
+                  </p>
+                </button>
+              </a>
             </div>
           </div>
         </div>
