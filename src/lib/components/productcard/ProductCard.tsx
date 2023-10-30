@@ -12,13 +12,16 @@ import {
   Card,
 } from "@chakra-ui/react";
 
+import { AddToCartButton } from "./buttons/AddToCartButton";
+import { AddToCartIcon } from "./buttons/AddToCartIcon";
+import { BuyNowCartButton } from "./buttons/BuyNowCartButton";
 import type { ProductCardData } from "./ProductCardData";
 
 interface ProductCardProps {
   data: ProductCardData;
   showAddToCartButton?: boolean;
   showAddToCartIcon?: boolean;
-  showBuyButton?: boolean;
+  showBuyNowButton?: boolean;
   showStarsRating?: boolean;
   maxWidth?: string;
 }
@@ -27,7 +30,7 @@ export const ProductCard = ({
   data,
   showAddToCartButton,
   showAddToCartIcon,
-  showBuyButton,
+  showBuyNowButton,
   showStarsRating,
   maxWidth,
 }: ProductCardProps) => {
@@ -40,13 +43,27 @@ export const ProductCard = ({
         roundedTop="lg"
       />
       <Box p="0">
-        {data.isNew && (
-          <Box display="flex" alignItems="baseline">
+        <Box
+          display="flex"
+          p="2"
+          justifyContent="space-between"
+          alignItems="center"
+        >
+          {data.isNew && (
             <Badge rounded="full" px="2" fontSize="0.8em" colorScheme="red">
               New
             </Badge>
-          </Box>
-        )}
+          )}
+          {showAddToCartIcon && (
+            <AddToCartIcon
+              title="Buy Now"
+              color="#ffffff"
+              bgcolor="var(--chakra-colors-blue-600)"
+              url="#"
+              isDisable={false}
+            />
+          )}
+        </Box>
         <Box>
           <VStack spacing={6}>
             <Heading size="md" fontWeight="extrabold">
@@ -62,6 +79,26 @@ export const ProductCard = ({
             </Box>
             {data.price}
           </Box>
+        </Flex>
+        <Flex justifyContent="space-around" alignContent="center">
+          {showBuyNowButton && (
+            <BuyNowCartButton
+              title="Buy Now"
+              color="#ffffff"
+              bgcolor="var(--chakra-colors-blue-600)"
+              url="#"
+              isDisable={false}
+            />
+          )}
+          {showAddToCartButton && (
+            <AddToCartButton
+              title="Add to Cart"
+              color="#ffffff"
+              bgcolor="var(--chakra-colors-blue-600)"
+              url="#"
+              isDisable={false}
+            />
+          )}
         </Flex>
       </Box>
     </Card>
