@@ -12,6 +12,7 @@ import {
   Card,
 } from "@chakra-ui/react";
 
+import { AddToCartButton } from "./buttons/AddToCartButton";
 import type { ProductCardData } from "./ProductCardData";
 
 interface ProductCardProps {
@@ -63,6 +64,17 @@ export const ProductCard = ({
             {data.price}
           </Box>
         </Flex>
+        {showAddToCartButton && (
+          <Flex justifyContent="space-around" alignContent="center">
+            <AddToCartButton
+              title="Agregar al carrito"
+              color="#ffffff"
+              bgcolor="var(--chakra-colors-blue-600)"
+              url="#"
+              isDisable={false}
+            />
+          </Flex>
+        )}
       </Box>
     </Card>
   );
