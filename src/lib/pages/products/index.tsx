@@ -29,7 +29,7 @@ const Products = () => {
               maxWidth="300px"
               showBuyButton={false}
               showAddToCartIcon={false}
-              showAddToCartButton={false}
+              showAddToCartButton
               showStarsRating={false}
             />
           ))}
