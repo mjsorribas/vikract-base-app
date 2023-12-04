@@ -27,7 +27,7 @@
     "@fontsource/plus-jakarta-sans": "^5.0.15",
     "@types/react-slick": "^0.23.12",
     "@types/react-test-renderer": "^18.0.6",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^10.16.12",
     "html-react-parser": "^4.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
