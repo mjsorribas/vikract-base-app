@@ -43,7 +43,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^19.0.3",
     "@types/node": "^20.11.25",
-    "@types/react": "^18.2.61",
+    "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.18",
     "@types/react-helmet": "^6.1.11",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
@@ -66,6 +66,6 @@
   },
   "engines" : { 
     "npm" : ">=9.0.0 <10.0.0",
-    "node" : ">=18.16.0 <=20.4.0"
+    "node" : ">=18.16.0 <=20.11.1"
   }
 }
