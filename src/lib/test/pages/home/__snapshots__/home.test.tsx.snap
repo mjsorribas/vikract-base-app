@@ -103,6 +103,7 @@ exports[`Home 1`] = `
                 "position": "relative",
                 "transition": "opacity 500ms ease, visibility 500ms ease",
                 "width": 0,
+                "zIndex": 999,
               }
             }
             tabIndex="-1"
@@ -133,6 +134,7 @@ exports[`Home 1`] = `
                 "position": "relative",
                 "transition": "opacity 500ms ease, visibility 500ms ease",
                 "width": 0,
+                "zIndex": 998,
               }
             }
             tabIndex="-1"
@@ -163,6 +165,7 @@ exports[`Home 1`] = `
                 "position": "relative",
                 "transition": "opacity 500ms ease, visibility 500ms ease",
                 "width": 0,
+                "zIndex": 998,
               }
             }
             tabIndex="-1"
