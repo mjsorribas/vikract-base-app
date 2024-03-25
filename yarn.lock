@@ -4182,15 +4182,15 @@ html-escaper@^2.0.0:
   resolved "https://mirrors.huaweicloud.com/repository/npm/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
   integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
 
-html-react-parser@^5.1.8:
-  version "5.1.8"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/html-react-parser/-/html-react-parser-5.1.8.tgz#b8a294854845bce96627aa4f2ba738362c0ebcf8"
-  integrity sha512-oAXgUB4JYHFg4le3RQZtoge1TGMkwXSZPiWiexwdx3AuldgG+QEvbwMrscSViu90JNje3V4Zq5gCUSoTxa0W0A==
+html-react-parser@^5.1.9:
+  version "5.1.9"
+  resolved "https://registry.yarnpkg.com/html-react-parser/-/html-react-parser-5.1.9.tgz#7a8eb3a0b243bddf68f1a77bba5e423933b64161"
+  integrity sha512-MP0MQDEGlzkJT0OwY//tKYrgIzBM1frYLxx9RF7ALdIjI+MCMumydcNovXDX4X/iDi1zfgaU28VxoNXZn7EPjQ==
   dependencies:
     domhandler "5.0.3"
     html-dom-parser "5.0.8"
     react-property "2.0.2"
-    style-to-js "1.1.10"
+    style-to-js "1.1.11"
 
 htmlparser2@9.1.0:
   version "9.1.0"
@@ -6148,10 +6148,10 @@ strip-literal@^1.0.1:
   dependencies:
     acorn "^8.10.0"
 
-style-to-js@1.1.10:
-  version "1.1.10"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/style-to-js/-/style-to-js-1.1.10.tgz#ec20e1264ba11dc7f71b94b3a3a05566ed856e54"
-  integrity sha512-VC7MBJa+y0RZhpnLKDPmVRLRswsASLmixkiZ5R8xZpNT9VyjeRzwnXd2pBzAWdgSGv/pCNNH01gPCCUsB9exYg==
+style-to-js@1.1.11:
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/style-to-js/-/style-to-js-1.1.11.tgz#7ba66214cab556fdded4786e80de0baccfa0e942"
+  integrity sha512-yHpYzXzEkx7iDjGEmE8Eyl4K/hWIm36FXPdRsl2NHEpbigLeawLVsv6tcYp+2xNhfpCrut4w08dYqeCxWMdRxw==
   dependencies:
     style-to-object "1.0.5"
 
