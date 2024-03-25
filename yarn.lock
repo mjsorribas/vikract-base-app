@@ -6500,229 +6500,229 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-victory-area@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-area/-/victory-area-36.9.2.tgz#8dd79834cb182cbac0eb480d040dd6059e24bc43"
-  integrity sha512-32aharvPf2RgdQB+/u1j3/ajYFNH/7ugLX9ZRpdd65gP6QEbtXL+58gS6CxvFw6gr/y8a0xMlkMKkpDVacXLpw==
+victory-area@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-area/-/victory-area-37.0.0.tgz#b7ae44c57fe14e759efb9d523fe953f92d8f9722"
+  integrity sha512-03f2qgsXprF1yKqxAMcE4j7367WmOsyCWYKPHpR8owJxEN8om3bdFfJpjAKWLSQJ0bxDtypsFbzzeuYOlkc3HA==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
-    victory-vendor "^36.9.2"
+    victory-core "^37.0.0"
+    victory-vendor "^37.0.0"
 
-victory-axis@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-axis/-/victory-axis-36.9.2.tgz#80137a900671e918d9296f0f12f8252b6094b09b"
-  integrity sha512-4Odws+IAjprJtBg2b2ZCxEPgrQ6LgIOa22cFkGghzOSfTyNayN4M3AauNB44RZyn2O/hDiM1gdBkEg1g9YDevQ==
+victory-axis@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-axis/-/victory-axis-37.0.0.tgz#a99cc3c4e0fc790f526159776d58174fce152acc"
+  integrity sha512-F9D93ar9Kt/sTQqf8BQkbKXFottgzaVVrcwrwbGpGSvwYBRtMGA4p7Cmf5HEVmYQogyrgPVz12kxFf3ZJ1a+Eg==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-bar@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-bar/-/victory-bar-36.9.2.tgz#8ab0f67337394b71d8bd6ee1599bd260f3d63303"
-  integrity sha512-R3LFoR91FzwWcnyGK2P8DHNVv9gsaWhl5pSr2KdeNtvLbZVEIvUkTeVN9RMBMzterSFPw0mbWhS1Asb3sV6PPw==
+victory-bar@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-bar/-/victory-bar-37.0.0.tgz#dc3456411ed1ff02a550ffe12a69aee1dabe110b"
+  integrity sha512-s1ApP8XVVfLSL/7yxybHFUfTPoo+0vBDnWpIeozt4dl+FPZNK+PNcvnQUJhByxWiu1e2M14FltRaJ82LlPv7rw==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
-    victory-vendor "^36.9.2"
+    victory-core "^37.0.0"
+    victory-vendor "^37.0.0"
 
-victory-box-plot@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-box-plot/-/victory-box-plot-36.9.2.tgz#504c0ceef303a7c56ce2877711d53df99915e9c4"
-  integrity sha512-nUD45V/YHDkAKZyak7YDsz+Vk1F9N0ica3jWQe0AY0JqD9DleHa8RY/olSVws26kLyEj1I+fQqva6GodcLaIqQ==
+victory-box-plot@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-box-plot/-/victory-box-plot-37.0.0.tgz#21015ed967ce1b2ffe874ce923933930cb092cf0"
+  integrity sha512-JM0e9FarCGK9O+371GfSB6d6hQcPrCQPMGY9B6E6nSywEYymgHtagg9gMosUFjrAbYsTG106PBaQRkhYvaqvYw==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
-    victory-vendor "^36.9.2"
+    victory-core "^37.0.0"
+    victory-vendor "^37.0.0"
 
-victory-brush-container@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-brush-container/-/victory-brush-container-36.9.2.tgz#989c2b4787fb222f8354202c7ff0d0b3fa236e53"
-  integrity sha512-KcQjzFeo40tn52cJf1A02l5MqeR9GKkk3loDqM3T2hfi1PCyUrZXEUjGN5HNlLizDRvtcemaAHNAWlb70HbG/g==
-  dependencies:
-    lodash "^4.17.19"
-    react-fast-compare "^3.2.0"
-    victory-core "^36.9.2"
-
-victory-brush-line@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-brush-line/-/victory-brush-line-36.9.2.tgz#8fc446c77cb56d981e482f3a8119cc399ba1860b"
-  integrity sha512-/ncj8HEyl73fh8bhU4Iqe79DL62QP2rWWoogINxsGvndrhpFbL9tj7IPSEawi+riOh/CmohgI/ETu/V7QU9cJw==
+victory-brush-container@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-brush-container/-/victory-brush-container-37.0.0.tgz#b02fad4f4e91eaa4c7f6ccfbda44701a96a8a070"
+  integrity sha512-qD/sSc8OANbJH+8lIUUkkCNBH/sM7O1hfCZybFYYtwKRnrEGGj5WAC2SLzSFiiU29UHn9LfCR7ltpXTh4LJM0A==
   dependencies:
     lodash "^4.17.19"
     react-fast-compare "^3.2.0"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-candlestick@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-candlestick/-/victory-candlestick-36.9.2.tgz#c2a4cc775c476f20d8853f8402f5df0c734ba9ff"
-  integrity sha512-hbStzF61GHkkflJWFgLTZSR8SOm8siJn65rwApLJBIA283yWOlyPjdr/kIQtO/h5QkIiXIuLb7RyiUAJEnH9WA==
-  dependencies:
-    lodash "^4.17.19"
-    victory-core "^36.9.2"
-
-victory-canvas@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-canvas/-/victory-canvas-36.9.2.tgz#5da579eeb47f9a8c14499c4c656137d12a6a9bd8"
-  integrity sha512-ImHJ7JQCpQ9aGCsh37EeVAmqJc7R0gl2CLM99gP9GfuJuZeoZ/GVfX6QFamfr19rYQOD2m9pVbecySBzdYI1zQ==
-  dependencies:
-    lodash "^4.17.19"
-    victory-bar "^36.9.2"
-    victory-core "^36.9.2"
-
-victory-chart@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-chart/-/victory-chart-36.9.2.tgz#ab09f566722d7337e55ebca45a6a82ed071fb277"
-  integrity sha512-dMNcS0BpqL3YiGvI4BSEmPR76FCksCgf3K4CSZ7C/MGyrElqB6wWwzk7afnlB1Qr71YIHXDmdwsPNAl/iEwTtA==
+victory-brush-line@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-brush-line/-/victory-brush-line-37.0.0.tgz#fd2f2a10c07e92b8c2c2bfa27d5d7144e687b176"
+  integrity sha512-FmJd77bqqNuK9vuyAqkLCkTsHTu74SslD45JnE4VPb2r0ytYv4RirGf3l7OLAAwIGHqjePeRyier9rJrwroj2Q==
   dependencies:
     lodash "^4.17.19"
     react-fast-compare "^3.2.0"
-    victory-axis "^36.9.2"
-    victory-core "^36.9.2"
-    victory-polar-axis "^36.9.2"
-    victory-shared-events "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-core@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-core/-/victory-core-36.9.2.tgz#bb82846e8f60b62f51e70b2658192c8434596d02"
-  integrity sha512-AzmMy+9MYMaaRmmZZovc/Po9urHne3R3oX7bbXeQdVuK/uMBrlPiv11gVJnuEH2SXLVyep43jlKgaBp8ef9stQ==
+victory-candlestick@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-candlestick/-/victory-candlestick-37.0.0.tgz#d4978de11c17437cf31a7dfce2ad2c18d466ca50"
+  integrity sha512-vRMVM0hXM0ZXmx/MJUciAdGcnsl/cDOERxtJSAKX80XT+Bk5w/wLmEP08F5oszujLhg/2PYD5cTdMFc+KF9yPA==
+  dependencies:
+    lodash "^4.17.19"
+    victory-core "^37.0.0"
+
+victory-canvas@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-canvas/-/victory-canvas-37.0.0.tgz#2176aef7a95a07d9a3aa9840bc2342d1cc26df66"
+  integrity sha512-SaWiUXp+vor8ZKKtnMIQ4gT5fM2IxlPgN9qtvAZwqEsOUmry27Z2D1Wf2Tof9uKvVz4JJ5DNcxyKnlJo4kevrw==
+  dependencies:
+    lodash "^4.17.19"
+    victory-bar "^37.0.0"
+    victory-core "^37.0.0"
+
+victory-chart@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-chart/-/victory-chart-37.0.0.tgz#4b553f59f8911895c09c776a52e66a32e803c6b5"
+  integrity sha512-M/TwH9TmG5PGDiu9AJnxd1yYhGAMnB5+y19+0libAtA9pDnJ9rrO1pG2Tfad+MTvgAnkN/5HEZjRXhqkYRTb9A==
+  dependencies:
+    lodash "^4.17.19"
+    react-fast-compare "^3.2.0"
+    victory-axis "^37.0.0"
+    victory-core "^37.0.0"
+    victory-polar-axis "^37.0.0"
+    victory-shared-events "^37.0.0"
+
+victory-core@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-core/-/victory-core-37.0.0.tgz#caf6196524150f97aeabdad3573d28e50701a8d8"
+  integrity sha512-aN5ZK9OO/HukifkX942Nsr0RidL/jsi/kTsBW68Ir6c6HazsfRFp0Ee3fIxy1ikUGe2XUaOu0eBv1v06+hfJKQ==
   dependencies:
     lodash "^4.17.21"
     react-fast-compare "^3.2.0"
-    victory-vendor "^36.9.2"
+    victory-vendor "^37.0.0"
 
-victory-create-container@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-create-container/-/victory-create-container-36.9.2.tgz#d913683cc2a9dda25f58c1f1336e0985f8288712"
-  integrity sha512-uA0dh1R0YDzuXyE/7StZvq4qshet+WYceY7R1UR5mR/F9079xy+iQsa2Ca4h97/GtVZoLO6r1eKLWBt9TN+U7A==
+victory-create-container@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-create-container/-/victory-create-container-37.0.0.tgz#de98c16a5828aef2f7f13d5457468c682831f8db"
+  integrity sha512-ZMt+Oub8wj5dxaiOgd2MZpwhIIVK32iFTUPvnOBcBilHrpNzj7fPtUleiyAn5I6WrkZBYiXyXQrmEbK6QcglMw==
   dependencies:
     lodash "^4.17.19"
-    victory-brush-container "^36.9.2"
-    victory-core "^36.9.2"
-    victory-cursor-container "^36.9.2"
-    victory-selection-container "^36.9.2"
-    victory-voronoi-container "^36.9.2"
-    victory-zoom-container "^36.9.2"
+    victory-brush-container "^37.0.0"
+    victory-core "^37.0.0"
+    victory-cursor-container "^37.0.0"
+    victory-selection-container "^37.0.0"
+    victory-voronoi-container "^37.0.0"
+    victory-zoom-container "^37.0.0"
 
-victory-cursor-container@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-cursor-container/-/victory-cursor-container-36.9.2.tgz#4f874c76c02c80a4f3d09ffa741076f905f8ed4f"
-  integrity sha512-jidab4j3MaciF3fGX70jTj4H9rrLcY8o2LUrhJ67ZLvEFGGmnPtph+p8Fe97Umrag7E/DszjNxQZolpwlgUh3g==
+victory-cursor-container@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-cursor-container/-/victory-cursor-container-37.0.0.tgz#4e49bf88e6a7f06d22f52f9740daa100c81a0966"
+  integrity sha512-JM/YLc/Wy8s9qjKkDoPG6OCddNV5XODkvc0MuzZIOfAlL5tXgXDseDcym9FJuG5h7DBYZdiyioV9I5Z/qu74iw==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-errorbar@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-errorbar/-/victory-errorbar-36.9.2.tgz#8dca0ee735f1328809399cbdf625e66a4f6e8bcf"
-  integrity sha512-i/WPMN6/7F55FpEpN9WcwiWwaFJ+2ymfTgfBDLkUD3XJ52HGen4BxUt1ouwDA3FXz9kLa/h6Wbp/fnRhX70row==
+victory-errorbar@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-errorbar/-/victory-errorbar-37.0.0.tgz#ce0b60d3af6340bb9c314c08370f87fe3299f3a3"
+  integrity sha512-tiuM9/TKEpn65oYspaGJhy/jqmG2WQfGDf9rEq972FGlwZ+mZ2K63FLMu+LN0kSEbFJZz6zp9glnDXI8Ksli0Q==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-group@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-group/-/victory-group-36.9.2.tgz#4451b3cf9a4a9488271277c31d85022dfdb59397"
-  integrity sha512-wBmpsjBTKva8mxHvHNY3b8RE58KtnpLLItEyyAHaYkmExwt3Uj8Cld3sF3vmeuijn2iR64NPKeMbgMbfZJzycw==
-  dependencies:
-    lodash "^4.17.19"
-    react-fast-compare "^3.2.0"
-    victory-core "^36.9.2"
-    victory-shared-events "^36.9.2"
-
-victory-histogram@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-histogram/-/victory-histogram-36.9.2.tgz#e1314ca0c950c7a8950157a8254debaf4ecb4b04"
-  integrity sha512-w0ipFwWZ533qyqduRacr5cf+H4PGAUTdWNyGvZbWyu4+GtYYjGdoOolfUcO1ee8VJ1kZodpG8Z7ud6I/GWIzjQ==
+victory-group@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-group/-/victory-group-37.0.0.tgz#0bfb887d45b0d9a60395603902f8bf97e033963e"
+  integrity sha512-CS6QjRzesHmQ2/ZxI+jcdiiManv1KJ0HIshAzrmfPU0OlW2CI8+FDfWu1mkgbvWXjZ8glRtysgLDML42unH0Sg==
   dependencies:
     lodash "^4.17.19"
     react-fast-compare "^3.2.0"
-    victory-bar "^36.9.2"
-    victory-core "^36.9.2"
-    victory-vendor "^36.9.2"
+    victory-core "^37.0.0"
+    victory-shared-events "^37.0.0"
 
-victory-legend@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-legend/-/victory-legend-36.9.2.tgz#2ca9e36b7be60bc4a64711f25524ac1290e75453"
-  integrity sha512-cucFJpv6fty+yXp5pElQFQnHBk1TqA4guGUMI+XF/wLlnuM4bhdAtASobRIIBkz0mHGBaCAAV4PzL9azPU/9dg==
+victory-histogram@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-histogram/-/victory-histogram-37.0.0.tgz#d9a92a5860687be8e5af178794e73a916fe6f299"
+  integrity sha512-kK20Kf12zJxaH8KtrkrYUNjHM/PROI5zWKEyUT6wgywfz5sUFgANIGb4F0RZbXlFa7CC6ppghTaNq51VJ0l5Pg==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
+    react-fast-compare "^3.2.0"
+    victory-bar "^37.0.0"
+    victory-core "^37.0.0"
+    victory-vendor "^37.0.0"
 
-victory-line@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-line/-/victory-line-36.9.2.tgz#02e3e1f404ac4b0a2cca4ae4684c20037e2a51a3"
-  integrity sha512-kmYFZUo0o2xC8cXRsmt/oUBRQSZJVT2IJnAkboUepypoj09e6CY5tRH4TSdfEDGkBk23xQkn7d4IFgl4kAGnSA==
+victory-legend@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-legend/-/victory-legend-37.0.0.tgz#8d9f1a0ad77c7cd3c108b5ebe94e0d4f984e8953"
+  integrity sha512-r78/U/TPz7gQD7v0Jos/fr5VyeD3MED2p2Tp3zTadhFJNluo+0n/FM8q4qmw+xhKo6jv/Z4ZC8M9Sdj72yQtrw==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
-    victory-vendor "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-pie@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-pie/-/victory-pie-36.9.2.tgz#2af3c12b9251de20f11a8325c821aede9cb5f8a5"
-  integrity sha512-i3zWezvy5wQEkhXKt4rS9ILGH7Vr9Q5eF9fKO4GMwDPBdYOTE3Dh2tVaSrfDC8g9zFIc0DKzOtVoJRTb+0AkPg==
+victory-line@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-line/-/victory-line-37.0.0.tgz#d9f761c49b81fbd87b565f21d83a0e79f74088ea"
+  integrity sha512-qLSCi3vVYoZTraULqve5+b9bv5s2Bru95dpr5nM6DA9TiWbBSEUOt4Av7r0TEGycH1eyMf/3CS6KN6uUbb6MTQ==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
-    victory-vendor "^36.9.2"
+    victory-core "^37.0.0"
+    victory-vendor "^37.0.0"
 
-victory-polar-axis@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-polar-axis/-/victory-polar-axis-36.9.2.tgz#574a7deede92d227e20e9ad4938c57633f5e5ac3"
-  integrity sha512-HBR90FF4M56yf/atXjSmy3DMps1vSAaLXmdVXLM/A5g+0pUS7HO719r5x6dsR3I6Rm+8x6Kk8xJs0qgpnGQIEw==
+victory-pie@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-pie/-/victory-pie-37.0.0.tgz#bdb389a548ea7777b06a685d286d59fc51d2a95a"
+  integrity sha512-S2eeXmBFDLDwOnQZaWG1wCSbwT91ptPBtL6ZhpCnN0VNWW9FysoQrlOOBNxTHkoQQ4/MkJdEoLafi1VQJ1ct6g==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
+    victory-vendor "^37.0.0"
 
-victory-scatter@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-scatter/-/victory-scatter-36.9.2.tgz#f07dced7660f90e2a898053431462d3c6372149f"
-  integrity sha512-hK9AtbJQfaW05i8BH7Lf1HK7vWMAfQofj23039HEQJqTKbCL77YT+Q0LhZw1a1BRCpC/5aSg9EuqblhfIYw2wg==
+victory-polar-axis@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-polar-axis/-/victory-polar-axis-37.0.0.tgz#c7e346ead76806393a9a0419d07080aa5d92bd4c"
+  integrity sha512-Pyumr5/kKqg2U/XpTJRGmCC3IvR3BKkd0xnCbqFrCqWqzOrPIfqurg5FI2+lF64Mtaozg7+iZWfkFunpi7xmDw==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-selection-container@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-selection-container/-/victory-selection-container-36.9.2.tgz#bff359d27d50b04a473eacdb8e8c66488afd20a4"
-  integrity sha512-chboroEwqqVlMB60kveXM2WznJ33ZM00PWkFVCoJDzHHlYs7TCADxzhqet2S67SbZGSyvSprY2YztSxX8kZ+XQ==
+victory-scatter@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-scatter/-/victory-scatter-37.0.0.tgz#76a12a6f2a62c2377e9d22fe9a153d09acdbe997"
+  integrity sha512-sIJndTN/kXOmUF2QN4dJ+h9+p9DD3v/mTZzNmiw1q19ZSSBOWGZg1pxAAC/D+Bt0Fu3AawkyMdqMAIyOHLWixQ==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-shared-events@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-shared-events/-/victory-shared-events-36.9.2.tgz#cf0cf2220ee1eb90baa16e202873b20254ab9cde"
-  integrity sha512-W/atiw3Or6MnpBuhluFv6007YrixIRh5NtiRvtFLGxNuQJLYjaSh6koRAih5xJer5Pj7YUx0tL9x67jTRcJ6Dg==
+victory-selection-container@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-selection-container/-/victory-selection-container-37.0.0.tgz#318d861cf3cf88895b586016187e3c7724069cc4"
+  integrity sha512-ny3rLE+veQK07uyPZtcUFCty3xegTog/2C33X9BrXxFsZUt0cYrDqjB0rcb+s4jwXV7QBbkdEpwRxbqGlVrJ1g==
+  dependencies:
+    lodash "^4.17.19"
+    victory-core "^37.0.0"
+
+victory-shared-events@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-shared-events/-/victory-shared-events-37.0.0.tgz#cd26562ed05943393fa10568c90bee89d50e0b73"
+  integrity sha512-TMd2vCVuwX9s2l0fl8gjrAAoAxEZdyJnBPXYVUWF7ZXvHoDDXZU2xI5smCdkiwqqFBaJ2wuL0ABvvcSarKuuxA==
   dependencies:
     json-stringify-safe "^5.0.1"
     lodash "^4.17.19"
     react-fast-compare "^3.2.0"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-stack@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-stack/-/victory-stack-36.9.2.tgz#25cd48ed66b4c9163993e6ac8d770dca791e2074"
-  integrity sha512-imR6FniVlDFlBa/B3Est8kTryNhWj2ZNpivmVOebVDxkKcVlLaDg3LotCUOI7NzOhBQaro0UzeE9KmZV93JcYA==
+victory-stack@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-stack/-/victory-stack-37.0.0.tgz#4b55802e2819eaf8de3e519b590046427895091b"
+  integrity sha512-cPATuCqyez8PpzBUxpxuCB2B2BCj0DXoPWutAOHXkIAdFfRBOPQ7P+CIX7a1QouPFztALeaxsEa382f+1yWAhA==
   dependencies:
     lodash "^4.17.19"
     react-fast-compare "^3.2.0"
-    victory-core "^36.9.2"
-    victory-shared-events "^36.9.2"
+    victory-core "^37.0.0"
+    victory-shared-events "^37.0.0"
 
-victory-tooltip@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-tooltip/-/victory-tooltip-36.9.2.tgz#8e240a03f80909e80a9501419bec01bc13700919"
-  integrity sha512-76seo4TWD1WfZHJQH87IP3tlawv38DuwrUxpnTn8+uW6/CUex82poQiVevYdmJzhataS9jjyCWv3w7pOmLBCLg==
+victory-tooltip@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-tooltip/-/victory-tooltip-37.0.0.tgz#c9871a53e7dd807d5c698971b35e36fc5b59d272"
+  integrity sha512-vLsYUPbg18TmB8r8P4MyRbw++QEvym6JdFr7dAOGSHbRP1aehfrheUzR2OZJPscoCtbjGZSy1XRUsvaiuidfFQ==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-vendor@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-vendor/-/victory-vendor-36.9.2.tgz#668b02a448fa4ea0f788dbf4228b7e64669ff801"
-  integrity sha512-PnpQQMuxlwYdocC8fIJqVXvkeViHYzotI+NJrCuav0ZYFoq912ZHBk3mCeuj+5/VpodOjPe1z0Fk2ihgzlXqjQ==
+victory-vendor@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-vendor/-/victory-vendor-37.0.0.tgz#63ee8bc69d89e0e163a15f0f885dac926f562441"
+  integrity sha512-jNqpyUTCw2EbNplG8KsbVkHCBPSOL5fTQHVf/1oOBecfVoO8dwAGDm0xFCAD4w4c9llck6zgIV3eqR04jVYRHA==
   dependencies:
     "@types/d3-array" "^3.0.3"
     "@types/d3-ease" "^3.0.0"
@@ -6739,66 +6739,66 @@ victory-vendor@^36.9.2:
     d3-time "^3.0.0"
     d3-timer "^3.0.1"
 
-victory-voronoi-container@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-voronoi-container/-/victory-voronoi-container-36.9.2.tgz#1b3ce4dd43ceb371f6caba6b0724ca563de87b96"
-  integrity sha512-NIVYqck9N4OQnEz9mgQ4wILsci3OBWWK7RLuITGHyoD7Ne/+WH1i0Pv2y9eIx+f55rc928FUTugPPhkHvXyH3A==
+victory-voronoi-container@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-voronoi-container/-/victory-voronoi-container-37.0.0.tgz#d21a1df1fd06b27b1459bb7af32c8dbd1148830c"
+  integrity sha512-gt1YegpztYmPqrx78MEu2tMDXMWc0LMJ/mm3YpQoGj+szJH3xM/PMzdQObZKkOZL3hBV1bxTKohZwo8eSm21ZA==
   dependencies:
     delaunay-find "0.0.6"
     lodash "^4.17.19"
     react-fast-compare "^3.2.0"
-    victory-core "^36.9.2"
-    victory-tooltip "^36.9.2"
+    victory-core "^37.0.0"
+    victory-tooltip "^37.0.0"
 
-victory-voronoi@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-voronoi/-/victory-voronoi-36.9.2.tgz#b58883b2a14c8ad0e4c131a1d02c6e428ecae612"
-  integrity sha512-50fq0UBTAFxxU+nabOIPE5P2v/2oAbGAX+Ckz6lu8LFwwig4J1DSz0/vQudqDGjzv3JNEdqTD4FIpyjbxLcxiA==
+victory-voronoi@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-voronoi/-/victory-voronoi-37.0.0.tgz#880e68544b51f78f3089d7f45fdba8a8f5d37c38"
+  integrity sha512-ZFdrB4dXKY6vEbttjlhpzqeP5x/FL7MgnqJmHd4IORv0ddsc6XdruseFRTDyN8FVnEbLNbpfeZWbxv9xMvYQMA==
   dependencies:
     d3-voronoi "^1.1.4"
     lodash "^4.17.19"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
 
-victory-zoom-container@^36.9.2:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory-zoom-container/-/victory-zoom-container-36.9.2.tgz#2899c8fa06d772864128b44130d48744298b76d0"
-  integrity sha512-pXa2Ji6EX/pIarKT6Hcmmu2n7IG/x8Vs0D2eACQ/nbpvZa+DXWIxCRW4hcg2Va35fmXcDIEpGaX3/soXzZ+pbw==
+victory-zoom-container@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory-zoom-container/-/victory-zoom-container-37.0.0.tgz#94e415077614ecd671ffd834aec260ce8d3b9db0"
+  integrity sha512-jmqF3JYFPn3rjcwvA9DRUkkADRhYqTx3FOhEGxJDWSZ2XHKRlZuAiHvwoftKixM3V9ZCyVhyf0vWsm6BxdCCzQ==
   dependencies:
     lodash "^4.17.19"
-    victory-core "^36.9.2"
+    victory-core "^37.0.0"
 
-victory@^36.9.1:
-  version "36.9.2"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/victory/-/victory-36.9.2.tgz#0f4ceec0c732bf166f9a3997cbf6c6df54bf1476"
-  integrity sha512-kgVgiSno4KpD0HxmUo5GzqWI4P/eILLOM6AmJfAlagCnOzrtYGsAw+N1YxOcYvTiKsh/zmWawxHlpw3TMenFDQ==
+victory@^37.0.0:
+  version "37.0.0"
+  resolved "https://registry.yarnpkg.com/victory/-/victory-37.0.0.tgz#27517a37c4d36c0bb0f646dcf7f2a8b4892f8dc2"
+  integrity sha512-DHMrQvt1IbpMWylCUZqK05PLGf2crab4N8atZ+fjMv3eSVe5pnc6g/Icno8Hhch2nES4vC/PDxFnSrvcWui+8g==
   dependencies:
-    victory-area "^36.9.2"
-    victory-axis "^36.9.2"
-    victory-bar "^36.9.2"
-    victory-box-plot "^36.9.2"
-    victory-brush-container "^36.9.2"
-    victory-brush-line "^36.9.2"
-    victory-candlestick "^36.9.2"
-    victory-canvas "^36.9.2"
-    victory-chart "^36.9.2"
-    victory-core "^36.9.2"
-    victory-create-container "^36.9.2"
-    victory-cursor-container "^36.9.2"
-    victory-errorbar "^36.9.2"
-    victory-group "^36.9.2"
-    victory-histogram "^36.9.2"
-    victory-legend "^36.9.2"
-    victory-line "^36.9.2"
-    victory-pie "^36.9.2"
-    victory-polar-axis "^36.9.2"
-    victory-scatter "^36.9.2"
-    victory-selection-container "^36.9.2"
-    victory-shared-events "^36.9.2"
-    victory-stack "^36.9.2"
-    victory-tooltip "^36.9.2"
-    victory-voronoi "^36.9.2"
-    victory-voronoi-container "^36.9.2"
-    victory-zoom-container "^36.9.2"
+    victory-area "^37.0.0"
+    victory-axis "^37.0.0"
+    victory-bar "^37.0.0"
+    victory-box-plot "^37.0.0"
+    victory-brush-container "^37.0.0"
+    victory-brush-line "^37.0.0"
+    victory-candlestick "^37.0.0"
+    victory-canvas "^37.0.0"
+    victory-chart "^37.0.0"
+    victory-core "^37.0.0"
+    victory-create-container "^37.0.0"
+    victory-cursor-container "^37.0.0"
+    victory-errorbar "^37.0.0"
+    victory-group "^37.0.0"
+    victory-histogram "^37.0.0"
+    victory-legend "^37.0.0"
+    victory-line "^37.0.0"
+    victory-pie "^37.0.0"
+    victory-polar-axis "^37.0.0"
+    victory-scatter "^37.0.0"
+    victory-selection-container "^37.0.0"
+    victory-shared-events "^37.0.0"
+    victory-stack "^37.0.0"
+    victory-tooltip "^37.0.0"
+    victory-voronoi "^37.0.0"
+    victory-voronoi-container "^37.0.0"
+    victory-zoom-container "^37.0.0"
 
 vite-node@0.34.6:
   version "0.34.6"
