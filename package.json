@@ -23,12 +23,12 @@
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
+    "@emotion/styled": "^11.11.5",
     "@fontsource/plus-jakarta-sans": "^5.0.18",
     "@types/react-slick": "^0.23.13",
     "@types/react-test-renderer": "^18.0.7",
     "framer-motion": "^11.0.20",
-    "html-react-parser": "^5.1.9",
+    "html-react-parser": "^5.1.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
@@ -37,12 +37,12 @@
     "react-slick": "^0.30.2",
     "react-test-renderer": "^18.2.0",
     "slick-carousel": "^1.8.1",
-    "victory": "^37.0.0",
+    "victory": "^37.0.1",
     "vitest": "^0.34.6"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.0.3",
-    "@types/node": "^20.11.30",
+    "@types/node": "^20.12.2",
     "@types/react": "^18.2.67",
     "@types/react-dom": "^18.2.18",
     "@types/react-helmet": "^6.1.11",
@@ -62,10 +62,10 @@
     "prettier": "^3.2.4",
     "standard-version": "^9.5.0",
     "typescript": "^5.3.3",
-    "vite": "^5.1.6"
+    "vite": "^5.2.7"
   },
   "engines" : { 
     "npm" : ">=9.0.0 <10.0.0",
-    "node" : ">=18.16.0 <=20.11.1"
+    "node" : ">=18.16.0 <=20.12.0"
   }
 }
