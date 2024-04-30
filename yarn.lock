@@ -1441,10 +1441,10 @@
   resolved "https://mirrors.huaweicloud.com/repository/npm/@eslint/js/-/js-8.57.0.tgz#a5417ae8427873f1dd08b70b3574b453e67b5f7f"
   integrity sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==
 
-"@fontsource/plus-jakarta-sans@^5.0.18":
-  version "5.0.19"
-  resolved "https://mirrors.huaweicloud.com/repository/npm/@fontsource/plus-jakarta-sans/-/plus-jakarta-sans-5.0.19.tgz#e08671728cde85160b9a5d789e5dee9db792d71f"
-  integrity sha512-LWMReNfB3s3tLRCPlFkqTfheqV40+2RQ4pOFhmKKB+9QrFsSf+g4Sl5r2V0+FNWHzdjfCas7uF4d+PejipqvUw==
+"@fontsource/plus-jakarta-sans@^5.0.20":
+  version "5.0.20"
+  resolved "https://registry.yarnpkg.com/@fontsource/plus-jakarta-sans/-/plus-jakarta-sans-5.0.20.tgz#581c5eb9524b176ccc2b472101467f144a2fc08a"
+  integrity sha512-a887FrG31RWqliRg1jXZM8tjzqee2NlO3Vuc5uGdws2EFvOg46P9VMaeS5eM3jihFq8Kj0zUQD0GYQqcxdkfCA==
 
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
