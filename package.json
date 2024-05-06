@@ -62,7 +62,7 @@
     "prettier": "^3.2.4",
     "standard-version": "^9.5.0",
     "typescript": "^5.4.5",
-    "vite": "^5.2.8"
+    "vite": "^5.2.11"
   },
   "engines" : { 
     "npm" : ">=9.0.0 <10.0.0",
