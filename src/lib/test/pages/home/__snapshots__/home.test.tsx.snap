@@ -9,7 +9,7 @@ exports[`Home 1`] = `
   >
     <button
       aria-label="left-arrow"
-      className="chakra-button css-4n7clc"
+      className="chakra-button css-quef7b"
       onClick={[Function]}
       type="button"
     >
@@ -36,7 +36,7 @@ exports[`Home 1`] = `
     </button>
     <button
       aria-label="right-arrow"
-      className="chakra-button css-1mzvrn2"
+      className="chakra-button css-1i2byr4"
       onClick={[Function]}
       type="button"
     >
