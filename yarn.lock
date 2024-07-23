@@ -3867,10 +3867,10 @@ foreground-child@^2.0.0:
     cross-spawn "^7.0.0"
     signal-exit "^3.0.2"
 
-framer-motion@^11.2.13:
-  version "11.2.13"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.2.13.tgz#ab23fbc386233b1a1548757d840190054e5e1f1d"
-  integrity sha512-AyIeegfkXlkX1lWEudRYsJlC+0A59cE8oFK9IsN9bUQzxLwcvN3AEaYaznkELiWlHC7a0eD7pxsYQo7BC05S5A==
+framer-motion@^11.3.11:
+  version "11.3.11"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.3.11.tgz#1a26a54e71532eb793ce2f2d55f3b8075383e8ee"
+  integrity sha512-PK6pV73op+JxOBgHy0eeuUgmUgxiUIP6wvDLqewGOsHnk0eqX+2Kb8dHQMh53wPxma/tnCiaU0G4uimy3ejeLQ==
   dependencies:
     tslib "^2.4.0"
 
