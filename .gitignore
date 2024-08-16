@@ -6,3 +6,4 @@ dist-ssr
 .vs
 .editorconfig
 yarn-error.log*
+.yarn/*
