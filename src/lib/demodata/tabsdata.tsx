@@ -42,10 +42,11 @@ export const tabsdata = [
     title: "Tech Stack",
     content: `
     <ul>
-      <li>React: +18.2.0</li>
-      <li>Chakra-ui: +2.8.1</li>
-      <li>Vite: +4.4.11</li>
+      <li>React: +18.3.1</li>
+      <li>Chakra-ui: +2.8.2</li>
+      <li>Vite: +5.4</li>
       <li>Vitest: +0.34.6</li>
+      <li>Typescript: +5.5.4</li>
     </ul>
     `,
   },
