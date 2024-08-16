@@ -168,7 +168,7 @@ exports[`Navbar Mobile true 1`] = `
           style={
             {
               "opacity": 0,
-              "transform": "scale(0.8) translateZ(0)",
+              "transform": "scale(0.8)",
               "transformOrigin": "var(--popper-transform-origin)",
               "visibility": "hidden",
             }
