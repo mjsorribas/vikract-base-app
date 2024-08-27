@@ -57,7 +57,7 @@
     "eslint": "^8.56.0",
     "eslint-config-sznm": "^2.0.3",
     "eslint-plugin-import": "^2.29.1",
-    "happy-dom": "14.12.3",
+    "happy-dom": "15.0.0",
     "husky": "^9.1.4",
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.3",
