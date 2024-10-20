@@ -6,17 +6,11 @@ interface Props {
   title?: string;
 }
 
-const defaultProps: Props = {
-  fontSize: "sm",
-  fontColor: "#000000",
-  title: "© 2022 Vikract. All rights reserved",
-};
-
 const Copyright = ({
-  fontSize,
-  fontColor,
-  title,
-}: Props & typeof defaultProps) => {
+  fontSize = "sm",
+  fontColor = "#000000",
+  title = "© 2022 Vikract. All rights reserved",
+}: Props) => {
   return (
     <Stack align={{ md: "flex-start", sm: "center" }} spacing={6}>
       <Box fontSize={fontSize}>
@@ -25,7 +19,5 @@ const Copyright = ({
     </Stack>
   );
 };
-
-Copyright.defaultProps = defaultProps;
 
 export default Copyright;
