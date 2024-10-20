@@ -8,22 +8,18 @@ exports[`Navbar 1`] = `
     className="css-k008qs"
   >
     <div
-      className="css-70qvj9"
+      className="css-0"
     >
-      <div
-        className="css-0"
+      <img
+        className="chakra-image css-1chmwhm"
+        src="/assets/vikract.svg"
+        title="The Vikract Webapp template"
+      />
+      <p
+        className="chakra-text css-104caxi"
       >
-        <img
-          className="chakra-image css-1chmwhm"
-          src="/assets/vikract.svg"
-          title="The Vikract Webapp template"
-        />
-        <p
-          className="chakra-text css-104caxi"
-        >
-          THE VIKRACT TEMPLATE
-        </p>
-      </div>
+        THE VIKRACT TEMPLATE
+      </p>
     </div>
     <div
       className="css-17xejub"
@@ -93,22 +89,18 @@ exports[`Navbar Mobile true 1`] = `
     className="css-k008qs"
   >
     <div
-      className="css-70qvj9"
+      className="css-0"
     >
-      <div
-        className="css-0"
+      <img
+        className="chakra-image css-1chmwhm"
+        src="/assets/vikract.svg"
+        title="The Vikract Webapp template"
+      />
+      <p
+        className="chakra-text css-104caxi"
       >
-        <img
-          className="chakra-image css-1chmwhm"
-          src="/assets/vikract.svg"
-          title="The Vikract Webapp template"
-        />
-        <p
-          className="chakra-text css-104caxi"
-        >
-          THE VIKRACT TEMPLATE
-        </p>
-      </div>
+        THE VIKRACT TEMPLATE
+      </p>
     </div>
     <div
       className="css-17xejub"
