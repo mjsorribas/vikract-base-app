@@ -11,6 +11,8 @@ import Products from "lib/pages/products";
 import Roadmap from "lib/pages/roadmap";
 import TermsAndConditions from "lib/pages/termsandconditions";
 import DocumentationForDevs from "lib/pages/documentationfordevs";
+import Blog from "lib/pages/blog";
+import BlogPage from "lib/pages/blogpage";
 
 export const routes: Array<PathRouteProps> = [
   {
@@ -24,6 +26,14 @@ export const routes: Array<PathRouteProps> = [
   {
     path: "/prices",
     element: <Prices />,
+  },
+  {
+    path: "/blog",
+    element: <Blog />,
+  },
+  {
+    path: "/blog-single-page",
+    element: <BlogPage />,
   },
   {
     path: "/aboutus",
