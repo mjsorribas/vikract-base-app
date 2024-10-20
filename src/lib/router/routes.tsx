@@ -10,6 +10,7 @@ import Prices from "lib/pages/prices";
 import Products from "lib/pages/products";
 import Roadmap from "lib/pages/roadmap";
 import TermsAndConditions from "lib/pages/termsandconditions";
+import DocumentationForDevs from "lib/pages/documentationfordevs";
 
 export const routes: Array<PathRouteProps> = [
   {
@@ -47,6 +48,10 @@ export const routes: Array<PathRouteProps> = [
   {
     path: "/features",
     element: <Features />,
+  },
+  {
+    path: "/documentationfordevs",
+    element: <DocumentationForDevs />,
   },
   {
     path: "/features/dynamicmodal",
