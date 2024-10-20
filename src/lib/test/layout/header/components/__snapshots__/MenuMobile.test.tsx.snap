@@ -5,18 +5,22 @@ exports[`MenuMobile 1`] = `
   className="css-k008qs"
 >
   <div
-    className="css-0"
+    className="css-70qvj9"
   >
-    <img
-      className="chakra-image css-1chmwhm"
-      src="/assets/vikract.svg"
-      title="The Vikract Webapp template"
-    />
-    <p
-      className="chakra-text css-104caxi"
+    <div
+      className="css-0"
     >
-      THE VIKRACT TEMPLATE
-    </p>
+      <img
+        className="chakra-image css-1chmwhm"
+        src="/assets/vikract.svg"
+        title="The Vikract Webapp template"
+      />
+      <p
+        className="chakra-text css-104caxi"
+      >
+        THE VIKRACT TEMPLATE
+      </p>
+    </div>
   </div>
   <div
     className="css-17xejub"
