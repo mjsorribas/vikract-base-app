@@ -9,10 +9,11 @@ import {
 } from "@chakra-ui/react";
 
 import Logo from "lib/components/logo/Logo";
-import Copyright from "./components/copyright/Copyright"; // Asegúrate de que este componente esté actualizado
-import Sitemap from "./components/sitemap/Sitemap"; // Asegúrate de que este componente esté actualizado
-import SocialLinks from "./components/sociallinks/SocialLinks"; // Asegúrate de que este componente esté actualizado
-import TermsAndConditions from "./components/termsandconditions/TermsAndConditions"; // Asegúrate de que este componente esté actualizado
+
+import Copyright from "./components/copyright/Copyright";
+import Sitemap from "./components/sitemap/Sitemap";
+import SocialLinks from "./components/sociallinks/SocialLinks";
+import TermsAndConditions from "./components/termsandconditions/TermsAndConditions";
 
 export default function Footer() {
   return (

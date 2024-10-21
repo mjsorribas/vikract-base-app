@@ -5,7 +5,7 @@ const DocumentationForDevs = () => {
     <Grid gap={4}>
       <Heading>Documentation for Developers</Heading>
       <Text>
-        <strong>How's to:</strong>
+        <strong>How&apos;s to:</strong>
         <List>
           <ListItem>How define and use Carousel Images</ListItem>
           <ListItem>How define and use Price Table</ListItem>
