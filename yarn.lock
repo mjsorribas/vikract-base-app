@@ -2175,10 +2175,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/plus-jakarta-sans@npm:^5.0.22":
-  version: 5.0.22
-  resolution: "@fontsource/plus-jakarta-sans@npm:5.0.22"
-  checksum: 10c0/8948f8717e24fa68afdbcd38b015c35bd902a4130fe571fabfcb555a1efcb80349eab74b8fd8b91f2a46d3cd2dcf0b9478df55b6ede204a817d2dce313492ff5
+"@fontsource/plus-jakarta-sans@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@fontsource/plus-jakarta-sans@npm:5.1.0"
+  checksum: 10c0/863b9880083aa59ed017f371077536441c0294d92d29c56180bd6d2ed6457aef213934cd883850075ff9baf184f1736d1d0c9a78c69f590f5b1f90a558e245c5
   languageName: node
   linkType: hard
 
@@ -9495,11 +9495,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.6.3#optional!builtin<compat/typescript>":
   version: 5.6.3
-  resolution: "typescript@patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"
+  resolution: "typescript@patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=5adc0c"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/7c9d2e07c81226d60435939618c91ec2ff0b75fbfa106eec3430f0fcf93a584bc6c73176676f532d78c3594fe28a54b36eb40b3d75593071a7ec91301533ace7
+  checksum: 10c0/ac8307bb06bbfd08ae7137da740769b7d8c3ee5943188743bb622c621f8ad61d244767480f90fbd840277fbf152d8932aa20c33f867dea1bb5e79b187ca1a92f
   languageName: node
   linkType: hard
 
@@ -10056,7 +10056,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:^19.5.0"
     "@emotion/react": "npm:^11.13.3"
     "@emotion/styled": "npm:^11.13.0"
-    "@fontsource/plus-jakarta-sans": "npm:^5.0.22"
+    "@fontsource/plus-jakarta-sans": "npm:^5.1.0"
     "@types/node": "npm:^22.5.0"
     "@types/react": "npm:^18.3.11"
     "@types/react-dom": "npm:^18.3.1"
