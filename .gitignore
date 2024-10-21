@@ -7,3 +7,4 @@ dist-ssr
 .editorconfig
 yarn-error.log*
 .yarn/*
+.yarn/install-state.gz
