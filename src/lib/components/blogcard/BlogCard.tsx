@@ -1,28 +1,15 @@
 import {
   Flex,
   Heading,
-  Icon,
-  List,
-  ListIcon,
-  ListItem,
   Text,
   useColorModeValue,
   VStack,
 } from "@chakra-ui/react";
-import { HiCheckCircle } from "react-icons/hi";
 
 import { Card } from "lib/components/card/Card";
 import type { CardProps } from "lib/components/card/Card";
 
-export interface BlogCardData {
-  id: number;
-  title: string;
-  shortContent: string;
-  isFeatured: boolean;
-  image: string;
-  content: string;
-  tags: [];
-}
+import type { BlogCardData } from "./BlogCardData";
 
 interface BlogCardProps extends CardProps {
   data: BlogCardData;
