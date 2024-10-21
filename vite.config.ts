@@ -7,6 +7,11 @@ export default defineConfig({
   plugins: [
     react({ include: /\.(mdx|js|jsx|ts|tsx)$/ }),
   ],
+  build:{
+    chunkSizeWarningLimit: 900,
+    cssCodeSplit: true,
+    assetsInlineLimit: 4096
+  },
   resolve: {
     alias: {
       lib: resolve(__dirname, "src/lib"),
