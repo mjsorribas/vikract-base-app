@@ -1,40 +1,41 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`DynamicModal Example Page 1`] = `
-<div
-  className="css-qi60vh"
->
-  <h2
-    className="chakra-heading css-0"
+exports[`DynamicModalPage 1`] = `
+[
+  <div
+    className="css-49pdgh"
   >
-    Simple but Awesome Features
-  </h2>
-  <p
-    className="chakra-text css-0"
-  >
-    The dynamic modal is a custom component designed to be reused without thinking in a lot of things.
-    <br />
-    Example of how works the Dynamic Modal.
-    <br />
-    <br />
-    <button
-      className="chakra-button css-4xx2wk"
-      onClick={[Function]}
-      type="button"
+    <h2
+      className="chakra-heading css-1dklj6k"
     >
-      Dynamic Modal
-    </button>
-  </p>
-  <br />
-  <p
-    className="chakra-text css-0"
-  >
-    Example of configuration code:
-  </p>
-  <code
-    className="chakra-code css-yrl8qr"
-  >
-    const modalData = {
+      Simple but Awesome Features
+    </h2>
+    <p
+      className="chakra-text css-0"
+    >
+      The dynamic modal is a custom component designed to be reused without thinking in a lot of things.
+      <br />
+      Example of how works the Dynamic Modal.
+      <br />
+      <br />
+      <button
+        className="chakra-button css-ez23ye"
+        onClick={[Function]}
+        type="button"
+      >
+        Dynamic Modal
+      </button>
+    </p>
+    <br />
+    <p
+      className="chakra-text css-0"
+    >
+      Example of configuration code:
+    </p>
+    <code
+      className="chakra-code css-1jv8s98"
+    >
+      const modalData = {
         buttonsConfiguration: {
           accept: {
             title: "Accept",
@@ -85,6 +86,12 @@ exports[`DynamicModal Example Page 1`] = `
           content: "This is the content of the modal.",
         },
       };
-  </code>
-</div>
+    </code>
+  </div>,
+  <span />,
+  <span
+    hidden={true}
+    id="__chakra_env"
+  />,
+]
 `;

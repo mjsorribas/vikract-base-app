@@ -1,6 +1,17 @@
 import { MemoryRouter } from "react-router-dom";
 import renderer from "react-test-renderer";
-import { expect, test } from "vitest";
+import { ChakraProvider } from "@chakra-ui/react";
+import { expect, test, vi } from "vitest";
+
+// Mock de una dependencia específica
+vi.mock("@chakra-ui/react", async () => {
+  const actual = await vi.importActual("@chakra-ui/react");
+  return {
+    ...actual,
+    useBreakpointValue: () => "mockedValue",
+    extendTheme: actual.extendTheme, // Asegúrate de incluir extendTheme en el mock
+  };
+});
 
 import Features from "lib/pages/features/index";
 
@@ -10,10 +21,12 @@ const toJson = (component: renderer.ReactTestRenderer) => {
   return result as renderer.ReactTestRendererJSON;
 };
 
-test("Features Page", () => {
+test("Features", () => {
   const component = renderer.create(
-    <MemoryRouter initialEntries={[{ pathname: "/features" }]}>
-      <Features />
+    <MemoryRouter initialEntries={[{ pathname: "/" }]}>
+      <ChakraProvider>
+        <Features />
+      </ChakraProvider>
     </MemoryRouter>
   );
   const tree = toJson(component);

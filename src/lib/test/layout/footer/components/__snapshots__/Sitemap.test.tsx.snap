@@ -1,32 +1,39 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`Sitemap 1`] = `
-<div
-  className="chakra-stack css-a2ss5w"
->
-  <a
-    className="chakra-link css-0"
-    href="/aboutus"
+[
+  <div
+    className="chakra-stack css-1yllvlz"
   >
-    About Vikract
-  </a>
-  <a
-    className="chakra-link css-0"
-    href="/roadmap"
-  >
-    About our Roadmap
-  </a>
-  <a
-    className="chakra-link css-0"
-    href="/documentationfordevs"
-  >
-    Documentation for developers
-  </a>
-  <a
-    className="chakra-link css-0"
-    href="/contactus"
-  >
-    Contact us
-  </a>
-</div>
+    <a
+      className="chakra-link css-spn4bz"
+      href="/aboutus"
+    >
+      About Vikract
+    </a>
+    <a
+      className="chakra-link css-spn4bz"
+      href="/roadmap"
+    >
+      About our Roadmap
+    </a>
+    <a
+      className="chakra-link css-spn4bz"
+      href="/documentationfordevs"
+    >
+      Documentation for developers
+    </a>
+    <a
+      className="chakra-link css-spn4bz"
+      href="/contactus"
+    >
+      Contact us
+    </a>
+  </div>,
+  <span />,
+  <span
+    hidden={true}
+    id="__chakra_env"
+  />,
+]
 `;

@@ -1,358 +1,365 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Contact Us Page 1`] = `
-<div
-  className="css-qi60vh"
->
+exports[`Contactus 1`] = `
+[
   <div
-    className="chakra-container css-yr9j7x"
+    className="css-49pdgh"
   >
     <div
-      className="css-k008qs"
+      className="chakra-container css-1ky2ggz"
     >
       <div
-        className="css-1em3utm"
+        className="css-k008qs"
       >
         <div
-          className="css-2rlxtj"
+          className="css-1xwzv0o"
         >
           <div
-            className="chakra-wrap css-0"
+            className="css-h94677"
           >
-            <ul
-              className="chakra-wrap__list css-ub5tsn"
+            <div
+              className="chakra-wrap css-0"
             >
-              <li
-                className="chakra-wrap__listitem css-1yp4ln"
+              <ul
+                className="chakra-wrap__list css-acaoml"
               >
-                <div
-                  className="css-0"
-                >
-                  <h2
-                    className="chakra-heading css-0"
-                  >
-                    Contact Us
-                  </h2>
-                  <p
-                    className="chakra-text css-106yo8"
-                  >
-                    Fill up the form below to contact with our sales manager
-                  </p>
-                  <div
-                    className="css-1r21lpy"
-                  >
-                    <div
-                      className="chakra-stack css-16lvel5"
-                    >
-                      <button
-                        className="chakra-button css-1x7i6yc"
-                        type="button"
-                      >
-                        <span
-                          className="chakra-button__icon css-1wh2kri"
-                        >
-                          <svg
-                            aria-hidden={true}
-                            color="white"
-                            fill="currentColor"
-                            focusable={false}
-                            height="20px"
-                            stroke="currentColor"
-                            strokeWidth="0"
-                            style={
-                              {
-                                "color": "white",
-                              }
-                            }
-                            viewBox="0 0 24 24"
-                            width="20px"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M0 0h24v24H0z"
-                              fill="none"
-                            />
-                            <path
-                              d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
-                            />
-                          </svg>
-                        </span>
-                        +598-91519904
-                      </button>
-                      <button
-                        className="chakra-button css-1x7i6yc"
-                        type="button"
-                      >
-                        <span
-                          className="chakra-button__icon css-1wh2kri"
-                        >
-                          <svg
-                            aria-hidden={true}
-                            color="white"
-                            fill="currentColor"
-                            focusable={false}
-                            height="20px"
-                            stroke="currentColor"
-                            strokeWidth="0"
-                            style={
-                              {
-                                "color": "white",
-                              }
-                            }
-                            viewBox="0 0 24 24"
-                            width="20px"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M0 0h24v24H0z"
-                              fill="none"
-                            />
-                            <path
-                              d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
-                            />
-                          </svg>
-                        </span>
-                        hello@vikract.com
-                      </button>
-                      <button
-                        className="chakra-button css-1x7i6yc"
-                        type="button"
-                      >
-                        <span
-                          className="chakra-button__icon css-1wh2kri"
-                        >
-                          <svg
-                            aria-hidden={true}
-                            color="white"
-                            fill="currentColor"
-                            focusable={false}
-                            height="20px"
-                            stroke="currentColor"
-                            strokeWidth="0"
-                            style={
-                              {
-                                "color": "white",
-                              }
-                            }
-                            viewBox="0 0 24 24"
-                            width="20px"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M0 0h24v24H0z"
-                              fill="none"
-                            />
-                            <path
-                              d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"
-                            />
-                          </svg>
-                        </span>
-                        Montevideo, Uruguay
-                      </button>
-                    </div>
-                  </div>
-                  <div
-                    className="chakra-stack css-12y6jmo"
-                  >
-                    <button
-                      aria-label="facebook"
-                      className="chakra-button css-1so1cvt"
-                      type="button"
-                    >
-                      <svg
-                        aria-hidden={true}
-                        fill="currentColor"
-                        focusable={false}
-                        height="28px"
-                        stroke="currentColor"
-                        strokeWidth="0"
-                        style={
-                          {
-                            "color": undefined,
-                          }
-                        }
-                        viewBox="0 0 24 24"
-                        width="28px"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M0 0h24v24H0z"
-                          fill="none"
-                        />
-                        <path
-                          d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"
-                        />
-                      </svg>
-                    </button>
-                    <button
-                      aria-label="github"
-                      className="chakra-button css-1so1cvt"
-                      type="button"
-                    >
-                      <svg
-                        aria-hidden={true}
-                        fill="currentColor"
-                        focusable={false}
-                        height="28px"
-                        stroke="currentColor"
-                        strokeWidth="0"
-                        style={
-                          {
-                            "color": undefined,
-                          }
-                        }
-                        viewBox="0 0 16 16"
-                        width="28px"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
-                        />
-                      </svg>
-                    </button>
-                    <button
-                      aria-label="discord"
-                      className="chakra-button css-1so1cvt"
-                      type="button"
-                    >
-                      <svg
-                        aria-hidden={true}
-                        fill="currentColor"
-                        focusable={false}
-                        height="28px"
-                        stroke="currentColor"
-                        strokeWidth="0"
-                        style={
-                          {
-                            "color": undefined,
-                          }
-                        }
-                        viewBox="0 0 16 16"
-                        width="28px"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </li>
-              <li
-                className="chakra-wrap__listitem css-1yp4ln"
-              >
-                <div
-                  className="css-1f99aeu"
+                <li
+                  className="chakra-wrap__listitem css-1yp4ln"
                 >
                   <div
-                    className="css-1oimu32"
+                    className="css-0"
                   >
+                    <h2
+                      className="chakra-heading css-1dklj6k"
+                    >
+                      Contact Us
+                    </h2>
+                    <p
+                      className="chakra-text css-1fjrhmn"
+                    >
+                      Fill up the form below to contact with our sales manager
+                    </p>
                     <div
-                      className="chakra-stack css-22bnw2"
+                      className="css-dkdl1p"
                     >
                       <div
-                        className="chakra-form-control css-0"
-                        role="group"
-                      >
-                        <label
-                          className="chakra-form__label css-uvho5g"
-                          htmlFor="name"
-                          id="name-label"
-                        >
-                          Your Name
-                        </label>
-                        <div
-                          className="chakra-input__group css-vooio2"
-                          data-group={true}
-                        >
-                          <div
-                            className="chakra-input__left-element css-1u2k0bl"
-                          />
-                          <input
-                            className="chakra-input css-0"
-                            disabled={false}
-                            id="name"
-                            onBlur={[Function]}
-                            onFocus={[Function]}
-                            readOnly={false}
-                            required={false}
-                            type="text"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="chakra-form-control css-0"
-                        role="group"
-                      >
-                        <label
-                          className="chakra-form__label css-uvho5g"
-                          htmlFor="name"
-                          id="name-label"
-                        >
-                          Mail
-                        </label>
-                        <div
-                          className="chakra-input__group css-vooio2"
-                          data-group={true}
-                        >
-                          <div
-                            className="chakra-input__left-element css-1u2k0bl"
-                          />
-                          <input
-                            className="chakra-input css-0"
-                            disabled={false}
-                            id="name"
-                            onBlur={[Function]}
-                            onFocus={[Function]}
-                            readOnly={false}
-                            required={false}
-                            type="text"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="chakra-form-control css-0"
-                        role="group"
-                      >
-                        <label
-                          className="chakra-form__label css-uvho5g"
-                          htmlFor="name"
-                          id="name-label"
-                        >
-                          Message
-                        </label>
-                        <textarea
-                          className="chakra-textarea css-1mp7bif"
-                          disabled={false}
-                          id="name"
-                          onBlur={[Function]}
-                          onFocus={[Function]}
-                          placeholder="message"
-                          readOnly={false}
-                          required={false}
-                        />
-                      </div>
-                      <div
-                        className="chakra-form-control css-146q31f"
-                        role="group"
+                        className="chakra-stack css-1mmlzsv"
                       >
                         <button
-                          className="chakra-button css-70gqd7"
+                          className="chakra-button css-1r7iujq"
                           type="button"
                         >
-                          Send Message
+                          <span
+                            className="chakra-button__icon css-1wh2kri"
+                          >
+                            <svg
+                              aria-hidden={true}
+                              color="white"
+                              fill="currentColor"
+                              focusable={false}
+                              height="20px"
+                              stroke="currentColor"
+                              strokeWidth="0"
+                              style={
+                                {
+                                  "color": "white",
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                              width="20px"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                              />
+                            </svg>
+                          </span>
+                          +598-91519904
+                        </button>
+                        <button
+                          className="chakra-button css-1r7iujq"
+                          type="button"
+                        >
+                          <span
+                            className="chakra-button__icon css-1wh2kri"
+                          >
+                            <svg
+                              aria-hidden={true}
+                              color="white"
+                              fill="currentColor"
+                              focusable={false}
+                              height="20px"
+                              stroke="currentColor"
+                              strokeWidth="0"
+                              style={
+                                {
+                                  "color": "white",
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                              width="20px"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+                              />
+                            </svg>
+                          </span>
+                          hello@vikract.com
+                        </button>
+                        <button
+                          className="chakra-button css-1r7iujq"
+                          type="button"
+                        >
+                          <span
+                            className="chakra-button__icon css-1wh2kri"
+                          >
+                            <svg
+                              aria-hidden={true}
+                              color="white"
+                              fill="currentColor"
+                              focusable={false}
+                              height="20px"
+                              stroke="currentColor"
+                              strokeWidth="0"
+                              style={
+                                {
+                                  "color": "white",
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                              width="20px"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"
+                              />
+                            </svg>
+                          </span>
+                          Montevideo, Uruguay
                         </button>
                       </div>
                     </div>
+                    <div
+                      className="chakra-stack css-1c87vqo"
+                    >
+                      <button
+                        aria-label="facebook"
+                        className="chakra-button css-flqb5p"
+                        type="button"
+                      >
+                        <svg
+                          aria-hidden={true}
+                          fill="currentColor"
+                          focusable={false}
+                          height="28px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            {
+                              "color": undefined,
+                            }
+                          }
+                          viewBox="0 0 24 24"
+                          width="28px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        aria-label="github"
+                        className="chakra-button css-flqb5p"
+                        type="button"
+                      >
+                        <svg
+                          aria-hidden={true}
+                          fill="currentColor"
+                          focusable={false}
+                          height="28px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            {
+                              "color": undefined,
+                            }
+                          }
+                          viewBox="0 0 16 16"
+                          width="28px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        aria-label="discord"
+                        className="chakra-button css-flqb5p"
+                        type="button"
+                      >
+                        <svg
+                          aria-hidden={true}
+                          fill="currentColor"
+                          focusable={false}
+                          height="28px"
+                          stroke="currentColor"
+                          strokeWidth="0"
+                          style={
+                            {
+                              "color": undefined,
+                            }
+                          }
+                          viewBox="0 0 16 16"
+                          width="28px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"
+                          />
+                        </svg>
+                      </button>
+                    </div>
                   </div>
-                </div>
-              </li>
-            </ul>
+                </li>
+                <li
+                  className="chakra-wrap__listitem css-1yp4ln"
+                >
+                  <div
+                    className="css-f175dq"
+                  >
+                    <div
+                      className="css-11yhv7f"
+                    >
+                      <div
+                        className="chakra-stack css-tx0vij"
+                      >
+                        <div
+                          className="chakra-form-control css-1kxonj9"
+                          role="group"
+                        >
+                          <label
+                            className="chakra-form__label css-g6pte"
+                            htmlFor="name"
+                            id="name-label"
+                          >
+                            Your Name
+                          </label>
+                          <div
+                            className="chakra-input__group css-qd06fg"
+                            data-group={true}
+                          >
+                            <div
+                              className="chakra-input__left-element css-gv1iwz"
+                            />
+                            <input
+                              className="chakra-input css-qluo93"
+                              disabled={false}
+                              id="name"
+                              onBlur={[Function]}
+                              onFocus={[Function]}
+                              readOnly={false}
+                              required={false}
+                              type="text"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          className="chakra-form-control css-1kxonj9"
+                          role="group"
+                        >
+                          <label
+                            className="chakra-form__label css-g6pte"
+                            htmlFor="name"
+                            id="name-label"
+                          >
+                            Mail
+                          </label>
+                          <div
+                            className="chakra-input__group css-qd06fg"
+                            data-group={true}
+                          >
+                            <div
+                              className="chakra-input__left-element css-gv1iwz"
+                            />
+                            <input
+                              className="chakra-input css-qluo93"
+                              disabled={false}
+                              id="name"
+                              onBlur={[Function]}
+                              onFocus={[Function]}
+                              readOnly={false}
+                              required={false}
+                              type="text"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          className="chakra-form-control css-1kxonj9"
+                          role="group"
+                        >
+                          <label
+                            className="chakra-form__label css-g6pte"
+                            htmlFor="name"
+                            id="name-label"
+                          >
+                            Message
+                          </label>
+                          <textarea
+                            className="chakra-textarea css-1stw1ou"
+                            disabled={false}
+                            id="name"
+                            onBlur={[Function]}
+                            onFocus={[Function]}
+                            placeholder="message"
+                            readOnly={false}
+                            required={false}
+                          />
+                        </div>
+                        <div
+                          className="chakra-form-control css-1duwtod"
+                          role="group"
+                        >
+                          <button
+                            className="chakra-button css-1wqwg4v"
+                            type="button"
+                          >
+                            Send Message
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+  <span />,
+  <span
+    hidden={true}
+    id="__chakra_env"
+  />,
+]
 `;

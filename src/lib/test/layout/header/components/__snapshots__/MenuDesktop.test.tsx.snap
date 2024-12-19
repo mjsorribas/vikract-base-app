@@ -1,82 +1,89 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`MenuMobile 1`] = `
-<div
-  className="css-k008qs"
->
+exports[`MenuDesktop 1`] = `
+[
   <div
-    className="css-70qvj9"
+    className="css-k008qs"
   >
     <div
-      className="css-0"
+      className="css-70qvj9"
     >
-      <img
-        className="chakra-image css-1chmwhm"
-        src="/assets/vikract.svg"
-        title="The Vikract Webapp template"
-      />
-      <p
-        className="chakra-text css-104caxi"
+      <div
+        className="css-0"
       >
-        THE VIKRACT TEMPLATE
-      </p>
+        <img
+          className="chakra-image css-1chmwhm"
+          src="/assets/vikract.svg"
+          title="The Vikract Webapp template"
+        />
+        <p
+          className="chakra-text css-104caxi"
+        >
+          THE VIKRACT TEMPLATE
+        </p>
+      </div>
     </div>
-  </div>
-  <div
-    className="css-17xejub"
-  />
-  <div
-    className="css-70qvj9"
-  >
     <div
-      className="chakra-stack css-5ax1kt"
+      className="css-17xejub"
+    />
+    <div
+      className="css-70qvj9"
     >
-      <a
-        className="chakra-link css-177s7ri"
-        href="/"
+      <div
+        className="chakra-stack css-to3wsi"
       >
-        Home
-      </a>
-      <a
-        className="chakra-link css-1jpe0vt"
-        href="/aboutus"
-      >
-        About Us
-      </a>
-      <a
-        className="chakra-link css-1jpe0vt"
-        href="/contactus"
-      >
-        Contact Us
-      </a>
+        <a
+          className="chakra-link css-1l5potx"
+          href="/"
+        >
+          Home
+        </a>
+        <a
+          className="chakra-link css-1ts2a0c"
+          href="/aboutus"
+        >
+          About Us
+        </a>
+        <a
+          className="chakra-link css-1ts2a0c"
+          href="/contactus"
+        >
+          Contact Us
+        </a>
+      </div>
     </div>
-  </div>
-  <div
-    className="css-17xejub"
-  />
-  <div
-    className="css-0"
-  >
+    <div
+      className="css-17xejub"
+    />
     <div
       className="css-0"
     >
       <div
-        className="chakra-stack css-1u5xrkq"
+        className="css-0"
       >
-        <button
-          className="chakra-button css-4xx2wk"
-          type="button"
+        <div
+          className="chakra-stack css-1f6hfsa"
         >
-          Sign Up
-        </button>
-        <button
-          className="chakra-button css-4xx2wk"
-          type="button"
-        >
-          Sign In
-        </button>
+          <button
+            className="chakra-button css-dg0nyv"
+            type="button"
+          >
+            Sign Up
+          </button>
+          <button
+            className="chakra-button css-1m7ostv"
+            type="button"
+          >
+            Sign In
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+  <span />,
+  <span
+    hidden={true}
+    id="__chakra_env"
+  />,
+]
 `;

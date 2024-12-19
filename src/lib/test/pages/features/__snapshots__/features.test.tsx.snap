@@ -1,64 +1,71 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Features Page 1`] = `
-<div
-  className="css-qi60vh"
->
-  <h2
-    className="chakra-heading css-0"
+exports[`Features 1`] = `
+[
+  <div
+    className="css-49pdgh"
   >
-    Dynamic Modal
-  </h2>
-  <p
-    className="chakra-text css-0"
-  >
-    Vikract core includes custom components to simplified the developer life.
-    <br />
-    <ul
-      className="css-me00nr"
-      role="list"
+    <h2
+      className="chakra-heading css-1dklj6k"
     >
-      <li
-        className="css-0"
+      Dynamic Modal
+    </h2>
+    <p
+      className="chakra-text css-0"
+    >
+      Vikract core includes custom components to simplified the developer life.
+      <br />
+      <ul
+        className="css-1xa84ef"
+        role="list"
       >
-        Carousel
-      </li>
-      <li
-        className="css-0"
-      >
-        Contact Form
-      </li>
-      <li
-        className="css-0"
-      >
-        Price Card
-      </li>
-      <li
-        className="css-0"
-      >
-        Dynamic Tabs
-      </li>
-      <li
-        className="css-0"
-      >
-        <a
-          className="chakra-link css-1856l8r"
-          href="/features/dynamicmodal"
+        <li
+          className="css-0"
         >
-          Dynamic Modal
-        </a>
-      </li>
-      <li
-        className="css-0"
-      >
-        ActionButton
-      </li>
-      <li
-        className="css-0"
-      >
-        Card
-      </li>
-    </ul>
-  </p>
-</div>
+          Carousel
+        </li>
+        <li
+          className="css-0"
+        >
+          Contact Form
+        </li>
+        <li
+          className="css-0"
+        >
+          Price Card
+        </li>
+        <li
+          className="css-0"
+        >
+          Dynamic Tabs
+        </li>
+        <li
+          className="css-0"
+        >
+          <a
+            className="chakra-link css-c6nly4"
+            href="/features/dynamicmodal"
+          >
+            Dynamic Modal
+          </a>
+        </li>
+        <li
+          className="css-0"
+        >
+          ActionButton
+        </li>
+        <li
+          className="css-0"
+        >
+          Card
+        </li>
+      </ul>
+    </p>
+  </div>,
+  <span />,
+  <span
+    hidden={true}
+    id="__chakra_env"
+  />,
+]
 `;

@@ -1,17 +1,24 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`Copyright 1`] = `
-<div
-  className="chakra-stack css-1xrkuxn"
->
+[
   <div
-    className="css-g5hezf"
+    className="chakra-stack css-1kz9zvq"
   >
-    <p
-      className="chakra-text css-5cm1aq"
+    <div
+      className="css-itvw0n"
     >
-      © 2022 Vikract. All rights reserved
-    </p>
-  </div>
-</div>
+      <p
+        className="chakra-text css-5cm1aq"
+      >
+        © 2022 Vikract. All rights reserved
+      </p>
+    </div>
+  </div>,
+  <span />,
+  <span
+    hidden={true}
+    id="__chakra_env"
+  />,
+]
 `;
