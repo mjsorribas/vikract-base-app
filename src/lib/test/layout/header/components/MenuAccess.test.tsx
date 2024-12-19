@@ -2,13 +2,13 @@ import { MemoryRouter } from "react-router-dom";
 import renderer from "react-test-renderer";
 import { expect, test, vi } from "vitest";
 
+import MenuAccess from "lib/layout/header/components/menuaccess/menuAccess";
+
 // Mock de una dependencia específica
 vi.mock("lib/layout/header/components/menuaccess/menuAccess", () => ({
   __esModule: true,
   default: () => <div>Mocked MenuAccess</div>,
 }));
-
-import MenuAccess from "lib/layout/header/components/menuaccess/menuAccess";
 
 const toJson = (component: renderer.ReactTestRenderer) => {
   const result = component.toJSON();

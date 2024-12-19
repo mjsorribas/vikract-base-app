@@ -3,6 +3,8 @@ import { MemoryRouter } from "react-router-dom";
 import renderer from "react-test-renderer";
 import { expect, test, vi } from "vitest";
 
+import Sitemap from "lib/layout/footer/components/sitemap/Sitemap";
+
 // Mock de una dependencia específica
 vi.mock("@chakra-ui/react", async () => {
   const actual = await vi.importActual("@chakra-ui/react");
@@ -12,8 +14,6 @@ vi.mock("@chakra-ui/react", async () => {
     extendTheme: actual.extendTheme, // Asegúrate de incluir extendTheme en el mock
   };
 });
-
-import Sitemap from "lib/layout/footer/components/sitemap/Sitemap";
 
 const toJson = (component: renderer.ReactTestRenderer) => {
   const result = component.toJSON();
