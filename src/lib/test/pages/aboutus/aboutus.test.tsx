@@ -1,7 +1,9 @@
+import { ChakraProvider } from "@chakra-ui/react";
 import { MemoryRouter } from "react-router-dom";
 import renderer from "react-test-renderer";
-import { ChakraProvider } from "@chakra-ui/react";
 import { expect, test, vi } from "vitest";
+
+import AboutUs from "lib/pages/aboutus/index";
 
 // Mock de una dependencia específica
 vi.mock("@chakra-ui/react", async () => {
@@ -12,8 +14,6 @@ vi.mock("@chakra-ui/react", async () => {
     extendTheme: actual.extendTheme, // Asegúrate de incluir extendTheme en el mock
   };
 });
-
-import AboutUs from "lib/pages/aboutus/index";
 
 const toJson = (component: renderer.ReactTestRenderer) => {
   const result = component.toJSON();

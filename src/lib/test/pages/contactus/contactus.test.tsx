@@ -3,6 +3,8 @@ import { MemoryRouter } from "react-router-dom";
 import renderer from "react-test-renderer";
 import { expect, test, vi } from "vitest";
 
+import Contactus from "lib/pages/contactus/index";
+
 // Mock de una dependencia específica
 vi.mock("@chakra-ui/react", async () => {
   const actual = await vi.importActual("@chakra-ui/react");
@@ -12,8 +14,6 @@ vi.mock("@chakra-ui/react", async () => {
     extendTheme: actual.extendTheme, // Asegúrate de incluir extendTheme en el mock
   };
 });
-
-import Contactus from "lib/pages/contactus/index";
 
 const toJson = (component: renderer.ReactTestRenderer) => {
   const result = component.toJSON();
