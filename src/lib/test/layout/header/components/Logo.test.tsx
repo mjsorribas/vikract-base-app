@@ -1,6 +1,6 @@
+import { ChakraProvider } from "@chakra-ui/react";
 import { MemoryRouter } from "react-router-dom";
 import renderer from "react-test-renderer";
-import { ChakraProvider } from "@chakra-ui/react";
 import { expect, test, vi } from "vitest";
 
 // Mock de una dependencia específica
