@@ -5,5 +5,7 @@ export interface BlogCardData {
   isFeatured: boolean;
   image: string;
   content: string;
-  tags: [];
+  tags: string[];
+  description: string;
+  pubDate: string;
 }

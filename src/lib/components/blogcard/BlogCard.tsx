@@ -4,6 +4,8 @@ import {
   Text,
   useColorModeValue,
   VStack,
+  Image,
+  Tag,
 } from "@chakra-ui/react";
 
 import { Card } from "lib/components/card/Card";
@@ -19,7 +21,7 @@ interface BlogCardProps extends CardProps {
 
 export const BlogCard = (props: BlogCardProps) => {
   const { data, icon, button, ...rest } = props;
-  const { id, title, shortContent } = data;
+  const { id, title, description, pubDate, tags, image } = data;
   const accentColor = useColorModeValue("blue.600", "blue.200");
 
   return (
@@ -29,6 +31,12 @@ export const BlogCard = (props: BlogCardProps) => {
           {title}
         </Heading>
       </VStack>
+      <Text size="sm" fontWeight="inherit" lineHeight="0.9em">
+        <Tag size="sm" color="gray" variant="outline">
+          {pubDate}
+        </Tag>
+      </Text>
+      <Image src={image} />
       <Flex
         align="flex-end"
         justify="center"
@@ -37,7 +45,34 @@ export const BlogCard = (props: BlogCardProps) => {
         my="8"
       >
         <Text size="sm" fontWeight="inherit" lineHeight="0.9em">
-          {shortContent}
+          {description}
+        </Text>
+      </Flex>
+      <Flex
+        align="flex-end"
+        justify="center"
+        fontWeight="extrabold"
+        color={accentColor}
+        my="8"
+      >
+        <Text size="sm" fontWeight="inherit" lineHeight="0.9em">
+          <ul
+            style={{
+              listStyleType: "none",
+              padding: 0,
+              display: "flex",
+              gap: "0.5em",
+            }}
+          >
+            {data.tags.map((tag, index) => (
+              // eslint-disable-next-line react/no-array-index-key
+              <li key={index}>
+                <Tag size="sm" color="gray" variant="outline">
+                  {tag}
+                </Tag>
+              </li>
+            ))}
+          </ul>
         </Text>
       </Flex>
     </Card>
