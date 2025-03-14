@@ -22,11 +22,13 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
+    "@contentful/rich-text-react-renderer": "^16.0.1",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.13.0",
     "@fontsource/plus-jakarta-sans": "^5.0.22",
     "@types/react-slick": "^0.23.13",
     "@types/react-test-renderer": "^18.3.0",
+    "contentful": "^11.3.4",
     "framer-motion": "^11.3.30",
     "html-react-parser": "^5.1.16",
     "react": "^18.3.1",
@@ -66,6 +68,6 @@
   },
   "engines": {
     "npm": ">=9.0.0 <10.0.0",
-    "node": ">=18.20.0 || >=20.12.2 || >=22.0.0"
+    "node": ">=18.20.0 || >=20.12.2 || >=22.12.0"
   }
 }

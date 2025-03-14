@@ -1,7 +1,8 @@
 import { Grid, Heading, List, ListItem, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
-import { fetchWordPressJsonFeed } from "lib/api/wordpress";
+//import { fetchWordPressJsonFeed } from "lib/api/wordpress";
+import { fetchContentfulData } from "lib/api/contentful";
 import { BlogCard } from "lib/components/blogcard/BlogCard";
 import type { BlogCardData } from "lib/components/blogcard/BlogCardData";
 import { Carousel } from "lib/components/carousel/Carousel";
@@ -13,7 +14,7 @@ const Blog = () => {
 
   useEffect(() => {
     async function fetchData() {
-      const data = await fetchWordPressJsonFeed();
+      const data = await fetchContentfulData();
       setBlogData(data);
     }
     fetchData();
@@ -32,7 +33,7 @@ const Blog = () => {
             <ListItem>
               <BlogCard
                 // eslint-disable-next-line react/no-array-index-key
-                key={index}
+                key={article.id || index}
                 data={article}
               />
             </ListItem>

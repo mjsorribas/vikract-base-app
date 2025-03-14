@@ -1,5 +1,5 @@
 export interface BlogCardData {
-  id: number;
+  id: string;
   title: string;
   shortContent: string;
   isFeatured: boolean;

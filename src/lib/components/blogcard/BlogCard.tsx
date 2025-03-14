@@ -6,7 +6,9 @@ import {
   VStack,
   Image,
   Tag,
+  Button,
 } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 
 import { Card } from "lib/components/card/Card";
 import type { CardProps } from "lib/components/card/Card";
@@ -23,13 +25,20 @@ export const BlogCard = (props: BlogCardProps) => {
   const { data, icon, button, ...rest } = props;
   const { id, title, description, pubDate, tags, image } = data;
   const accentColor = useColorModeValue("blue.600", "blue.200");
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/blog/page/${id}`, { state: { data } });
+  };
 
   return (
     <Card key={id} rounded={{ sm: "xl" }} {...rest}>
       <VStack spacing={6}>
-        <Heading as="h3" size="md" fontWeight="extrabold">
-          {title}
-        </Heading>
+        <Button onClick={handleClick} variant="link">
+          <Heading as="h3" size="md" fontWeight="extrabold">
+            {title}
+          </Heading>
+        </Button>
       </VStack>
       <Text size="sm" fontWeight="inherit" lineHeight="0.9em">
         <Tag size="sm" color="gray" variant="outline">
@@ -64,7 +73,7 @@ export const BlogCard = (props: BlogCardProps) => {
               gap: "0.5em",
             }}
           >
-            {data.tags.map((tag, index) => (
+            {tags.map((tag, index) => (
               // eslint-disable-next-line react/no-array-index-key
               <li key={index}>
                 <Tag size="sm" color="gray" variant="outline">

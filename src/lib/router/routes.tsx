@@ -32,7 +32,7 @@ export const routes: Array<PathRouteProps> = [
     element: <Blog />,
   },
   {
-    path: "/blog-single-page",
+    path: "/blog/page/:id",
     element: <BlogPage />,
   },
   {
