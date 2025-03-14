@@ -140,6 +140,25 @@ exports[`MenuMobile 1`] = `
           >
             <a
               className="chakra-link css-19bd0zo"
+              href="/blog"
+            >
+              Blog
+            </a>
+          </button>
+          <button
+            className="chakra-menu__menuitem css-y7jzs3"
+            id="menu-list-:r2:-menuitem-:r6:"
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            role="menuitem"
+            tabIndex={0}
+            type="button"
+          >
+            <a
+              className="chakra-link css-19bd0zo"
               href="/contactus"
             >
               Contact Us
