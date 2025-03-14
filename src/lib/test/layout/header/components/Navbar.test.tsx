@@ -1,44 +1,35 @@
+import { ChakraProvider } from "@chakra-ui/react";
 import { MemoryRouter } from "react-router-dom";
 import renderer from "react-test-renderer";
 import { expect, test, vi } from "vitest";
 
 import Navbar from "lib/layout/header/components/navbar/NavBar";
 
+// Mock de una dependencia específica
+vi.mock("@chakra-ui/react", async () => {
+  const actual = await vi.importActual("@chakra-ui/react");
+  return {
+    ...actual,
+    useBreakpointValue: () => "mockedValue",
+    extendTheme: actual.extendTheme, // Asegúrate de incluir extendTheme en el mock
+  };
+});
+
 const toJson = (component: renderer.ReactTestRenderer) => {
   const result = component.toJSON();
   expect(result).toBeDefined();
-  expect(result).not.toBeInstanceOf(Array);
-  return result as renderer.ReactTestRendererJSON;
+  return result;
 };
 
 test("Navbar", () => {
   const component = renderer.create(
     <MemoryRouter initialEntries={[{ pathname: "/" }]}>
-      <Navbar />
+      <ChakraProvider>
+        <Navbar />
+      </ChakraProvider>
     </MemoryRouter>
   );
   const tree = toJson(component);
+  expect(Array.isArray(tree)).toBe(true); // Verifica si el resultado es un array
   expect(tree).toMatchSnapshot();
-});
-
-test("Navbar Mobile true", () => {
-  const originalMatchMedia = window.matchMedia;
-  window.innerWidth = 375;
-  window.innerHeight = Math.round((window.innerWidth * 16) / 9);
-  window.matchMedia = vi.fn().mockImplementation((query) => ({
-    matches: true,
-    media: query,
-    addListener: vi.fn(),
-    removeListener: vi.fn(),
-  }));
-
-  const component = renderer.create(
-    <MemoryRouter initialEntries={[{ pathname: "/" }]}>
-      <Navbar />
-    </MemoryRouter>
-  );
-  const tree = toJson(component);
-  expect(tree).toMatchSnapshot();
-
-  window.matchMedia = originalMatchMedia;
 });

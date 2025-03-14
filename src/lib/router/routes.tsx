@@ -1,8 +1,11 @@
 import type { PathRouteProps } from "react-router-dom";
 
 import AboutUs from "lib/pages/aboutus";
+import Blog from "lib/pages/blog";
+import BlogPage from "lib/pages/blogpage";
 import ContactUs from "lib/pages/contactus";
 import Cookies from "lib/pages/cookies";
+import DocumentationForDevs from "lib/pages/documentationfordevs";
 import Features from "lib/pages/features";
 import DynamicModalPage from "lib/pages/features/dynamicmodal-example";
 import Home from "lib/pages/home";
@@ -23,6 +26,14 @@ export const routes: Array<PathRouteProps> = [
   {
     path: "/prices",
     element: <Prices />,
+  },
+  {
+    path: "/blog",
+    element: <Blog />,
+  },
+  {
+    path: "/blog/page/:id",
+    element: <BlogPage />,
   },
   {
     path: "/aboutus",
@@ -47,6 +58,10 @@ export const routes: Array<PathRouteProps> = [
   {
     path: "/features",
     element: <Features />,
+  },
+  {
+    path: "/documentationfordevs",
+    element: <DocumentationForDevs />,
   },
   {
     path: "/features/dynamicmodal",

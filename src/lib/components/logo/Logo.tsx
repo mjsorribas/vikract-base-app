@@ -10,46 +10,26 @@ interface Props {
   title?: string;
 }
 
-const defaultProps: Props = {
-  boxSize: "60px",
-  fontSize: "2rem",
-  fontColor: "#000000",
-  design: "full",
-  title: "THE VIKRACT TEMPLATE",
-  img: "/assets/vikract.svg",
-  imgTitle: "The Vikract Webapp template",
-};
-
-const displayImg = ({
-  boxSize,
-  img,
-  imgTitle,
-}: Props & typeof defaultProps) => {
-  return (
+const Logo = ({
+  boxSize = "60px",
+  fontSize = "2rem",
+  fontColor = "#000000",
+  design = "full",
+  title = "THE VIKRACT TEMPLATE",
+  img = "/assets/vikract.svg",
+  imgTitle = "The Vikract Webapp template",
+}: Props) => {
+  const displayImg = () => (
     <Image boxSize={boxSize} objectFit="cover" src={img} title={imgTitle} />
   );
-};
 
-const displayText = ({
-  fontColor,
-  fontSize,
-  title,
-}: Props & typeof defaultProps) => {
-  return (
+  const displayText = () => (
     <Text color={fontColor} fontSize={fontSize} fontWeight={300}>
       {title}
     </Text>
   );
-};
-const displayFull = ({
-  boxSize,
-  fontSize,
-  fontColor,
-  img,
-  title,
-  imgTitle,
-}: Props & typeof defaultProps) => {
-  return (
+
+  const displayFull = () => (
     <Box>
       <Image boxSize={boxSize} objectFit="cover" src={img} title={imgTitle} />
       <Text color={fontColor} fontSize={fontSize} fontWeight={300}>
@@ -57,27 +37,23 @@ const displayFull = ({
       </Text>
     </Box>
   );
-};
 
-const renderSwitch = (props: Props & typeof defaultProps) => {
-  switch (props.design) {
-    case "onlyImg":
-      return displayImg(props);
-    case "onlyText":
-      return displayText(props);
-    default:
-      return displayFull(props);
-  }
-};
+  const renderSwitch = () => {
+    switch (design) {
+      case "onlyImg":
+        return displayImg();
+      case "onlyText":
+        return displayText();
+      default:
+        return displayFull();
+    }
+  };
 
-const Logo = (props = defaultProps) => {
   return (
     <Box display="flex" alignItems="center">
-      {renderSwitch(props)}
+      {renderSwitch()}
     </Box>
   );
 };
-
-Logo.defaultProps = defaultProps;
 
 export default Logo;
