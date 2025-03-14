@@ -30,9 +30,7 @@ const BlogPage = () => {
             (
               tag:
                 | string
-                | number
-                | boolean
-                | ReactElement<any, string | JSXElementConstructor<any>>
+                | ReactElement<string | JSXElementConstructor<string>>
                 | Iterable<ReactNode>
                 | ReactPortal
                 | null
