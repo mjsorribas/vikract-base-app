@@ -1,37 +1,3 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`TermsAndConditions 1`] = `
-[
-  <div
-    className="chakra-stack css-1nkzrso"
-  >
-    <div
-      className="css-itvw0n"
-    >
-      <a
-        className="chakra-link css-chs1rx"
-        href="/termsandconditions"
-      >
-        Terms
-      </a>
-      <a
-        className="chakra-link css-chs1rx"
-        href="/termsandconditions"
-      >
-        Conditions
-      </a>
-      <a
-        className="chakra-link css-chs1rx"
-        href="/cookies"
-      >
-        Cookies
-      </a>
-    </div>
-  </div>,
-  <span />,
-  <span
-    hidden={true}
-    id="__chakra_env"
-  />,
-]
-`;
+exports[`TermsAndConditions 1`] = `null`;

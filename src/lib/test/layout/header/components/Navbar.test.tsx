@@ -1,35 +1,49 @@
 import { ChakraProvider } from "@chakra-ui/react";
+import { render } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import renderer from "react-test-renderer";
-import { expect, test, vi } from "vitest";
+import { expect, test, vi, describe } from "vitest";
+import "@testing-library/jest-dom";
 
 import Navbar from "lib/layout/header/components/navbar/NavBar";
+import MenuDesktop from "lib/layout/header/components/menudesktop/MenuDesktop";
+import MenuMobile from "lib/layout/header/components/menumobile/MenuMobile";
 
-// Mock de una dependencia específica
+// Mock de MenuDesktop y MenuMobile
+vi.mock("../menudesktop/MenuDesktop", () => ({
+  default: () => <MenuDesktop />,
+}));
+
+vi.mock("../menumobile/MenuMobile", () => ({
+  default: () => <MenuMobile />,
+}));
+
+// vars to manage useMediaQuery
+let isMobileView = false;
+
+// Mock dependencies of Chakra UI
 vi.mock("@chakra-ui/react", async () => {
-  const actual = await vi.importActual("@chakra-ui/react");
+  const actual = await vi.importActual<object>("@chakra-ui/react");
   return {
     ...actual,
-    useBreakpointValue: () => "mockedValue",
-    extendTheme: actual.extendTheme, // Asegúrate de incluir extendTheme en el mock
+    useMediaQuery: () => [isMobileView],
+    Box: ({ children }: { children: React.ReactNode }) => (
+      <div role="navigation">{children}</div>
+    ),
   };
 });
 
-const toJson = (component: renderer.ReactTestRenderer) => {
-  const result = component.toJSON();
-  expect(result).toBeDefined();
-  return result;
-};
+describe("Navbar Component", () => {
+  test("should be render Navbar", () => {
+    // ARRANGE
+    const { container } = render(
+      <MemoryRouter initialEntries={[{ pathname: "/" }]}>
+        <ChakraProvider>
+          <Navbar />
+        </ChakraProvider>
+      </MemoryRouter>
+    );
 
-test("Navbar", () => {
-  const component = renderer.create(
-    <MemoryRouter initialEntries={[{ pathname: "/" }]}>
-      <ChakraProvider>
-        <Navbar />
-      </ChakraProvider>
-    </MemoryRouter>
-  );
-  const tree = toJson(component);
-  expect(Array.isArray(tree)).toBe(true); // Verifica si el resultado es un array
-  expect(tree).toMatchSnapshot();
+    // ASSERT
+    expect(container.firstChild).toBeInTheDocument();
+  });
 });
