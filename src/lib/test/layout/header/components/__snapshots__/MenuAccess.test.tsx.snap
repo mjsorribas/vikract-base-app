@@ -1,7 +1,3 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Menu Access 1`] = `
-<div>
-  Mocked MenuAccess
-</div>
-`;
+exports[`Menu Access 1`] = `null`;
