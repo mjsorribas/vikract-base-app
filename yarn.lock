@@ -3993,7 +3993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:^4.2.0, entities@npm:^4.5.0":
+"entities@npm:^4.2.0":
   version: 4.5.0
   resolution: "entities@npm:4.5.0"
   checksum: 10c0/5b039739f7621f5d1ad996715e53d964035f75ad3b9a4d38c6b3804bb226e282ffeae2443624d8fdd9c47d8e926ae9ac009c54671243f0c3294c26af7cc85250
@@ -5393,14 +5393,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:15.7.4":
-  version: 15.7.4
-  resolution: "happy-dom@npm:15.7.4"
+"happy-dom@npm:17.4.4":
+  version: 17.4.4
+  resolution: "happy-dom@npm:17.4.4"
   dependencies:
-    entities: "npm:^4.5.0"
     webidl-conversions: "npm:^7.0.0"
     whatwg-mimetype: "npm:^3.0.0"
-  checksum: 10c0/406b6b86d52e5dc7bc2fbf0d1c0507a2d954f35dc0af5230f933ad1542646260cb46c1a763d064da0bcf1fbe806efbf10e28bad1c6865c7cde125269358047c0
+  checksum: 10c0/a84d36fc633ab5e5a36ae55d82b8955d1e65394242b4dba551ab447579e47f8565de61c361920c248ed2823883715dfa513ce46666800ad53c21dbde858048c2
   languageName: node
   linkType: hard
 
@@ -9690,7 +9689,7 @@ __metadata:
     eslint-config-sznm: "npm:^2.0.4"
     eslint-plugin-import: "npm:^2.31.0"
     framer-motion: "npm:^12.5.0"
-    happy-dom: "npm:15.7.4"
+    happy-dom: "npm:17.4.4"
     html-react-parser: "npm:^5.2.2"
     husky: "npm:^9.1.7"
     lint-staged: "npm:^15.5.0"
