@@ -21,6 +21,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "@analytics/google-analytics": "^1.1.0",
     "@chakra-ui/react": "^2.9.0",
     "@contentful/rich-text-react-renderer": "^16.0.1",
     "@emotion/react": "^11.14.0",
@@ -28,6 +29,7 @@
     "@fontsource/plus-jakarta-sans": "^5.2.5",
     "@types/react-slick": "^0.23.13",
     "@types/react-test-renderer": "^19.0.0",
+    "analytics": "^0.8.16",
     "contentful": "^11.5.8",
     "framer-motion": "^12.5.0",
     "html-react-parser": "^5.2.2",
