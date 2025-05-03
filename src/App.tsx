@@ -6,6 +6,7 @@ import Layout from "lib/layout";
 import Routings from "lib/router/Routings";
 import { theme } from "lib/styles/customTheme";
 import googleAnalyticsTool from "./lib/utils/googleAnalyticsTool";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Layout>
           <Routings />
+          <VercelAnalytics />
         </Layout>
       </Router>
     </ChakraProvider>
