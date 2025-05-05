@@ -1347,6 +1347,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@microsoft/clarity@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@microsoft/clarity@npm:1.0.0"
+  checksum: 10c0/31dcd690e478f5b21604f280aa33fbd26d0842989c4c698de0485746b3f3920fb0a969a633e0724cfbe887dffee7ac0932274637540f645e3ce93cb7cac87cce
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -9867,6 +9874,7 @@ __metadata:
     "@eslint/eslintrc": "npm:^3.3.0"
     "@eslint/js": "npm:^9.22.0"
     "@fontsource/plus-jakarta-sans": "npm:^5.2.5"
+    "@microsoft/clarity": "npm:^1.0.0"
     "@stylistic/eslint-plugin": "npm:^4.2.0"
     "@stylistic/eslint-plugin-ts": "npm:^4.2.0"
     "@testing-library/dom": "npm:^10.4.0"
