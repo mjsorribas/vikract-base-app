@@ -17,7 +17,6 @@ const compat = new FlatCompat({
 
 export default [
     ...compat.extends(
-        "sznm/react",
         "plugin:react/jsx-runtime",
         "plugin:@typescript-eslint/recommended",
         "plugin:import/errors",

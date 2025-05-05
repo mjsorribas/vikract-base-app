@@ -67,7 +67,6 @@
     "@vitest/ui": "^3.0.9",
     "commitlint": "^19.8.0",
     "eslint": "^9.23.0",
-    "eslint-config-sznm": "^2.0.4",
     "eslint-plugin-import": "^2.31.0",
     "happy-dom": "17.4.4",
     "husky": "^9.1.7",
