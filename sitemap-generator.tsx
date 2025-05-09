@@ -6,23 +6,25 @@ import { fileURLToPath } from 'url';
 // Definimos la interfaz para las rutas
 interface Route {
   path: string;
+  priority: string;
+  freq: string;
 }
 
 // Importamos las rutas manualmente para evitar importaciones de CSS
 const routes: Route[] = [
-  { path: "/" },
-  { path: "/contactus" },
-  { path: "/prices" },
-  { path: "/blog" },
-  { path: "/blog/page/:id" },
-  { path: "/aboutus" },
-  { path: "/termsandconditions" },
-  { path: "/cookies" },
-  { path: "/products" },
-  { path: "/roadmap" },
-  { path: "/features" },
-  { path: "/documentationfordevs" },
-  { path: "/features/dynamicmodal" }
+  { path: "/", priority: "1.0", freq: "monthly" },
+  { path: "/contactus", priority: "0.7", freq: "monthly"},
+  { path: "/prices", priority: "0.7", freq: "monthly"},
+  { path: "/blog", priority: "0.8", freq: "daily" },
+  { path: "/blog/page/:id", priority: "0.7", freq: "monthly" },
+  { path: "/aboutus", priority: "0.7", freq: "monthly" },
+  { path: "/termsandconditions", priority: "0.7", freq: "monthly" },
+  { path: "/cookies", priority: "0.7", freq: "monthly" },
+  { path: "/products", priority: "0.7", freq: "monthly" },
+  { path: "/roadmap", priority: "0.7", freq: "monthly" },
+  { path: "/features", priority: "0.7", freq: "monthly" },
+  { path: "/documentationfordevs", priority: "0.7", freq: "monthly" },
+  { path: "/features/dynamicmodal", priority: "0.7", freq: "monthly" }
 ];
 
 const __filename = fileURLToPath(import.meta.url);
@@ -58,8 +60,8 @@ async function generateSitemaps() {
     sitemap += `
       <url>
         <loc>${fullUrl}</loc>
-        <changefreq>daily</changefreq>
-        <priority>${route.path === '/' ? '1.0' : '0.7'}</priority>
+        <changefreq>${route.freq}</changefreq>
+        <priority>${route.path === '/' ? '1.0' : route.priority }</priority>
         <lastmod>${new Date().toISOString()}</lastmod>
       </url>`;
 

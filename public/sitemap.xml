@@ -2,79 +2,79 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
         <loc>http://vikractdemo.naimara.com/</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>1.0</priority>
-        <lastmod>2025-05-09T19:24:48.647Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.405Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/contactus</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/prices</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/blog</loc>
         <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <priority>0.8</priority>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/blog/page</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/aboutus</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/termsandconditions</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/cookies</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/products</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/roadmap</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/features</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/documentationfordevs</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url>
       <url>
         <loc>http://vikractdemo.naimara.com/features/dynamicmodal</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-05-09T19:24:48.648Z</lastmod>
+        <lastmod>2025-05-09T19:54:58.411Z</lastmod>
       </url></urlset>
