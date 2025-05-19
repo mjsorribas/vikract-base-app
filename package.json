@@ -35,7 +35,7 @@
     "@vercel/analytics": "^1.5.0",
     "analytics": "^0.8.16",
     "contentful": "^11.5.8",
-    "framer-motion": "^12.5.0",
+    "framer-motion": "^12.12.1",
     "html-react-parser": "^5.2.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
