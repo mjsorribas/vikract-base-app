@@ -1530,10 +1530,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/plus-jakarta-sans@npm:^5.2.5":
-  version: 5.2.5
-  resolution: "@fontsource/plus-jakarta-sans@npm:5.2.5"
-  checksum: 10c0/ffd2a97e49168e6ee58c5748e4e6a9508f745d252952f8770099ccf8a0299b743659b4e2f54da56d985e6312faa8b9a801ca2ffad12c3ec806833e1287595f5f
+"@fontsource/plus-jakarta-sans@npm:^5.2.6":
+  version: 5.2.6
+  resolution: "@fontsource/plus-jakarta-sans@npm:5.2.6"
+  checksum: 10c0/81e134a7352f1c0dbbbf29864e4b498d70107055eeb64a514b9a3dcb843221ccf5ce5c18eece06fcda03e988e753797e3ec89461283b4f7dca0b7682da0f6b9b
   languageName: node
   linkType: hard
 
@@ -9800,7 +9800,7 @@ __metadata:
     "@emotion/styled": "npm:^11.13.0"
     "@eslint/eslintrc": "npm:^3.3.0"
     "@eslint/js": "npm:^9.22.0"
-    "@fontsource/plus-jakarta-sans": "npm:^5.2.5"
+    "@fontsource/plus-jakarta-sans": "npm:^5.2.6"
     "@microsoft/clarity": "npm:^1.0.0"
     "@stylistic/eslint-plugin": "npm:^4.4.1"
     "@stylistic/eslint-plugin-ts": "npm:^4.2.0"

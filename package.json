@@ -28,7 +28,7 @@
     "@contentful/rich-text-react-renderer": "^16.0.1",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.13.0",
-    "@fontsource/plus-jakarta-sans": "^5.2.5",
+    "@fontsource/plus-jakarta-sans": "^5.2.6",
     "@microsoft/clarity": "^1.0.0",
     "@types/react-slick": "^0.23.13",
     "@types/react-test-renderer": "^19.1.0",
