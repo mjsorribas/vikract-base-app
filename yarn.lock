@@ -2404,12 +2404,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.1.9":
-  version: 19.1.9
-  resolution: "@types/react@npm:19.1.9"
+"@types/react@npm:^19.1.10":
+  version: 19.1.10
+  resolution: "@types/react@npm:19.1.10"
   dependencies:
     csstype: ^3.0.2
-  checksum: 531b1f40e7f93aade4385a56b73e98846ec482ac695ccb0d4da1fc53fa398564f71383cd120cf8b8a9a1ea95f207c3e042d145fa8bc26e4fa57d863459e53b29
+  checksum: 1d9c5edb5957e797ad59dc71f92f6faa1f8033007c037f9aeb01161366c92fa257a6ddb267ff33f7787c072c5d568b5f8593868d58f2858f7face6978cd18e00
   languageName: node
   linkType: hard
 
@@ -9769,7 +9769,7 @@ __metadata:
     "@testing-library/jest-dom": ^6.6.3
     "@testing-library/react": ^16.3.0
     "@types/node": ^22.15.14
-    "@types/react": ^19.1.9
+    "@types/react": ^19.1.10
     "@types/react-dom": ^19.1.6
     "@types/react-helmet": ^6.1.11
     "@types/react-slick": ^0.23.13
