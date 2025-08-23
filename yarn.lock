@@ -4384,13 +4384,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enquire.js@npm:^2.1.6":
-  version: 2.1.6
-  resolution: "enquire.js@npm:2.1.6"
-  checksum: bb094054ee2768edafc3b80fb2b65b79d63160d625085162e9c9016843b6eaa13d7430201bf593c2e31e1725b3208f47f57aa27e03b19729e7590d1ca2241451
-  languageName: node
-  linkType: hard
-
 "entities@npm:^4.2.0":
   version: 4.5.0
   resolution: "entities@npm:4.5.0"
@@ -7818,19 +7811,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-slick@npm:^0.30.3":
-  version: 0.30.3
-  resolution: "react-slick@npm:0.30.3"
+"react-slick@npm:^0.31.0":
+  version: 0.31.0
+  resolution: "react-slick@npm:0.31.0"
   dependencies:
-    classnames: "npm:^2.2.5"
-    enquire.js: "npm:^2.1.6"
-    json2mq: "npm:^0.2.0"
-    lodash.debounce: "npm:^4.0.8"
-    resize-observer-polyfill: "npm:^1.5.0"
+    classnames: ^2.2.5
+    json2mq: ^0.2.0
+    lodash.debounce: ^4.0.8
+    resize-observer-polyfill: ^1.5.0
   peerDependencies:
     react: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: f7f843c4fb86b65fd39a6ed791d9b6a99efcdee4918a9033a7e2993fa5af0d4c3f7b02179e1a9a10ae3537c4a552e26b17ae2d80efc4644471a1083e91879f10
+  checksum: 03316e70f3c56546e22e9f31c80201ec62ef291168c6944429746e94bcd7c3001aaebb925f901414b7bf32055f45ed2fc2e30103720515c071e39fb7c72707f4
   languageName: node
   linkType: hard
 
@@ -9799,7 +9791,7 @@ __metadata:
     react-helmet: ^6.1.0
     react-icons: 5.3.0
     react-router-dom: ^7.6.3
-    react-slick: ^0.30.3
+    react-slick: ^0.31.0
     react-test-renderer: ^19.1.0
     slick-carousel: ^1.8.1
     standard-version: ^9.5.0
