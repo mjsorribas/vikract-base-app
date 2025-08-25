@@ -36,7 +36,7 @@
     "analytics": "^0.8.16",
     "contentful": "^11.7.4",
     "framer-motion": "^12.12.2",
-    "html-react-parser": "^5.2.2",
+    "html-react-parser": "^5.2.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.0",
     "react-helmet": "^6.1.0",
