@@ -1546,10 +1546,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:^9.22.0":
-  version: 9.22.0
-  resolution: "@eslint/js@npm:9.22.0"
-  checksum: 3eb6ed01c31f185b1822b78a872af5b87daa4aaf2ed753ce81c0c7227c852a09e1c7356103259f35f09e77d9e116c796cec6958702044d057f0c179b53b783ec
+"@eslint/js@npm:^9.34.0":
+  version: 9.34.0
+  resolution: "@eslint/js@npm:9.34.0"
+  checksum: 933d4ba321b1abc83eecde40eb703871ce00f133eedec54cf928b7fedb61706174dd526997c3f151776922412e3d95cb3634f97ef7b5861b4908f9992f403a63
   languageName: node
   linkType: hard
 
@@ -9752,7 +9752,7 @@ __metadata:
     "@emotion/react": ^11.14.0
     "@emotion/styled": ^11.13.0
     "@eslint/eslintrc": ^3.3.1
-    "@eslint/js": ^9.22.0
+    "@eslint/js": ^9.34.0
     "@fontsource/plus-jakarta-sans": ^5.2.6
     "@microsoft/clarity": ^1.0.0
     "@stylistic/eslint-plugin": ^4.4.1
