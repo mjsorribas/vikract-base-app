@@ -71,7 +71,7 @@
     "dotenv": "^16.5.0",
     "eslint": "^9.28.0",
     "eslint-plugin-import": "^2.31.0",
-    "happy-dom": "17.4.4",
+    "happy-dom": "18.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "next-sitemap": "^4.2.3",
