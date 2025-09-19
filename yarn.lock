@@ -1714,6 +1714,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jridgewell/trace-mapping@npm:^0.3.30":
+  version: 0.3.30
+  resolution: "@jridgewell/trace-mapping@npm:0.3.30"
+  dependencies:
+    "@jridgewell/resolve-uri": ^3.1.0
+    "@jridgewell/sourcemap-codec": ^1.4.14
+  checksum: 26edb94faf6f02df346e3657deff9df3f2f083195cbda62a6cf60204d548a0a6134454cbc3af8437392206a89dfb3e72782eaf78f49cbd8924400e55a6575e72
+  languageName: node
+  linkType: hard
+
 "@microsoft/clarity@npm:^1.0.0":
   version: 1.0.0
   resolution: "@microsoft/clarity@npm:1.0.0"
@@ -2722,29 +2732,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/coverage-v8@npm:^3.0.9":
-  version: 3.0.9
-  resolution: "@vitest/coverage-v8@npm:3.0.9"
+"@vitest/coverage-v8@npm:^3.2.4":
+  version: 3.2.4
+  resolution: "@vitest/coverage-v8@npm:3.2.4"
   dependencies:
-    "@ampproject/remapping": "npm:^2.3.0"
-    "@bcoe/v8-coverage": "npm:^1.0.2"
-    debug: "npm:^4.4.0"
-    istanbul-lib-coverage: "npm:^3.2.2"
-    istanbul-lib-report: "npm:^3.0.1"
-    istanbul-lib-source-maps: "npm:^5.0.6"
-    istanbul-reports: "npm:^3.1.7"
-    magic-string: "npm:^0.30.17"
-    magicast: "npm:^0.3.5"
-    std-env: "npm:^3.8.0"
-    test-exclude: "npm:^7.0.1"
-    tinyrainbow: "npm:^2.0.0"
+    "@ampproject/remapping": ^2.3.0
+    "@bcoe/v8-coverage": ^1.0.2
+    ast-v8-to-istanbul: ^0.3.3
+    debug: ^4.4.1
+    istanbul-lib-coverage: ^3.2.2
+    istanbul-lib-report: ^3.0.1
+    istanbul-lib-source-maps: ^5.0.6
+    istanbul-reports: ^3.1.7
+    magic-string: ^0.30.17
+    magicast: ^0.3.5
+    std-env: ^3.9.0
+    test-exclude: ^7.0.1
+    tinyrainbow: ^2.0.0
   peerDependencies:
-    "@vitest/browser": 3.0.9
-    vitest: 3.0.9
+    "@vitest/browser": 3.2.4
+    vitest: 3.2.4
   peerDependenciesMeta:
     "@vitest/browser":
       optional: true
-  checksum: cb6d05fb696356e5dbc7a8bb136e285c34501fe0991904e69f42df5a45c114488d80e27175dc607b934547afb2255c4444efe0f789883082c50d770d2d4ffd92
+  checksum: b33d4abb32216c793b1da122254bf70578c4acddbf2011c377818cbfc9506383398a5a2eaeb70045120dac1f86a1a2511fd624050dd92ef7387b9469929ceb33
   languageName: node
   linkType: hard
 
@@ -3168,6 +3179,17 @@ __metadata:
   version: 2.0.1
   resolution: "assertion-error@npm:2.0.1"
   checksum: a0789dd882211b87116e81e2648ccb7f60340b34f19877dd020b39ebb4714e475eb943e14ba3e22201c221ef6645b7bfe10297e76b6ac95b48a9898c1211ce66
+  languageName: node
+  linkType: hard
+
+"ast-v8-to-istanbul@npm:^0.3.3":
+  version: 0.3.5
+  resolution: "ast-v8-to-istanbul@npm:0.3.5"
+  dependencies:
+    "@jridgewell/trace-mapping": ^0.3.30
+    estree-walker: ^3.0.3
+    js-tokens: ^9.0.1
+  checksum: 9028dab80840b13c23fa6e1c4e9be00c503bacf01e354c2cb225d878da6ef6d08b0be16d0c752858e141e544d07fe09696ca670c3765eba0113be0d6b439e240
   languageName: node
   linkType: hard
 
@@ -6328,6 +6350,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-tokens@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "js-tokens@npm:9.0.1"
+  checksum: 8b604020b1a550e575404bfdde4d12c11a7991ffe0c58a2cf3515b9a512992dc7010af788f0d8b7485e403d462d9e3d3b96c4ff03201550fdbb09e17c811e054
+  languageName: node
+  linkType: hard
+
 "js-yaml@npm:^4.1.0":
   version: 4.1.0
   resolution: "js-yaml@npm:4.1.0"
@@ -8664,13 +8693,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"std-env@npm:^3.8.0":
-  version: 3.8.1
-  resolution: "std-env@npm:3.8.1"
-  checksum: 20114a5270aa2a3fc50d897461c6ab73329cf2d3c6bff1c124bb969577493aeebda8ee1916588b2657afcee9881bc652437cfdec6360e3f30be36c8675ea0cbb
-  languageName: node
-  linkType: hard
-
 "std-env@npm:^3.9.0":
   version: 3.9.0
   resolution: "std-env@npm:3.9.0"
@@ -9795,7 +9817,7 @@ __metadata:
     "@typescript-eslint/typescript-estree": ^8.35.0
     "@vercel/analytics": ^1.5.0
     "@vitejs/plugin-react": ^5.0.0
-    "@vitest/coverage-v8": ^3.0.9
+    "@vitest/coverage-v8": ^3.2.4
     "@vitest/ui": ^3.0.9
     analytics: ^0.8.16
     commitlint: ^19.8.1
