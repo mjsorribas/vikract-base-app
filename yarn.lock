@@ -2399,12 +2399,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^19.1.6":
-  version: 19.1.6
-  resolution: "@types/react-dom@npm:19.1.6"
+"@types/react-dom@npm:^19.2.2":
+  version: 19.2.2
+  resolution: "@types/react-dom@npm:19.2.2"
   peerDependencies:
-    "@types/react": ^19.0.0
-  checksum: b5b20b7f0797f34c5a11915b74dcf8b3b7a9da9fea90279975ce6f150ca5d31bb069dbb0838638a5e9e168098aa4bb4a6f61d078efa1bbb55d7f0bdfe47bb142
+    "@types/react": ^19.2.0
+  checksum: a9e16d59f89b2794a3b062766de2eedf98cf66e59de7560de5beb95fb8742161b2dc4751530380c38d51320bc99b8a1d66fa113cee9b5d0f138ef6fb49fb4ce9
   languageName: node
   linkType: hard
 
@@ -7691,14 +7691,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^19.1.0":
-  version: 19.1.0
-  resolution: "react-dom@npm:19.1.0"
+"react-dom@npm:^19.2.0":
+  version: 19.2.0
+  resolution: "react-dom@npm:19.2.0"
   dependencies:
-    scheduler: "npm:^0.26.0"
+    scheduler: ^0.27.0
   peerDependencies:
-    react: ^19.1.0
-  checksum: 1d154b6543467095ac269e61ca59db546f34ef76bcdeb90f2dad41d682cd210aae492e70c85010ed5d0a2caea225e9a55139ebc1a615ee85bf197d7f99678cdf
+    react: ^19.2.0
+  checksum: b6ec952f68a29dcc847143ad48974477e1d3b95cb0a6e0039dd93c7fe64d0ef51f2ca09a19c5eb892ba625ba88c4bcc6f8bc3bdd1c33ccc3f6f17acabbb4882f
   languageName: node
   linkType: hard
 
@@ -8348,6 +8348,13 @@ __metadata:
   version: 0.26.0
   resolution: "scheduler@npm:0.26.0"
   checksum: c63a9f1c0e5089b537231cff6c11f75455b5c8625ae09535c1d7cd0a1b0c77ceecdd9f1074e5e063da5d8dc11e73e8033dcac3361791088be08a6e60c0283ed9
+  languageName: node
+  linkType: hard
+
+"scheduler@npm:^0.27.0":
+  version: 0.27.0
+  resolution: "scheduler@npm:0.27.0"
+  checksum: 92644ead0a9443e20f9d24132fe93675b156209b9eeb35ea245f8a86768d0cc0fcca56f341eeef21d9b6dd8e72d6d5e260eb5a41d34b05cd605dd45a29f572ef
   languageName: node
   linkType: hard
 
@@ -9817,7 +9824,7 @@ __metadata:
     "@testing-library/react": ^16.3.0
     "@types/node": ^24.3.0
     "@types/react": ^19.1.10
-    "@types/react-dom": ^19.1.6
+    "@types/react-dom": ^19.2.2
     "@types/react-helmet": ^6.1.11
     "@types/react-slick": ^0.23.13
     "@types/react-test-renderer": ^19.1.0
@@ -9842,7 +9849,7 @@ __metadata:
     next-sitemap: ^4.2.3
     prettier: ^3.3.3
     react: ^19.1.1
-    react-dom: ^19.1.0
+    react-dom: ^19.2.0
     react-helmet: ^6.1.0
     react-icons: 5.3.0
     react-router-dom: ^7.8.2
