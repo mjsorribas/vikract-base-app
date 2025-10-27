@@ -5411,7 +5411,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.3#~builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.3#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.3#~builtin<compat/fsevents>":
   version: 2.3.3
   resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
   dependencies:
@@ -9141,19 +9141,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsx@npm:^4.20.3":
-  version: 4.20.3
-  resolution: "tsx@npm:4.20.3"
+"tsx@npm:^4.20.6":
+  version: 4.20.6
+  resolution: "tsx@npm:4.20.6"
   dependencies:
-    esbuild: "npm:~0.25.0"
-    fsevents: "npm:~2.3.3"
-    get-tsconfig: "npm:^4.7.5"
+    esbuild: ~0.25.0
+    fsevents: ~2.3.3
+    get-tsconfig: ^4.7.5
   dependenciesMeta:
     fsevents:
       optional: true
   bin:
     tsx: dist/cli.mjs
-  checksum: 1d13d3168d9ea44b0d02a7df16cc39be8bf4c6c309768009f392ce54e8767402d1f2d13e8dd79d0d77ef4e8a61d96ea7bad12ab1d46f1a4dadf74c4b849d798e
+  checksum: d514bea59ec58fe7746271dd287b52e6e482a2236dd486d2fbf2eab11810ad2bc37e064210580824ce1c91a3e1ddd952499e6f48055e087abff5472468ac0d7b
   languageName: node
   linkType: hard
 
@@ -9880,7 +9880,7 @@ __metadata:
     react-test-renderer: ^19.1.0
     slick-carousel: ^1.8.1
     standard-version: ^9.5.0
-    tsx: ^4.20.3
+    tsx: ^4.20.6
     typescript: ^5.8.3
     victory: ^37.3.6
     vite: ^5.4.9
