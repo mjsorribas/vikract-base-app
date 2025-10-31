@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>http://vikract.naimara.com/</loc>
+        <loc>http://vikractdemo.naimara.com/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
-        <lastmod>2025-09-19T14:46:34.501Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.948Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/contactus</loc>
+        <loc>http://vikractdemo.naimara.com/contactus</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/prices</loc>
+        <loc>http://vikractdemo.naimara.com/prices</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/blog</loc>
+        <loc>http://vikractdemo.naimara.com/blog</loc>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/blog/page</loc>
+        <loc>http://vikractdemo.naimara.com/blog/page</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/aboutus</loc>
+        <loc>http://vikractdemo.naimara.com/aboutus</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/termsandconditions</loc>
+        <loc>http://vikractdemo.naimara.com/termsandconditions</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/cookies</loc>
+        <loc>http://vikractdemo.naimara.com/cookies</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/products</loc>
+        <loc>http://vikractdemo.naimara.com/products</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/roadmap</loc>
+        <loc>http://vikractdemo.naimara.com/roadmap</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/features</loc>
+        <loc>http://vikractdemo.naimara.com/features</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/documentationfordevs</loc>
+        <loc>http://vikractdemo.naimara.com/documentationfordevs</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url>
       <url>
-        <loc>http://vikract.naimara.com/features/dynamicmodal</loc>
+        <loc>http://vikractdemo.naimara.com/features/dynamicmodal</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-09-19T14:46:34.502Z</lastmod>
+        <lastmod>2025-10-31T01:39:58.950Z</lastmod>
       </url></urlset>
