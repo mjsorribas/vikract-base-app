@@ -68,7 +68,7 @@
     "@vitest/coverage-v8": "^4.0.3",
     "@vitest/ui": "^3.0.9",
     "commitlint": "^19.8.1",
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.2.3",
     "eslint": "^9.39.0",
     "eslint-plugin-import": "^2.31.0",
     "happy-dom": "18.0.1",
