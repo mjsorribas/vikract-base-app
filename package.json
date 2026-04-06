@@ -71,6 +71,7 @@
     "dotenv": "^17.2.3",
     "eslint": "^9.39.0",
     "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.5",
     "happy-dom": "18.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
@@ -84,5 +85,6 @@
   "engines": {
     "npm": ">=10.0.0 <=11.0.0",
     "node": ">=20.12.2 || >=22.14.0"
-  }
+  },
+  "packageManager": "yarn@4.13.0"
 }
