@@ -1,5 +1,7 @@
 import { Grid, Box, SimpleGrid, useColorModeValue } from "@chakra-ui/react";
-import { SiHive, SiMarketo, SiMicrosoft } from "react-icons/si";
+import { SiHive } from "react-icons/si";
+import { BsMicrosoft } from "react-icons/bs";
+import { FaProductHunt } from "react-icons/fa";
 
 import { ActionButton } from "lib/components/actionbutton/ActionButton";
 import { PriceCard } from "lib/components/pricecard/PriceCard";
@@ -32,7 +34,7 @@ const Prices = () => {
                 "Free Updates for 6 months",
               ],
             }}
-            icon={SiMicrosoft}
+            icon={BsMicrosoft}
             button={
               <ActionButton
                 title="Buy now"
@@ -79,7 +81,7 @@ const Prices = () => {
                 "Free Updates for 2 year",
               ],
             }}
-            icon={SiMarketo}
+            icon={FaProductHunt}
             button={
               <ActionButton
                 title="Buy now"
