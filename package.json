@@ -32,7 +32,7 @@
     "@microsoft/clarity": "^1.0.0",
     "@types/react-slick": "^0.23.13",
     "@types/react-test-renderer": "^19.1.0",
-    "@vercel/analytics": "^1.5.0",
+    "@vercel/analytics": "^2.0.1",
     "analytics": "^0.8.16",
     "contentful": "^11.7.4",
     "framer-motion": "^12.12.2",
